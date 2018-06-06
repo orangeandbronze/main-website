@@ -1,0 +1,74 @@
+---
+title:        "HR Intern"
+description:  Responsible for designing Java systems, as well as leading teams of software engineers, particularly in the technical aspects of their work.
+date:         2018-04-03 16:43:00 +0800
+categories:   jobs
+---
+<!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
+<h6 class="-dark">Job Description:</h6>
+<p>
+  The HR Intern will be joining the talent management arm of Orange & Bronze Software Labs Inc. The team helps in building the software community through supporting different areas, like academe, together with users groups and organizations.
+</p>
+<p>
+  This is complemented by the internal growth and career development of all our O&Bers, balancing growth from within and outside the company.
+</p>
+<p>
+  Our role is defined by a long-term strategy, supported by our short-term wins. Aligning continuously, toward the vision of building a Filipino technology company admired by the world.
+</p>
+<p>
+  A successful candidate will be exposed to the different initiatives that drive growth throughout O&B, from organizational events to process initiatives that make our vision more possible.
+</p>
+<h6 class="-dark">Job Description::</h6>
+<ul>
+  <li>
+    Provides general administrative support to Recruitment activities of the company
+  </li>
+  <li>
+    Screens and sources out resumes to various job portals
+  </li>
+  <li>
+    Administers examinations to all shortlisted candidates
+  </li>
+  <li>
+    Compiles scores and schedule interviews for qualified applicants
+  </li>
+  <li>
+    Facilitates checking of examination papers, coordinates with the interviewer for his/her availability, and schedules interview both for technical and behavioral interviews
+  </li>
+  <li>
+    Updates recruitment tracker to provide detailed information of all applicants
+  </li>
+  <li>
+    Prepares Mutual Non-Disclosure Agreement for newly hired employees
+  </li>
+  <li>
+    Performs routine clerical duties including replying to emails, filing, photocopying, and data entry
+  </li>
+  <li>
+    Prepares job offer kits which includes pre-employment requirements, government forms, and bank forms
+  </li>
+  <li>
+    Updates HR tracker for all types of movements such as promotion and salary increases.
+  </li>
+  <li>
+    Assists in preparing HR internal and external events
+  </li>
+</ul>
+<h6 class="-dark">Qualifications::</h6>
+<p>
+  Candidate must be currently pursuing a Bachelor’s / College Degree in Business Administration/Management, Human Resource Management, Psychology or equivalent.
+</p>
+<ul>
+  <li>
+    Required skills (s): Communication skills, adept in Office Applications
+  </li>
+  <li>
+    Required language (s): Filipino, English
+  </li>
+  <li>
+    Enthusiastic and displays a genuine interest on the tasks assigned
+  </li>
+  <li>
+    Ability to function under minimal supervision
+  </li>
+</ul>

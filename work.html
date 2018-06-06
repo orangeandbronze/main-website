@@ -1,0 +1,90 @@
+---
+layout: default
+title: Work
+permalink: /work
+class: work
+---
+
+<section class="section-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-8 col-lg-7 col-xl-7">
+        <H6>&lt; CLIENTS WHO BELIEVE US /&gt;</H6>
+        <H1>Our Work</H1>
+        <p>
+          G Suite (formerly Google Apps for Work) are intuitive, highly-collaborative, and functional tools that improve your business’ daily operations.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-8">
+        <div class="client-box-list">
+          <a href="https://www.globe.com.ph/" target="_blank" class="client-box">
+            <img class="img-fluid" src="{{ "assets/images/client-globe.jpg" | relative_url }}" alt="Globe logo" />
+          </a>
+          <a href="https://www.ibm.com/ph-en/" target="_blank" class="client-box">
+            <img class="img-fluid" src="{{ "assets/images/client-ibm.jpg" | relative_url }}" alt="IBM logo" />
+          </a>
+          <a href="https://www.cisco.com/c/en_ph/index.html" target="_blank" class="client-box">
+            <img class="img-fluid" src="{{ "assets/images/client-cisco.jpg" | relative_url }}" alt="Cisco logo" />
+          </a>
+          <a href="https://smart.com.ph/corporate" target="_blank" class="client-box">
+            <img class="img-fluid" src="{{ "assets/images/client-smart.jpg" | relative_url }}" alt="Smart logo" />
+          </a>
+          <a href="https://www.accenture.com/ph-en/new-applied-now" target="_blank" class="client-box">
+            <img class="img-fluid" src="{{ "assets/images/client-accenture.jpg" | relative_url }}" alt="Accenture logo" />
+          </a>
+          <a href="https://www.philippineairlines.com/en/ph/home" target="_blank" class="client-box">
+            <img class="img-fluid" src="{{ "assets/images/client-pal.jpg" | relative_url }}" alt="Philippine Airlines logo" />
+          </a>
+          <a href="http://www.samsung.com/ph/" target="_blank" class="client-box">
+            <img class="img-fluid" src="{{ "assets/images/client-samsung.jpg" | relative_url }}" alt="Samsung logo" />
+          </a>
+          <a href="http://www8.hp.com/ph/en/home.html" target="_blank" class="client-box">
+            <img class="img-fluid" src="{{ "assets/images/client-hp.jpg" | relative_url }}" alt="HP logo" />
+          </a>
+        </div>
+        <a href="#" class="btn -primary mt30 video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/zWNF2MwoX9M" data-target="#myModal">
+          <img src="{{ "assets/images/ico-play.svg" | relative_url }}" class="ico" alt="" /> What our clients have to say
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-work">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="section-title">
+          <H6>
+            &lt; CLIENTS WHO BELIEVE US /&gt;
+          </H6>
+          <H2>Our Recent Work</H2>
+          <img class="bg" src="{{ "assets/images/title-work.png" | relative_url }}" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="auto-1200">
+    <div class="row no-gutters mt50">
+
+      {% assign work_items = site.categories.works | sort: 'date' | reverse  %}
+
+      {% for work in work_items %}
+
+        <div class="col-xs-12 col-sm-6">
+          <a href="{{ work.url }}" class="card-work">
+            <img class="img-fluid" src="{{ work.image | relative_url }}" alt="" />
+            <span class="content">
+              <H6>[ {{ work.service }} ]</H6>
+              <H3>{{ work.title }}</H3>
+            </span>
+          </a>
+        </div>
+
+      {% endfor %}
+
+    </div>
+  </div>
+</section>

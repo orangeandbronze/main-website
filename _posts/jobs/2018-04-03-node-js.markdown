@@ -1,0 +1,29 @@
+---
+title:        "Node.js Developer"
+description:  This position is responsible for managing the interchange of data between the server and the users. 
+date:         2018-04-03 16:48:00 +0800
+categories:   jobs
+---
+<!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
+<h6 class="-dark">Job Description:</h6>
+<p>
+  We are looking for a Node.js Developer responsible for managing the interchange of data between the server and the users. Your primary focus will be the development of all server-side logic, definition and maintenance of the central database, and ensuring high performance and responsiveness to requests from the front-end. You will also be responsible for integrating the front-end elements built by your co-workers into the application. Therefore, a basic understanding of front-end technologies is necessary as well.
+</p>
+<h6 class="-dark">Skills and Qualifications:</h6>
+<ul>
+  <li>
+    Strong proficiency with JavaScript
+  </li>
+  <li>
+    Knowledge of Node.js and frameworks available for it, specifically Express, and LoopBack.
+  </li>
+  <li>
+    Understanding the nature of asynchronous programming and its quirks and workarounds
+  </li>
+  <li>
+    Proficient understanding of code versioning tools, such as Git
+  </li>
+  <li>
+    1-2 years of experience working with JavaScript and/or Node.js
+  </li>
+</ul>

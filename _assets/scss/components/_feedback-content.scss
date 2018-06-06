@@ -1,0 +1,25 @@
+.feedback-content {
+  padding: 24px;
+  > .content {
+  }
+  > .author {
+    font-size: 20px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #606e7b;
+    margin-bottom: 0;
+  }
+  > .company {
+    font-size: 14px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffa437;
+    margin-bottom: 0;
+  }
+}

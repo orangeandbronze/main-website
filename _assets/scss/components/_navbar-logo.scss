@@ -1,0 +1,6 @@
+.navbar-logo {
+  width: 280px;
+  @include breakpoint(lg) {
+    width: 220px;
+  }
+}

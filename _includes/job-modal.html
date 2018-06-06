@@ -1,0 +1,23 @@
+<!-- Job Modal -->
+<div class="modal fade" id="{{ job.title | downcase | replace: " ", "" }}" tabindex="-1" role="dialog" aria-labelledby="careerModalLabel" aria-hidden="true">
+  <div class="modal-dialog -job modal-lg" role="document">
+    <div class="modal-content">
+      <hr>
+      <div class="modal-header -jobs">
+        <h6>
+          < We're Looking for a />
+        </h6>
+        <h3 class="text-center">{{ job.title }}</h3>
+      </div>
+      <div class="modal-body mt0 ml30 mr30 mb30">
+
+        {{ job.excerpt }}
+
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfU26uYcb_4JrXOY0VS0JEYhceNVvZgujDBYJUYsEEAj7SnXA/viewform" target="_blank" class="btn -primary mt20">
+          <img src="{{ "assets/images/ico-enter.svg" | relative_url }}" class="ico" alt=""> APPLY FOR THIS POSITION
+        </a>
+
+      </div>
+    </div>
+  </div>
+</div>

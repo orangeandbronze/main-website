@@ -1,0 +1,53 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Orange & Bronze Software Labs | Software Development
+email: info@orangeandbronze.com
+contact_number: +63 2 751.47.26
+address: "Philippines: Makati (Headquarters) 3rd Floor, CJV Building, 108 Aguirre Street, Legaspi Village, Makati City, Philippines"
+keywords: adopt,agile,analyst,appropriate,architect,assumptions,augmentation,believe,best,bootcamp,bootcamps,bronze,build,business,careers,case,clients,cloud,collaboration,companies,company,costs,countries,courses,created,curriculum,customize,daily,design,develop,developer,developers,development,email,engineering,enterprise,fintech,framework,google,handling,hires,industry,intensive,java,labs,leader,learn,major,makati,manager,message,millions,missioncritical,mobile,multibilliondollar,needed,offer,orange,partner,partners,philippine,philippines,practices,principles,products,programming,project,provide,providing,read,ready,requirements,right,send,services,sketch,software,solution,solutioning,solutions,spring,staff,started,study,suite,systems,team,telco,tools,touch,training,trainings,transactions,university,using,values
+description: Orange & Bronze Software Labs developed mission-critical systems using the Spring Framework, handling millions of transactions for companies.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jekyll-oand-b.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
+facebook_username: orangeandbronze
+googleplus_username: +orangeandbronze
+twitter_username: orangeandbronze
+linkedin_username:  orange-and-bronze-software-labs
+
+permalink: pretty
+permalink: /:categories/:title/
+
+# Build settings
+markdown: kramdown
+
+header_pages:
+ - work.html
+ - services.html
+ - trainings.html
+ - about.html
+ - careers.html
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.js
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

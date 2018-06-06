@@ -1,0 +1,12 @@
+.portfolio-image {
+  width: 40%;
+  @include breakpoint(sm) {
+    display: none;
+  }
+  > .image {
+    // position: absolute;
+    // left: -40px;
+    // top: 30px;
+    box-shadow: 0 5px 20px 0 rgba(130, 132, 134, 0.13);
+  }
+}

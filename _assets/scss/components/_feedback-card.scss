@@ -1,0 +1,11 @@
+.feedback-card {
+  display: flex !important;
+  flex-direction: row;
+  background-color: #ffffff;
+  // box-shadow: 0 2px 30px 0 #f0f2f5;
+  > .element {
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+  }
+}

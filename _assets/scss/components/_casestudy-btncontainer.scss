@@ -1,0 +1,17 @@
+.casestudy-btncontainer {
+  &.-left {
+    padding-left: 0;
+    padding-right: 10px;
+    @include breakpoint(sm) {
+      padding: 0;
+      display: none;
+    }
+  }
+  &.-right {
+    padding-right: 0;
+    padding-left: 10px;
+    @include breakpoint(sm) {
+      padding: 15px;
+    }
+  }
+}

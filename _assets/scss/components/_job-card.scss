@@ -1,0 +1,57 @@
+.job-card {
+  border-top: 5px solid #ff962c;
+  border-radius: 4px;
+  display: block;
+  background-color: #ffffff;
+  box-shadow: 0 2px 30px 0 #e6ebf0;
+  padding: 20px;
+  height: calc(100% - 30px);
+  margin-bottom: 30px;
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 30px 0 #d9e1e8;
+  }
+  &:hover::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    content: "View Job Details";
+    font-size: 24px;
+    top: 0;
+    opacity: 0.9;
+    left: 15px;
+    height: calc(100% - 30px);
+    width: calc(100% - 30px);
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+    background-image: linear-gradient(to right, #ffd13d, #ff962c);
+    box-shadow: 0 2px 30px 0 #e6ebf0;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: calc(100% - 30px);
+    background-image: linear-gradient(to right, #ffd13d, #ff962c);
+    top: 0;
+    left: 15px;
+  }
+  > .title {
+    font-size: 21px;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  > .description {
+    margin-bottom: 0;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  &:hover {
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="page-{{ page.class }}">
+
+    {%- include header.html -%}
+
+    <main>
+
+      {{ content }}
+
+      {%- include contact.html -%}
+
+    </main>
+
+    {%- include footer.html -%}
+
+    {%- include contact-modal.html -%}
+
+    {%- include video-modal.html -%}
+
+    <script src="{{ "assets/js/vendor/jquery-3.3.1.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/vendor/bootstrap.bundle.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/vendor/slick.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/main.js" | relative_url }}"></script>
+  </body>
+
+</html>

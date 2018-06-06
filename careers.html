@@ -1,0 +1,182 @@
+---
+layout: default
+title: Careers
+permalink: /careers
+class: careers
+---
+
+<section class="section-header">
+
+  <img src="{{ "assets/images/ico-learnmore.svg" | relative_url }}" alt="" class="bg-element" />
+
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-12 col-md-8 col-lg-7 col-xl-7">
+              <H6>
+                  &lt; TRAININGS & BOOTCAMPS /&gt;
+              </H6>
+              <H1>Careers</H1>
+              <p>
+                  We're are looking for talented individuals who would like to thrive in a culture of learning, collaboration, and productivity.
+              </p>
+              <p>
+                  O&B seeks to enhance the culture of learning throughout the organization through various employee programs. We bring knowledge sharing to our people using different avenues and expose them to growth opportunities.
+              </p>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="section-trainingtracks">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-6">
+              <div class="row-title">
+                  <H6>[ JAVA SOFTWARE DEVELOPMENT ]</H6>
+                  <H3>Job Listings</H3>
+                  <img src="{{ "assets/images/hr.svg" }}" alt="" class="hr" />
+              </div>
+              <p>
+                  G Suite (formerly Google Apps for Work) are intuitive, highly-collaborative, and functional tools that improve your business’ daily operations.
+              </p>
+          </div>
+      </div>
+  </div>
+  <div class="container">
+    <div class="row mt20">
+
+      {% for job in site.categories.jobs %}
+
+        <div class="col-sm-6 col-md-6 col-lg-4">
+          <a class="job-card" href="#{{ job.title | downcase | replace: " ", "" }}" data-toggle="modal">
+            <h4 class="title">
+              {{ job.title }}
+            </h4>
+            <p class="description">
+              {{ job.description }}
+            </p>
+          </a>
+        </div>
+
+        {%- include job-modal.html job=job -%}
+
+      {% endfor %}
+
+    </div>
+  </div>
+</section>
+
+<section class="section-faq">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-6">
+              <H6>[ JAVA SOFTWARE DEVELOPMENT ]</H6>
+              <H3>Recruitment Process Q&A</H3>
+              <img src="{{ "assets/images/hr.svg" }}" alt="" class="hr" />
+              <p>
+                  Interested to send in your application? Please read the FAQ to get acquainted with our screening process.
+              </p>
+          </div>
+      </div>
+      <div class="row mt20">
+          <div class="col">
+              <div id="accordion">
+                  <a class="faq-card">
+                      <div class="faq-header collapsed" id="heading-1" data-toggle="collapse" data-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+                          <h4 class="title">
+                              How do I apply for a job vacancy?
+                          </h4>
+                          <img src="{{ "assets/images/ico-chevron-down.svg" | relative_url }}" alt="" class="ico" />
+                      </div>
+                      <div id="collapse-1" class="collapse faq-body" aria-labelledby="heading-1" data-parent="#accordion">
+                          <div class="content">
+                              <p>
+                                  Kindly fill-out the online application form and then submit your resume to
+                                  <a href="mailto:careers@orangeandbronze.com">careers@orangeandbronze.com</a> and indicate the position in the subject line.
+                              </p>
+                          </div>
+                      </div>
+                  </a>
+                  <a class="faq-card">
+                      <div class="faq-header collapsed" id="heading-2" data-toggle="collapse" aria-expanded="false" data-target="#collapse-2" aria-controls="collapse-2">
+                          <h4 class="title">
+                              What's the next step after submitting my resume?
+                          </h4>
+                          <img src="{{ "assets/images/ico-chevron-down.svg" | relative_url }}" alt="" class="ico" />
+                      </div>
+                      <div id="collapse-2" class="collapse faq-body" aria-labelledby="heading-2" data-parent="#accordion">
+                          <div class="content">
+                              <p>
+                                  You will receive an e-mail acknowledgement about your job application. If you are qualified for the position, you will be contacted by a recruiter to invite you to take our examination.
+                              </p>
+                          </div>
+                      </div>
+                  </a>
+                  <a class="faq-card">
+                      <div class="faq-header collapsed" id="heading-3" aria-expanded="false" data-toggle="collapse" data-target="#collapse-3" aria-controls="collapse-3">
+                          <h4 class="title">
+                              What happens during the recruitment process?
+                          </h4>
+                          <img src="{{ "assets/images/ico-chevron-down.svg" | relative_url }}" alt="" class="ico" />
+                      </div>
+                      <div id="collapse-3" class="collapse faq-body" aria-labelledby="heading-3" data-parent="#accordion">
+                          <div class="content">
+                              <p>
+                                  The interview process is very rigorous. It includes a technical, behavioral and sometimes, client interview. You’ll be asked a series of questions about your academic and work background. You should also be able to elaborate on your answers by providing extant details regarding your previous accomplishments. You’ll be allowed to ask questions at the end of the interview.
+                              </p>
+                          </div>
+                      </div>
+                  </a>
+                  <a class="faq-card">
+                      <div class="faq-header collapsed" id="heading-4" aria-expanded="false" data-toggle="collapse" data-target="#collapse-4" aria-controls="collapse-4">
+                          <h4 class="title">
+                              How will I know if I passed or failed the exam/interview?
+                          </h4>
+                          <img src="{{ "assets/images/ico-chevron-down.svg" | relative_url }}" alt="" class="ico" />
+                      </div>
+                      <div id="collapse-4" class="collapse faq-body" aria-labelledby="heading-4" data-parent="#accordion">
+                          <div class="content">
+                              <p>
+                                  You’ll be notified through e-mail whether you passed or failed the exam/interview. It usually takes us a week to process your application. We suggest that you look at your e-mail inbox from time to time.
+                              </p>
+                          </div>
+                      </div>
+                  </a>
+                  <a class="faq-card">
+                      <div class="faq-header collapsed" id="heading-5" aria-expanded="false" data-toggle="collapse" data-target="#collapse-5" aria-controls="collapse-5">
+                          <h4 class="title">
+                              What is the next step after the interview?
+                          </h4>
+                          <img src="{{ "assets/images/ico-chevron-down.svg" | relative_url }}" alt="" class="ico" />
+                      </div>
+                      <div id="collapse-5" class="collapse faq-body" aria-labelledby="heading-5" data-parent="#accordion">
+                          <div class="content">
+                              <p>
+                                  Upon passing the series of interviews, the next step would be the job offer meeting. A recruiter will coordinate with you to ask your availability.
+                              </p>
+                          </div>
+                      </div>
+                  </a>
+                  <a class="faq-card">
+                      <div class="faq-header collapsed" id="heading-6" aria-expanded="false" data-toggle="collapse" data-target="#collapse-6" aria-controls="collapse-6">
+                          <h4 class="title">
+                              If I have more questions regarding my application, where could I send my concerns?
+                          </h4>
+                          <img src="{{ "assets/images/ico-chevron-down.svg" | relative_url }}" alt="" class="ico" />
+                      </div>
+                      <div id="collapse-6" class="collapse faq-body" aria-labelledby="heading-6" data-parent="#accordion">
+                          <div class="content">
+                              <p>
+                                  Just email
+                                  <a href="mailto:careers@orangeandbronze.com">careers@orangeandbronze.com</a> for your application concerns.
+                              </p>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>

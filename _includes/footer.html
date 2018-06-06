@@ -1,0 +1,108 @@
+<footer>
+
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-2">
+          <ul class="footer-group-link ">
+            <li>
+              <h5>COMPANY</h5>
+            </li>
+
+            {%- include navigation.html -%}
+
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-2">
+          <ul class="footer-group-link ">
+            <li>
+              <h5>Services</h5>
+            </li>
+            <li>
+              <a href="/services">Java Software Development</a>
+            </li>
+            <li>
+              <a href="/services">Staff Augmentation</a>
+            </li>
+            <li>
+              <a href="/services">G Suite</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+          <ul class="footer-group-link ">
+            <li>
+              <h5>Services</h5>
+            </li>
+            <li>
+              <p>{{ site.address | escape }}</p>
+              <p><a href="tel: {{ site.contact_number | escape }}">{{ site.contact_number | escape }}</a></p>
+              <p><a href="mailto:{{ site.email | escape }}">{{ site.email | escape }}</a></p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-1"></div>
+
+        <div class="col-md-12 col-lg-4 footer-group">
+
+          <ul class="footer-group-link ">
+            <li>
+              <h5>OUR STRATEGIC PARTNERS</h5>
+            </li>
+            <li class="partners">
+              <img src="{{ "assets/images/partner-google.png" | relative_url }}" alt="Google logo">
+              <img src="{{ "assets/images/partner-pivotal.png" | relative_url }}" alt="Pivotal Logo">
+              <img src="{{ "assets/images/partner-jboss.png" | relative_url }}" alt="Jboss Logo">
+            </li>
+          </ul>
+
+          <ul class="footer-group-link ">
+            <li>
+                <h5>STAY CONNECTED</h5>
+            </li>
+            <li class="social-media">
+            {%- if site.facebook_username -%}
+              <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}">
+                <img src="{{ "assets/images/social-fb.svg" | relative_url }}" alt=" " />
+              </a>
+            {%- endif -%}
+            {%- if site.twitter_username -%}
+              <a target="_blank" href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}">
+                <img src="{{ "assets/images/social-twitter.svg" | relative_url }}" alt=" " />
+              </a>
+            {%- endif -%}
+            {%- if site.googleplus_username -%}
+              <a target="_blank" href="https://plus.google.com/{{ site.googleplus_username| escape }}">
+                <img src="{{ "assets/images/social-google.svg" | relative_url }}" alt=" " />
+              </a>
+            {%- endif -%}
+            {%- if site.linkedin_username -%}
+              <a target="_blank" href="https://ph.linkedin.com/company/{{ site.linkedin_username| cgi_escape | escape }}">
+                <img src="{{ "assets/images/social-linked.svg" | relative_url }}" alt=" " />
+              </a>
+            {%- endif -%}
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="footer-content">
+        <p class="copyright">
+           © <script type="text/javascript">
+            document.write(new Date().getFullYear());
+          </script> {{ site.title | escape}}
+        </p>
+        <div class="links">
+          <a href="/terms-conditions">Terms &amp; Conditions</a> |
+          <a href="/privacy-policy">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</footer>

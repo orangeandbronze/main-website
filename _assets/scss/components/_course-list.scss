@@ -1,0 +1,45 @@
+.course-list {
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+  li {
+    margin: 8px 10px;
+    display: inline-block;
+    font-family: AkzidenzGroteskBQ-Reg;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5f6d7a;
+    @include breakpoint(xs) {
+      display: block;
+      text-align: center;
+    }
+    .circle {
+      display: inline-block;
+      width: 4px;
+      height: 4px;
+      background-color: #ffc339;
+      border-radius: 8px;
+      margin-bottom: 3px;
+      margin-left: 20px;
+      @include breakpoint(xs) {
+        display: none;
+      }
+    }
+    a {
+      font-family: $akzidenz-m;
+      font-size: 16px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      text-align: left;
+      color: #fe9c37;
+    }
+  }
+}

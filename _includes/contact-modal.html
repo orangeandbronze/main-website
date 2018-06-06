@@ -1,0 +1,134 @@
+<!-- Contact form -->
+<div class="modal fade" id="getInTouch" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        <hr>        
+            <div class="modal-header">
+                <h6>
+                    < Send us a message/>
+                </h6>
+                <h2>Hello There</h2>
+                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button> -->
+            </div>
+            <div class="modal-body auto-600 mb50">
+                <h6 class="-dark text-center">I’d like to talk about..</h6>
+                <div class="row mt20 mb30">
+                    <div class="col">
+                        <select name="inquiry" class="form-control" id="form-selector">
+                            <option selected disabled hidden>Select one..</option>
+                            <option value="Software-Development">Software development services</option>
+                            <option value="Trainings">Training and bootcamps</option>
+                            <option value="Hiring">Joining your team</option>
+                            <option value="Others">Something else</option>
+                        </select>
+                    </div>
+                </div>
+
+                <form id="Software-Development" class="form-content" name="Software Development Inquiry" method="POST" netlify>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="name">My name is</label>
+                                <input name="name" type="text" class="form-control" placeholder="Your Name">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="company">Your company is</label>
+                                <input name="last-name" type="text" class="form-control" placeholder="Company Name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="email">My email is</label>
+                                <input name="email" type="text" class="form-control" placeholder="hello@email.com">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="location">I'm located at</label>
+                                <input name="location" type="text" class="form-control" placeholder="Your Location">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="">My message</label>
+                                <textarea name="message" class="form-control" name="message" id="message" rows="5"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn -block mt10 -primary d-flex justify-content-center">
+                        <img src="{{ "assets/images/ico-send.svg " | relative_url }}" class="ico" alt=""> Send Message
+                    </button>
+                </form>
+
+                <div id="Trainings" class="form-content">
+                    <div class="row">
+                        <div class="col">
+                            <p>
+                                Our real-world experiences is applied to our training programs - this what we leverage to offer the most effective software development courses in the country.
+                            </p>
+                            <p>
+                                Visit
+                                <a href="#">O&B University</a> to see all the courses or contact us at training -
+                                <a href="mailto:sales@orangeandbronze.com">sales@orangeandbronze.com</a> and 894-3415.
+                    
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Hiring" class="form-content">
+                    <div class="row">
+                        <div class="col">
+                            <p>
+                                We're are looking for talented individuals who would like to thrive in a culture of learning, collaboration, and productivity.
+                            </p>
+                            <p>
+                                See our
+                                <a href="{{ careers.url }}">job openings</a> and be part of our team.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <form id="Others" class="form-content" name="Other Concerns" method="POST" netlify>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="name">My name is</label>
+                                <input name="name" type="text" class="form-control" placeholder="Your Name">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="email">My email is</label>
+                                <input name="email" type="text" class="form-control" placeholder="hello@email.com">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label name="message" for="">My message</label>
+                                <textarea class="form-control" name="message" id="message" rows="5"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn -block mt10 -primary d-flex justify-content-center pull-right">
+                        <img src="{{ "assets/images/ico-send.svg " | relative_url }}" class="ico" alt=""> Send Message
+                    </button>
+                </form>
+                  
+                
+            </div>
+        <!-- </form> -->
+      </div>
+  </div>
+</div>

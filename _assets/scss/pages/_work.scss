@@ -1,0 +1,13 @@
+.page-work {
+  .section-header{
+    @include breakpoint(xs){
+        text-align: center;
+        p,h1,h6{
+          text-align: center;
+        }
+    }
+  }
+  .section-work {
+    padding-bottom: 0;
+  }
+}

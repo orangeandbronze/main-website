@@ -1,0 +1,132 @@
+.modal-backdrop {
+  opacity: 1;
+  background-color: #fff;
+}
+
+.modal-dialog {
+  &.-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vh;
+    position: relative;
+    top: -5vh;
+
+    @include breakpoint(xl) {
+      max-width: 1000px;
+    }
+    @include breakpoint(lg) {
+      max-width: 80%;
+    }
+    @include breakpoint(md) {
+      max-width: 80%;
+    }
+    @include breakpoint(sm) {
+      max-width: 80%;
+      margin: 0 auto;
+    }
+  }
+  .modal-content {
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 5px 30px 0 rgba(130, 132, 134, 0.13);
+    .modal-body {
+    }
+    .modal-footer {
+      border: none;
+    }
+  }
+}
+
+.modal-header.-jobs{
+  padding-top: 20px;
+  padding-bottom: 0;
+  background-image: none;
+}
+
+.modal-body {
+  padding-bottom: 0;
+}
+
+.modal-footer {
+  justify-content: flex-start;
+}
+
+.auto-600 {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.modal-footer {
+  margin-bottom: 40px;
+}
+
+.form-control {
+  background-color: #f4f7f8;
+  border: none;
+  border-radius: 0;
+  padding: 12px 15px;
+  font-family: $akzidenz;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #22292e;
+  &::placeholder {
+    color: #b9c5d1;
+  }
+  &:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #ffc107;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem #ffc107;
+  }
+}
+
+.form-group {
+  label {
+    font-family: $exo;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #22292e;
+  }
+}
+
+.modal-open {
+  overflow-y: auto;
+}
+
+.card {
+  border: none;
+}
+
+.card-header {
+  margin: 5px 0;
+  background-color: #ffffff;
+  box-shadow: 0 2px 30px 0 #e6ebf0;
+  border: none;
+  display: block;
+  font-family: $akzidenz;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.8;
+  letter-spacing: normal;
+  text-align: left;
+  color: #22292e;
+}
+
+.container-fluid {
+  max-width: 1140px;
+}

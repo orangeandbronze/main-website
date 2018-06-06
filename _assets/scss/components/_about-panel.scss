@@ -1,0 +1,12 @@
+.about-panel {
+  display: flex;
+  @include breakpoint(sm) {
+    flex-direction: column;
+  }
+  > .about-content {
+    width: calc(100% - 180px);
+    @include breakpoint(sm) {
+      width: 100%;
+    }
+  }
+}

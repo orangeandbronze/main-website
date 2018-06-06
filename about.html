@@ -1,0 +1,42 @@
+---
+layout: default
+title: About
+permalink: /about
+class: about
+---
+
+<section class="section-about">
+  <div class="container panel-bg">
+    <div class="row">
+      <div class="col">
+        <div class="section-title">
+          <h6>< Take a peak inside /></h6>
+          <h1>About Us</h1>
+          <img class="bg" src="{{ "assets/images/title-hello.png" | relative_url }}" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="about-panel">
+          <div class="about-menu" id="about-menu">
+            <a id="btn1" class="item active" href="#">Our Story</a>
+            <a id="btn2" class="item" href="#">Our Process</a>
+            <a id="btn3" class="item" href="#">Team + Culture</a>
+            <a id="btn4" class="item" href="#">Community</a>
+          </div>
+          <div class="about-content">
+
+            {%- include about/our-story.html -%}
+
+            {%- include about/our-process.html -%}
+
+            {%- include about/team-culture.html -%}
+
+            {%- include about/community.html -%}
+
+          </div>
+        </div>
+      </div>
+    </div>
+</section>

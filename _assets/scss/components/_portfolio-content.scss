@@ -1,0 +1,19 @@
+.portfolio-content {
+  width: 60%;
+  margin-left: 30px;
+  > .title {
+    margin-bottom: 16px;
+    margin-top: 8px;
+  }
+  > .content {
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+  > .btn {
+    margin-bottom: 20px;
+  }
+  @include breakpoint(sm) {
+    width: 100%;
+    margin: 0;
+  }
+}

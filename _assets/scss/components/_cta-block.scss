@@ -1,0 +1,63 @@
+.cta-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+  @include breakpoint(xs) {
+    flex-direction: column;
+    justify-content: center;
+  }
+  > .title {
+    h6 {
+      @include breakpoint(xs) {
+        text-align: center;
+      }
+    }
+    h2 {
+      text-align: left;
+      @include breakpoint(xs) {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  > .buttons {
+    .btn {
+      @include breakpoint(xs) {
+        width: 100%;
+        display: block;
+        text-align: center;
+      }
+    }
+    .-primary {
+      @include breakpoint(xl) {
+        margin-left: 20px;
+      }
+      @include breakpoint(lg) {
+        margin-left: 20px;
+      }
+      @include breakpoint(xs) {
+        margin-left: 0;
+      }
+    }
+    @include breakpoint(xs) {
+      text-align: right;
+      > a {
+        margin-bottom: 15px;
+      }
+    }
+    @include breakpoint(sm) {
+      text-align: right;
+      > a {
+        margin-bottom: 15px;
+      }
+    }
+    @include breakpoint(md) {
+      text-align: right;
+      > a {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

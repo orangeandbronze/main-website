@@ -1,0 +1,184 @@
+* {
+  // transition: all 200ms ease-in-out;
+}
+
+:root {
+  font-size: 16px;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $akzidenz;
+  transition: none;
+}
+
+section {
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+  @include breakpoint(xs) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+h1 {
+  font-family: $akzidenz-b;
+  font-size: 4rem;
+  line-height: 1.09;
+  text-align: left;
+  color: #22292e;
+  @include breakpoint(xs){
+    font-size: 3rem;
+  }
+}
+
+h2 {
+  font-family: $akzidenz-b;
+  font-size: 48px;
+  line-height: normal;
+  text-align: center;
+  color: #22292e;
+}
+
+h3 {
+  font-family: $akzidenz-m;
+  font-size: 1.875rem;
+  line-height: normal;
+  text-align: left;
+  color: #222930;
+}
+
+h4 {
+  font-family: $akzidenz-m;
+  font-size: 24px;
+  line-height: normal;
+  text-align: left;
+  color: #222930;
+}
+
+h5 {
+  font-family: $exo;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: normal;
+  text-align: left;
+  color: #b8c2cc;
+}
+
+h6 {
+  font-family: $exo;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  color: #ff9c2e;
+  text-transform: uppercase;
+  &.-dark {
+    text-align: left;
+    color: #22292e;
+  }
+}
+
+p {
+  font-family: $akzidenz;
+  font-size: 1rem;
+  line-height: 1.75;
+  text-align: left;
+  color: #606e7b;
+  &.-sm {
+    font-size: 14px;
+  }
+}
+
+nav {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  overflow-x: hidden;
+  // width: 100vw;
+}
+
+span.tags {
+  display: inline-block;
+  padding: 4px 6px;
+  font-family: $exo;
+  font-size: 13px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #ffa437;
+  margin: 4px;
+}
+
+blockquote {
+  margin: 15px 0;
+  font-family: $akzidenz;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1.58;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8795a2;
+  position: relative;
+  margin-top: 35px;
+  &:before {
+    content: "";
+    position: absolute;
+    width: 65px;
+    height: 4px;
+    margin: 0;
+    background-color: #ff9c2e;
+    top: -20px;
+  }
+}
+
+#careerModal {
+  h6 {
+    margin-top: 20px;
+  }
+  .modal-body {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  ul li {
+    font-family: $akzidenz;
+    font-size: 1rem;
+    line-height: 1.75;
+    text-align: left;
+    color: #606e7b;
+    padding-left: 0;
+  }
+}
+
+a {
+  color: #ff9c2e;
+  &:hover {
+    color: #ff9c2e;
+  }
+}
+
+.slick-dots{
+  left: 0;
+}
+
+main ul,main li{
+  font-family: $akzidenz;
+    font-size: 1rem;
+    line-height: 1.75;
+    color: #606e7b;
+}

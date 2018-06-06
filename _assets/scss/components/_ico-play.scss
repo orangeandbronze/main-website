@@ -1,0 +1,32 @@
+.ico-play {
+  position: absolute;
+  display: inline-block;
+  top: 40%;
+  right: 32%;
+  transition: all 0.2s ease-in-out;
+  z-index: 2;
+  &:hover {
+    transform: scale(1.1, 1.1);
+    transition: all 300ms;
+  }
+  &:active {
+    transition: all 100ms;
+    transform: scale(0.9, 0.9);
+  }
+
+  @include breakpoint(xl) {
+    right: 34%;
+  }
+  @include breakpoint(lg) {
+    right: 40%;
+  }
+  @include breakpoint(md) {
+    right: 30%;
+  }
+  @include breakpoint(sm) {
+    display: none;
+  }
+  @include breakpoint(xs) {
+    display: none;
+  }
+}

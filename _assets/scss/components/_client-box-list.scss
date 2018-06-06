@@ -1,0 +1,7 @@
+.client-box-list {
+  display: flex;
+  flex-wrap: wrap;
+  @include breakpoint(sm) {
+    justify-content: center;
+  }
+}

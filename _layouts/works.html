@@ -1,0 +1,145 @@
+---
+layout: default
+---
+<section class="section-casestudy">
+  <div class="container bg">
+    <div class="row ">
+      <div class="col">
+
+        <H6> &lt; INTRODUCTION /&gt;</H6>
+        <h2>{{ page.title }}</h2>
+        <p>{{ page.description }}</p>
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+
+        <H5>SERVICES RENDERED</H5>
+
+        {% for service in page.services_rendered %}
+
+          <span class="tags">{{ service }}</span>
+
+        {% endfor %}
+
+        <hr>
+
+      </div>
+    </div>
+
+    {{ page.content }}
+
+  </div>
+  <div class="container">
+    <div class="row">
+      {% assign work_items_reverse = site.categories.works | sort: 'date' | reverse  %}
+
+      {% assign work_items = site.categories.works | sort: 'date' %}
+
+      {% if page.previous_in_category != nil %}
+        <div class="col-12 col-sm-6 casestudy-btncontainer -left">
+          <a href="{{ page.previous_in_category.url }}" class="casestudy-button">
+            <div class="casestudy-content -left">
+              <h6 class="heading">
+                <svg width="11px" height="18px" viewBox="0 0 11 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+                  <desc>Created with Sketch.</desc>
+                  <defs></defs>
+                  <g id="2-Work" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="2.1.0-Case-Study-Page" transform="translate(-420.000000, -4200.000000)" fill-rule="nonzero">
+                      <g id="chevron-right-copy" transform="translate(425.431507, 4209.000000) scale(-1, 1) translate(-425.431507, -4209.000000) translate(419.931507, 4200.000000)">
+                        <path d="M10.6223014,9.69743836 L2.63556164,17.684137 C2.25036986,18.0693288 1.62587671,18.0693288 1.24072603,17.684137 L0.309205479,16.7526164 C-0.0753287671,16.3680822 -0.0760684932,15.744863 0.307561644,15.3594247 L6.63719178,9 L0.307561644,2.64061644 C-0.0760684932,2.25517808 -0.0753287671,1.6319589 0.309205479,1.24742466 L1.24072603,0.31590411 C1.62591781,-0.0692876712 2.25041096,-0.0692876712 2.63556164,0.31590411 L10.6222603,8.30260274 C11.0074521,8.68775342 11.0074521,9.31224658 10.6223014,9.69743836 Z"
+                          id="Shape"></path>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                PREVIOUS PROJECT
+              </h6>
+              <h5 class="title">{{ page.previous_in_category.title }}</h5>
+            </div>
+          </a>
+        </div>
+      {% else %}
+        {% for post in work_items limit: 1 %}
+          <div class="col-12 col-sm-6 casestudy-btncontainer -left">
+            <a href="{{ post.url }}" class="casestudy-button">
+              <div class="casestudy-content -left">
+                <h6 class="heading">
+                  <svg width="11px" height="18px" viewBox="0 0 11 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+                    <desc>Created with Sketch.</desc>
+                    <defs></defs>
+                    <g id="2-Work" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <g id="2.1.0-Case-Study-Page" transform="translate(-420.000000, -4200.000000)" fill-rule="nonzero">
+                        <g id="chevron-right-copy" transform="translate(425.431507, 4209.000000) scale(-1, 1) translate(-425.431507, -4209.000000) translate(419.931507, 4200.000000)">
+                          <path d="M10.6223014,9.69743836 L2.63556164,17.684137 C2.25036986,18.0693288 1.62587671,18.0693288 1.24072603,17.684137 L0.309205479,16.7526164 C-0.0753287671,16.3680822 -0.0760684932,15.744863 0.307561644,15.3594247 L6.63719178,9 L0.307561644,2.64061644 C-0.0760684932,2.25517808 -0.0753287671,1.6319589 0.309205479,1.24742466 L1.24072603,0.31590411 C1.62591781,-0.0692876712 2.25041096,-0.0692876712 2.63556164,0.31590411 L10.6222603,8.30260274 C11.0074521,8.68775342 11.0074521,9.31224658 10.6223014,9.69743836 Z"
+                            id="Shape"></path>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                  PREVIOUS PROJECT
+                </h6>
+                <h5 class="title">{{ post.title }}</h5>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+      {% endif %}
+
+      {% if page.next_in_category != nil %}
+        <div class="col-12 col-sm-6 casestudy-btncontainer -right">
+          <a href="{{ page.next_in_category.url }}" class="casestudy-button">
+            <div class="casestudy-content -right">
+              <h6 class="heading">
+                NEXT PROJECT
+                <svg width="11px" height="18px" viewBox="0 0 11 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+                  <desc>Created with Sketch.</desc>
+                  <defs></defs>
+                  <g id="2-Work" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="2.1.0-Case-Study-Page" transform="translate(-420.000000, -4200.000000)" fill="#FF9C2E" fill-rule="nonzero">
+                      <g id="chevron-right-copy" transform="translate(425.431507, 4209.000000) scale(-1, 1) translate(-425.431507, -4209.000000) translate(419.931507, 4200.000000)">
+                        <path d="M10.6223014,9.69743836 L2.63556164,17.684137 C2.25036986,18.0693288 1.62587671,18.0693288 1.24072603,17.684137 L0.309205479,16.7526164 C-0.0753287671,16.3680822 -0.0760684932,15.744863 0.307561644,15.3594247 L6.63719178,9 L0.307561644,2.64061644 C-0.0760684932,2.25517808 -0.0753287671,1.6319589 0.309205479,1.24742466 L1.24072603,0.31590411 C1.62591781,-0.0692876712 2.25041096,-0.0692876712 2.63556164,0.31590411 L10.6222603,8.30260274 C11.0074521,8.68775342 11.0074521,9.31224658 10.6223014,9.69743836 Z"
+                          id="Shape" transform="translate(5.465740, 9.000021) scale(-1, -1) translate(-5.465740, -9.000021) "></path>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </h6>
+              <h5 class="title">{{ page.next_in_category.title }}</h5>
+            </div>
+          </a>
+        </div>
+        {% else %}
+          {% for post in work_items_reverse limit:1 %}
+            <div class="col-12 col-sm-6 casestudy-btncontainer -left">
+              <a href="{{ post.url }}" class="casestudy-button">
+                <div class="casestudy-content -left">
+                  <h6 class="heading">
+                    NEXT PROJECT
+                    <svg width="11px" height="18px" viewBox="0 0 11 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+                      <desc>Created with Sketch.</desc>
+                      <defs></defs>
+                      <g id="2-Work" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="2.1.0-Case-Study-Page" transform="translate(-420.000000, -4200.000000)" fill="#FF9C2E" fill-rule="nonzero">
+                          <g id="chevron-right-copy" transform="translate(425.431507, 4209.000000) scale(-1, 1) translate(-425.431507, -4209.000000) translate(419.931507, 4200.000000)">
+                            <path d="M10.6223014,9.69743836 L2.63556164,17.684137 C2.25036986,18.0693288 1.62587671,18.0693288 1.24072603,17.684137 L0.309205479,16.7526164 C-0.0753287671,16.3680822 -0.0760684932,15.744863 0.307561644,15.3594247 L6.63719178,9 L0.307561644,2.64061644 C-0.0760684932,2.25517808 -0.0753287671,1.6319589 0.309205479,1.24742466 L1.24072603,0.31590411 C1.62591781,-0.0692876712 2.25041096,-0.0692876712 2.63556164,0.31590411 L10.6222603,8.30260274 C11.0074521,8.68775342 11.0074521,9.31224658 10.6223014,9.69743836 Z"
+                              id="Shape" transform="translate(5.465740, 9.000021) scale(-1, -1) translate(-5.465740, -9.000021) "></path>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                  </h6>
+                  <h5 class="title">{{ post.title }}</h5>
+                </div>
+              </a>
+            </div>
+          {% endfor %}
+        {% endif %}
+    </div>
+  </div>
+</section>

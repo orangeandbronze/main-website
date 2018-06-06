@@ -1,0 +1,24 @@
+.modal {
+  &.-video {
+  }
+}
+
+.modal-dialog {
+  &.-video {
+  }
+  &.-job{
+    .modal-body{
+    }
+  }
+}
+
+// Prevent padding right
+.modal-open,
+.modal,
+.modal-open .navbar-fixed-top {
+  padding-right: 0 !important;
+}
+
+.modal-open .modal {
+  // overflow: hidden;
+}

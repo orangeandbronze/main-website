@@ -1,0 +1,20 @@
+.section-header {
+  position: relative;
+  @include breakpoint(xs) {
+    padding-bottom: 0;
+  }
+  > .bg-element {
+    position: absolute;
+    bottom: -40px;
+    left: calc(50% - 48px);
+    @include breakpoint(md) {
+      bottom: -30px;
+    }
+    @include breakpoint(sm) {
+      bottom: -20px;
+    }
+    @include breakpoint(xs) {
+      display: none;
+    }
+  }
+}

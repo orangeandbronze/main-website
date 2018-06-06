@@ -1,0 +1,11 @@
+.section-minititle {
+  @include breakpoint(sm) {
+    text-align: center;
+    a {
+      margin-top: 10px;
+    }
+    h3 {
+      text-align: center;
+    }
+  }
+}

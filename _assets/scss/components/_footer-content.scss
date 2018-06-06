@@ -1,0 +1,48 @@
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  @include breakpoint(sm) {
+    flex-direction: column;
+  }
+  > .copyright {
+    margin: 0;
+    font-family: $akzidenz;
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    @include breakpoint(sm) {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  }
+  > .links {
+    color: #ffffff;
+    padding: 0 10px;
+    font-family: $akzidenz;
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    a {
+      color: #ffffff;
+      &:hover {
+        text-decoration: none;
+        color: $dark-orange;
+      }
+      &:active {
+        position: relative;
+        top: 1px;
+      }
+    }
+    @include breakpoint(sm) {
+      text-align: center;
+    }
+  }
+}

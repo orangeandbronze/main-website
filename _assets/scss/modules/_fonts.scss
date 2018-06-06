@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "AkzidenzGroteskBQ-Reg";
+  src: url("../fonts/AkzidenzGrotesk-Regular.woff2") format("woff2"),
+    url("../fonts/AkzidenzGrotesk-Regular.woff") format("woff"),
+    url("../fonts/AkzidenzGrotesk-Regular.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "AkzidenzGroteskBQ-Medium";
+  src: url("../fonts/AkzidenzGrotesk-Medium.woff2") format("woff2"),
+    url("../fonts/AkzidenzGrotesk-Medium.woff") format("woff"),
+    url("../fonts/AkzidenzGrotesk-Medium.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "AkzidenzGroteskBQ-Bold";
+  src: url("../fonts/AkzidenzGrotesk-Bold.woff2") format("woff2"),
+    url("../fonts/AkzidenzGrotesk-Bold.woff") format("woff"),
+    url("../fonts/AkzidenzGrotesk-Bold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Exo+2:400,600");
+
+// fonts
+$akzidenz: "AkzidenzGroteskBQ-Reg", sans-serif;
+$akzidenz-m: "AkzidenzGroteskBQ-Medium", sans-serif;
+$akzidenz-b: "AkzidenzGroteskBQ-Bold", sans-serif;
+
+$exo: "Exo 2", sans-serif;

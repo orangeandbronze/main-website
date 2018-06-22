@@ -7342,7 +7342,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: "AkzidenzGroteskBQ-Reg", sans-serif;
   -webkit-transition: none;
-  transition: none; }
+  transition: none;
+  overflow: none; }
 
 section {
   padding-top: 3.75rem;
@@ -9233,7 +9234,8 @@ footer {
   -webkit-transition: opacity 0.35s, visibility 0.35s, height 0.35s;
   transition: opacity 0.35s, visibility 0.35s, height 0.35s;
   overflow: hidden;
-  z-index: 3; }
+  z-index: 3;
+  overflow-y: scroll; }
   .overlay.open {
     opacity: 0.9;
     visibility: visible;
@@ -9262,6 +9264,9 @@ footer {
     font-family: "AkzidenzGroteskBQ-Reg", sans-serif, serif;
     font-weight: 400;
     text-align: center; }
+    @media (max-width: 575px) {
+      .overlay nav {
+        font-size: 24px; } }
   .overlay ul {
     list-style: none;
     padding: 0;
@@ -9273,7 +9278,6 @@ footer {
       display: block;
       height: 25%;
       height: calc(100% / 4);
-      min-height: 50px;
       position: relative;
       opacity: 0; }
       .overlay ul li a {

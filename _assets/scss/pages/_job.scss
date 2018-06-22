@@ -1,0 +1,35 @@
+.page-job{
+    .panel-bg{
+        border-radius: 4px;
+        background-color: #fff;
+        box-shadow: 0 5px 30px 0 hsla(210,2%,52%,.13);
+        padding: 60px;
+    }
+    .section-job-post{
+        .job-title{
+            margin-bottom: 30px;
+        }
+        .job-description{
+            h6{
+                margin-bottom: 10px;
+            }
+        }
+        .job-controls{
+            >a{
+                display: flex;
+                margin-bottom: 20px;
+                justify-content: center;
+                text-align: center;
+            }
+            @include breakpoint(md){
+                margin-top: 30px;
+            }
+        }
+    }
+
+    .section-more{
+        h6{
+            color: black;
+        }
+    }
+}

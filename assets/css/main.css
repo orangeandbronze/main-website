@@ -404,34 +404,34 @@ template {
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-  --blue:#007bff;
-  --indigo:#6610f2;
-  --purple:#6f42c1;
-  --pink:#e83e8c;
-  --red:#dc3545;
-  --orange:#fd7e14;
-  --yellow:#ffc107;
-  --green:#28a745;
-  --teal:#20c997;
-  --cyan:#17a2b8;
-  --white:#fff;
-  --gray:#6c757d;
-  --gray-dark:#343a40;
-  --primary:#007bff;
-  --secondary:#6c757d;
-  --success:#28a745;
-  --info:#17a2b8;
-  --warning:#ffc107;
-  --danger:#dc3545;
-  --light:#f8f9fa;
-  --dark:#343a40;
-  --breakpoint-xs:0;
-  --breakpoint-sm:576px;
-  --breakpoint-md:768px;
-  --breakpoint-lg:992px;
-  --breakpoint-xl:1200px;
-  --font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  --font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; }
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; }
 
 *, ::after, ::before {
   -webkit-box-sizing: border-box;
@@ -8901,6 +8901,43 @@ footer {
     letter-spacing: normal;
     color: #ff972c; }
 
+.list-jobs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .list-jobs > .job {
+    font-family: "AkzidenzGroteskBQ-Medium", sans-serif;
+    font-size: 16px;
+    color: #ff9c2e;
+    padding: 10px 12px;
+    background-color: transparent;
+    border: 2px solid #ff9c2e;
+    border-radius: 30px;
+    margin: 10px;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    text-decoration: none; }
+    .list-jobs > .job:hover {
+      background-color: #ff9c2e;
+      color: white;
+      -webkit-transition: all 200ms ease-in-out;
+      transition: all 200ms ease-in-out;
+      -webkit-box-shadow: 0 10px 40px -10px #c5ccd4;
+      box-shadow: 0 10px 40px -10px #c5ccd4;
+      -webkit-transition: all 300ms;
+      transition: all 300ms; }
+    .list-jobs > .job:active {
+      position: relative;
+      -webkit-transform: translate(0, 2px);
+      transform: translate(0, 2px);
+      -webkit-transition: all 0ms;
+      transition: all 0ms; }
+
 .modal-content hr {
   height: 5px;
   display: block;
@@ -10761,6 +10798,36 @@ img.figlio {
 
 .page-careers .section-faq {
   padding-bottom: 0; }
+
+.page-job .panel-bg {
+  border-radius: 4px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 5px 30px 0 rgba(130, 133, 135, 0.13);
+  box-shadow: 0 5px 30px 0 rgba(130, 133, 135, 0.13);
+  padding: 60px; }
+
+.page-job .section-job-post .job-title {
+  margin-bottom: 30px; }
+
+.page-job .section-job-post .job-description h6 {
+  margin-bottom: 10px; }
+
+.page-job .section-job-post .job-controls > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center; }
+
+@media (max-width: 991px) {
+  .page-job .section-job-post .job-controls {
+    margin-top: 30px; } }
+
+.page-job .section-more h6 {
+  color: black; }
 
 .page-trainings .section-cta {
   padding-top: 0; }

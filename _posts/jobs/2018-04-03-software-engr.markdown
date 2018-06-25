@@ -1,4 +1,6 @@
 ---
+layout:       jobs
+class:        job
 title:        "Associate Software Engineer or Software Engineer"
 description:  This position assumes the role of a consultant, which involves implementing, assisting and/or advising clients in the field of software development.
 date:         2018-04-03 16:50:00 +0800

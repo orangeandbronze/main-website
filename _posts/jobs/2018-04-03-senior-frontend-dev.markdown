@@ -1,4 +1,6 @@
 ---
+layout:       jobs
+class:        job
 title:        "Senior Front-End Developer"
 description:  As the key technical resource on the UX team, you will work with other designers on the team to bring product concepts to life.
 date:         2018-04-03 16:46:54 +0800

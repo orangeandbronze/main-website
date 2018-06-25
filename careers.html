@@ -50,7 +50,7 @@ class: careers
       {% for job in site.categories.jobs %}
 
         <div class="col-sm-6 col-md-6 col-lg-4">
-          <a class="job-card" href="#{{ job.title | downcase | replace: " ", "" }}" data-toggle="modal">
+        <a class="job-card" href="{{ job.url }}">
             <h4 class="title">
               {{ job.title }}
             </h4>
@@ -59,8 +59,6 @@ class: careers
             </p>
           </a>
         </div>
-
-        {%- include job-modal.html job=job -%}
 
       {% endfor %}
 

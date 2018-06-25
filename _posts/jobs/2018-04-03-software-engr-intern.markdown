@@ -1,4 +1,6 @@
 ---
+layout:       jobs
+class:        job
 title:        "Software Engineer Intern"
 description:   Candidates must understand the fundamentals of programming; self-starter that initiates to learn to learn new technologies and take on responsibilities
 date:         2018-04-03 16:45:00 +0800

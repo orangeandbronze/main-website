@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+<section class="section-header">
+
+  <img src="{{ "assets/images/ico-learnmore.svg" | relative_url }}" alt="" class="bg-element" />
+
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-12 col-md-8 col-lg-7 col-xl-7">
+              <H6>
+                  &lt; TRAININGS & BOOTCAMPS /&gt;
+              </H6>
+              <H1>Careers</H1>
+              <p>
+                  We're are looking for talented individuals who would like to thrive in a culture of learning, collaboration, and productivity.
+              </p>
+              <p>
+                  O&B seeks to enhance the culture of learning throughout the organization through various employee programs. We bring knowledge sharing to our people using different avenues and expose them to growth opportunities.
+              </p>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="section-job-post">
+    <div class="container panel-bg">
+        <div class="row">
+            <div class="col-sm-12 col-lg-8">
+                <div class="job-title">
+                    <H6>[ JAVA SOFTWARE DEVELOPMENT ]</H6>
+                    <H3>{{ page.title }}</H3>
+                    <img src="{{ "assets/images/hr.svg" | relative_url }}" alt="" class="hr" />
+                </div>
+                <div class="job-description">
+                    {{ page.excerpt }}
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4 job-controls">
+                <a href="/careers" class="btn -secondary">
+                    <img src="{{ "assets/images/ico-arrow-left.svg " | relative_url }}" class="ico svg" alt="" /> SEE OTHER JOB OPENINGS
+                </a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfU26uYcb_4JrXOY0VS0JEYhceNVvZgujDBYJUYsEEAj7SnXA/viewform" target="_blank" class="btn -primary">
+                    <img src="{{ "assets/images/ico-enter.svg " | relative_url }}" class="ico" alt=""> APPLY FOR THIS POSITION
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-more">
+  <div class="container">
+      <div class="row">
+          <div class="col-12 text-center mb30">
+            <h6>NOT THE RIGHT FIT ABOVE? WE’RE ALSO LOOKING FOR A</h6>
+          </div>
+      </div>
+      <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <div class="list-jobs">
+                    {% for job in site.categories.jobs %}
+
+                        <a class="job" href="{{ job.url }}">{{ job.title }}</a>
+
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-1"></div>
+      </div>
+  </div>
+</section>

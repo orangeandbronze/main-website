@@ -1,4 +1,6 @@
 ---
+layout:       jobs
+class:        job
 title:        "Graphic Design Intern"
 description:  This position will be joining the Marketing Team of O&B and would act as an in-house creative agency for all of the company's creative requirements.
 date:         2018-04-03 16:42:00 +0800

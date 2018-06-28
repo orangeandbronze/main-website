@@ -9267,6 +9267,12 @@ footer {
     @media (max-width: 575px) {
       .overlay nav {
         font-size: 24px; } }
+    @media (max-height: 767px) {
+      .overlay nav {
+        font-size: 36px !important; } }
+    @media (max-height: 575px) {
+      .overlay nav {
+        font-size: 24px !important; } }
   .overlay ul {
     list-style: none;
     padding: 0;

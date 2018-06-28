@@ -150,6 +150,12 @@ $button-width: 35px;
     @include breakpoint(xs){
       font-size: 24px;
     }
+    @media (max-height: 767px){
+      font-size:36px!important;
+    }
+    @media (max-height: 575px){
+      font-size: 24px!important;
+    }
     font-family: $akzidenz, serif;
     font-weight: 400;
     text-align: center;

@@ -18,12 +18,12 @@ email: info@orangeandbronze.com
 contact_number: +63 2 751.47.26
 address: "Philippines: Makati (Headquarters) 3rd Floor, CJV Building, 108 Aguirre Street, Legaspi Village, Makati City, Philippines"
 keywords: adopt,agile,analyst,appropriate,architect,assumptions,augmentation,believe,best,bootcamp,bootcamps,bronze,build,business,careers,case,clients,cloud,collaboration,companies,company,costs,countries,courses,created,curriculum,customize,daily,design,develop,developer,developers,development,email,engineering,enterprise,fintech,framework,google,handling,hires,industry,intensive,java,labs,leader,learn,major,makati,manager,message,millions,missioncritical,mobile,multibilliondollar,needed,offer,orange,partner,partners,philippine,philippines,practices,principles,products,programming,project,provide,providing,read,ready,requirements,right,send,services,sketch,software,solution,solutioning,solutions,spring,staff,started,study,suite,systems,team,telco,tools,touch,training,trainings,transactions,university,using,values
-description: Orange & Bronze Software Labs developed mission-critical systems using the Spring Framework, handling millions of transactions for companies.
+description: We develope mission-critical systems using the Spring Framework, handling millions of transactions for companies.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jekyll-oand-b.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://orangeandbronze.com" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: orangeandbronze
 googleplus_username: +orangeandbronze
-twitter_username: orangeandbronze
+twitter_username: "@orangeandbronze"
 linkedin_username:  orange-and-bronze-software-labs
 
 permalink: pretty

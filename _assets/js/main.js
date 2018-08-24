@@ -48,33 +48,37 @@ $(document).ready(function() {
 });
 
 // Services Page Selector
-$(document).ready(function() {
-  $("#serviceContent1").show();
-  $("#serviceContent2, #serviceContent3").hide();
-  $("#serviceBtn1").click(function(e) {
-    $("#serviceContent1").fadeIn(300);
-    $("#serviceContent2, #serviceContent3").hide();
-    $("#serviceBtn1").addClass("active");
-    $("#serviceBtn2, #serviceBtn3").removeClass("active");
-    e.preventDefault();
-  });
+// $(document).ready(function() {
+//   $("#serviceContent1").show();
+//   $("#serviceContent2, #serviceContent3").hide();
+//   $("#serviceBtn1").click(function(e) {
+//     $("#serviceContent1").fadeIn(300);
+//     $("#serviceContent2, #serviceContent3").hide();
+//     $("#serviceBtn1").addClass("active");
+//     $("#serviceBtn2, #serviceBtn3").removeClass("active");
+//     e.preventDefault();
+//   });
 
-  $("#serviceBtn2").click(function(e) {
-    $("#serviceContent2").fadeIn(300);
-    $("#serviceContent1, #serviceContent3").hide();
-    $("#serviceBtn2").addClass("active");
-    $("#serviceBtn1, #serviceBtn3").removeClass("active");
-    e.preventDefault();
-  });
+//   $("#serviceBtn2").click(function(e) {
+//     $("#serviceContent2").fadeIn(300);
+//     $("#serviceContent1, #serviceContent3").hide();
+//     $("#serviceBtn2").addClass("active");
+//     $("#serviceBtn1, #serviceBtn3").removeClass("active");
+//     e.preventDefault();
+//   });
 
-  $("#serviceBtn3").click(function(e) {
-    $("#serviceContent3").fadeIn(300);
-    $("#serviceContent2, #serviceContent1").hide();
-    $("#serviceBtn3").addClass("active");
-    $("#serviceBtn2, #serviceBtn1").removeClass("active");
-    e.preventDefault();
-  });
-});
+//   $("#serviceBtn3").click(function(e) {
+//     $("#serviceContent3").fadeIn(300);
+//     $("#serviceContent2, #serviceContent1").hide();
+//     $("#serviceBtn3").addClass("active");
+//     $("#serviceBtn2, #serviceBtn1").removeClass("active");
+//     e.preventDefault();
+//   });
+// });
+
+if(window.location.href.indexOf("/staff-aug") > -1){
+    alert('danger');
+}
 
 $("#toggle").click(function() {
   $(this).toggleClass("active");

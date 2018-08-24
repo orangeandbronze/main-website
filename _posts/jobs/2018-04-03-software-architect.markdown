@@ -5,6 +5,9 @@ title:        "Software Architect / Senior Software Engineer"
 description:  Leads and mentor teams of software engineers, particularly in the technical aspects of their work.
 date:         2018-04-03 16:49:00 +0800
 categories:   jobs
+redirect_from:
+  - /software-architect-or-senior-software-engineer
+  - /
 ---
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <h6 class="-dark">Job Description:</h6>

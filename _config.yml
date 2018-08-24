@@ -26,6 +26,9 @@ googleplus_username: +orangeandbronze
 twitter_username: "@orangeandbronze"
 linkedin_username:  orange-and-bronze-software-labs
 
+plugins: 
+   - jekyll-redirect-from
+
 permalink: pretty
 permalink: /:categories/:title/
 

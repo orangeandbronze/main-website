@@ -1,0 +1,46 @@
+---
+layout:       services
+class:        service
+title:        "G-Suite"
+description:  Complement your existing development team with trained professionals.
+date:         2018-04-03 16:43:00 +0800
+categories:   services
+---
+
+<div id="serviceContent3" class="section-content">
+  <div class="section-title">
+    <H6>
+      &lt; SEE OUR EXPERTIES AND CAPABILITIES /&gt;
+    </H6>
+    <H2>G Suite</H2>
+    <img class="bg" src="{{ "assets/images/title-services.png" | relative_url }}" alt="" />
+  </div>
+  <div class="row">
+    <div class="col">
+      <H3>Collaboration, messaging, and archiving solutions for your organization.</H3>
+      <p>
+        Orange and Bronze is a Google Cloud partner and Philippine reseller for G Suite by Google Cloud (formerly Google Apps). We provide local support and can help you install your G Suite account - so you don't have to worry about the hassles of managing this IT solution yourself. As a reseller, O&B works with other reputable partners to:
+      </p>
+      <ul>
+        <li>
+           Install and manage G Suite accounts for companies of different sizes
+        </li>
+        <li>
+             Migrate to G Suite from another collaboration / email platform
+        </li>
+        <li>
+             Provide technical support to organizations with limited or no IT staff
+        </li>
+        <li>
+             Understand and learn the features of G Suite through classroom training
+        </li>
+        <li>
+             Integrate software and other applications to your G Suite account
+        </li>
+      </ul>
+      <div class="text-center">
+        <img src="{{ "assets/images/img-gsuite.jpg" | relative_url }}" alt="G Suite Features" class="img-fluid m30" />
+      </div>
+    </div>
+  </div>
+</div>

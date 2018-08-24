@@ -5,6 +5,10 @@ title:        "Associate Software Engineer or Software Engineer"
 description:  This position assumes the role of a consultant, which involves implementing, assisting and/or advising clients in the field of software development.
 date:         2018-04-03 16:50:00 +0800
 categories:   jobs
+redirect_from:
+  - /associate-software-engineer-or-software-engineer
+  - /technical/software-engineer
+  - /technical/software-engineer-intern
 ---
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <h6 class="-dark">Job Description:</h6>

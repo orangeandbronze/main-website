@@ -5,6 +5,8 @@ title:        "Node.js Developer"
 description:  This position is responsible for managing the interchange of data between the server and the users.
 date:         2018-04-03 16:48:00 +0800
 categories:   jobs
+redirect_from:
+  - /node-js-developer
 ---
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <h6 class="-dark">Job Description:</h6>

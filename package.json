@@ -30,5 +30,8 @@
     "npm": "^6.1.0",
     "postcss-scss": "^1.0.5",
     "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
   }
 }

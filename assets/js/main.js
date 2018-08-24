@@ -48,33 +48,47 @@ $(document).ready(function() {
 });
 
 // Services Page Selector
-$(document).ready(function() {
-  $("#serviceContent1").show();
-  $("#serviceContent2, #serviceContent3").hide();
-  $("#serviceBtn1").click(function(e) {
-    $("#serviceContent1").fadeIn(300);
-    $("#serviceContent2, #serviceContent3").hide();
-    $("#serviceBtn1").addClass("active");
-    $("#serviceBtn2, #serviceBtn3").removeClass("active");
-    e.preventDefault();
-  });
+$(document).ready(function () {
+  if (window.location.href.indexOf("g-suite") > -1) {
+     $("#serviceBtn3").addClass('active');
+  }
 
-  $("#serviceBtn2").click(function(e) {
-    $("#serviceContent2").fadeIn(300);
-    $("#serviceContent1, #serviceContent3").hide();
-    $("#serviceBtn2").addClass("active");
-    $("#serviceBtn1, #serviceBtn3").removeClass("active");
-    e.preventDefault();
-  });
+  if (window.location.href.indexOf("staff-augmentation") > -1) {
+    $("#serviceBtn2").addClass('active');
+ }
 
-  $("#serviceBtn3").click(function(e) {
-    $("#serviceContent3").fadeIn(300);
-    $("#serviceContent2, #serviceContent1").hide();
-    $("#serviceBtn3").addClass("active");
-    $("#serviceBtn2, #serviceBtn1").removeClass("active");
-    e.preventDefault();
-  });
+  if (window.location.href.indexOf("java-development") > -1) {
+    $("#serviceBtn1").addClass('active');
+ }
 });
+
+// $(document).ready(function() {
+//   $("#serviceContent1").show();
+//   $("#serviceContent2, #serviceContent3").hide();
+//   $("#serviceBtn1").click(function(e) {
+//     $("#serviceContent1").fadeIn(300);
+//     $("#serviceContent2, #serviceContent3").hide();
+//     $("#serviceBtn1").addClass("active");
+//     $("#serviceBtn2, #serviceBtn3").removeClass("active");
+//     e.preventDefault();
+//   });
+
+//   $("#serviceBtn2").click(function(e) {
+//     $("#serviceContent2").fadeIn(300);
+//     $("#serviceContent1, #serviceContent3").hide();
+//     $("#serviceBtn2").addClass("active");
+//     $("#serviceBtn1, #serviceBtn3").removeClass("active");
+//     e.preventDefault();
+//   });
+
+//   $("#serviceBtn3").click(function(e) {
+//     $("#serviceContent3").fadeIn(300);
+//     $("#serviceContent2, #serviceContent1").hide();
+//     $("#serviceBtn3").addClass("active");
+//     $("#serviceBtn2, #serviceBtn1").removeClass("active");
+//     e.preventDefault();
+//   });
+// });
 
 $("#toggle").click(function() {
   $(this).toggleClass("active");
@@ -96,7 +110,7 @@ $(document).ready(function() {
     // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
     $("#video").attr(
       "src",
-      $videoSrc + "?rel=0&showinfo=0&modestbranding=1&autoplay=1&controls=0"
+      $videoSrc + "?rel=0&amp;showinfo=0&amp;modestbranding=1&amp;autoplay=1"
     );
   });
 

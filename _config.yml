@@ -25,6 +25,7 @@ facebook_username: orangeandbronze
 googleplus_username: +orangeandbronze
 twitter_username: "@orangeandbronze"
 linkedin_username:  orange-and-bronze-software-labs
+safe: false
 
 plugins: 
    - jekyll-redirect-from

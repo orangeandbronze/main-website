@@ -5,6 +5,12 @@ title:        "Java Software Development"
 description:  Complement your existing development team with trained professionals.
 date:         2018-04-03 16:43:00 +0800
 categories:   services
+redirect_from:
+  - /java-software-development
+  - /software-development
+  - /java-software-development-article
+  - /offshore-product-development
+  - /project-rescue
 ---
 
 <div id="serviceContent1" class="section-content">

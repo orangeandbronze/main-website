@@ -5,6 +5,18 @@ title:        "G-Suite"
 description:  Complement your existing development team with trained professionals.
 date:         2018-04-03 16:43:00 +0800
 categories:   services
+redirect_from:
+  - /g-suite
+  - /google-maps
+  - /google-apps
+  - /google-app-engine
+  - /google-enterprise
+  - /google-calendar
+  - /google-productivity-tools
+  - /o-b-the-authorized-google-apps-reseller
+  - /enterprise-solutions
+  - /google-apps-for-work
+  - /google-apps-for-education
 ---
 
 <div id="serviceContent3" class="section-content">

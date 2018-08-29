@@ -5,6 +5,9 @@ title:        "Front-end Web Developer"
 description:  This position will be responsible for the development of design prototypes, site navigation and layout of content for various web projects.
 date:         2018-04-03 16:47:00 +0800
 categories:   jobs
+redirect_from:
+  - /front-end-web-developer
+  - /technical/front-end-web-developer
 ---
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <h6 class="-dark">Job Description:</h6>

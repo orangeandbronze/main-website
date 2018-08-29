@@ -5,6 +5,8 @@ title:        "Staff Augmentation"
 description:  Complement your existing development team with trained professionals.
 date:         2018-04-03 16:43:00 +0800
 categories:   services
+redirect_from:
+  - /staff-augmentation
 ---
 
 <div id="serviceContent2" class="section-content">

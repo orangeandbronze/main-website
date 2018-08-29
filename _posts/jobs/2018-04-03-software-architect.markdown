@@ -7,7 +7,7 @@ date:         2018-04-03 16:49:00 +0800
 categories:   jobs
 redirect_from:
   - /software-architect-or-senior-software-engineer
-  - /
+  - /technical/software-architect-or-senior-software-engineer
 ---
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <h6 class="-dark">Job Description:</h6>

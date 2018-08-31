@@ -7425,8 +7425,8 @@ nav {
   align-items: center; }
 
 body {
-  overflow-x: hidden;
-  width: 100vw;
+  overflow-x: hidden !important;
+  width: 100%;
   position: relative; }
 
 span.tags {

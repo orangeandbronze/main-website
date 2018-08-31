@@ -7343,8 +7343,7 @@ body {
   font-family: "AkzidenzGroteskBQ-Reg", sans-serif;
   -webkit-transition: none;
   transition: none;
-  overflow: none;
-  position: relative; }
+  overflow: none; }
 
 section {
   padding-top: 3.75rem;
@@ -7426,7 +7425,9 @@ nav {
   align-items: center; }
 
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  width: 100vw;
+  position: relative; }
 
 span.tags {
   display: inline-block;

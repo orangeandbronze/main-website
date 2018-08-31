@@ -22,7 +22,7 @@ redirect_from:
 <p>
   A successful candidate will be exposed to the different initiatives that drive growth throughout O&B, from organizational events to process initiatives that make our vision more possible.
 </p>
-<h6 class="-dark">Job Description::</h6>
+<h6 class="-dark">Job Description:</h6>
 <ul>
   <li>
     Provides general administrative support to Recruitment activities of the company
@@ -58,7 +58,7 @@ redirect_from:
     Assists in preparing HR internal and external events
   </li>
 </ul>
-<h6 class="-dark">Qualifications::</h6>
+<h6 class="-dark">Qualifications:</h6>
 <p>
   Candidate must be currently pursuing a Bachelor’s / College Degree in Business Administration/Management, Human Resource Management, Psychology or equivalent.
 </p>

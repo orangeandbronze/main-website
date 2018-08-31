@@ -2,7 +2,7 @@
 layout:       jobs
 class:        job
 title:        "HR Intern"
-description:  Responsible for designing Java systems, as well as leading teams of software engineers, particularly in the technical aspects of their work.
+description:  Helps in building the software community through supporting different areas, like academe, together with users groups and organizations.
 date:         2018-04-03 16:43:00 +0800
 categories:   jobs
 redirect_from: 

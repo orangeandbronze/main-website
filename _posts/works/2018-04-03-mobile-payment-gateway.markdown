@@ -75,7 +75,7 @@ categories: works
               No doubt, Orange and Bronze are experts in their field. We have improved our software engineering practices to heights we can only dream of. We are able to deliver all our projects on time and on schedule.
             </p>
             <h5 class="author">
-              Richard S. 
+              Richard Salcedo 
             </h5>
             <h6 class="company">
               Platforms Development Manager

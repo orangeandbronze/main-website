@@ -16,7 +16,7 @@ redirect_from:
 <div id="serviceContent1" class="section-content">
   <div class="section-title">
     <H6>
-      &lt; SEE OUR EXPERTIES AND CAPABILITIES /&gt;
+      &lt; SEE OUR EXPERTISE AND CAPABILITIES /&gt;
     </H6>
     <H2>Java Software Development</H2>
     <img class="bg" src="{{ "assets/images/title-services.png" | relative_url }}" alt="" />

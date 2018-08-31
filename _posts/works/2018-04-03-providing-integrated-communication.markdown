@@ -37,12 +37,15 @@ date:       2018-04-03 13:42:00 +0800
 <div class="row">
   <div class="col-12 col-lg-6">
     <H6>[ THE APPROACH ]</H6>
-    <H3>Outsource to a development company in the Philippines</H3>
+    <H3>Google Apps + O&B = the winning equation</H3>
     <img src="{{ "assets/images/hr.svg" | relative_url }}" alt="" class="hr" />
   </div>
   <div class="col-12 col-lg-6">
     <p>
-      The company started to look offshore for development companies. They researched online to look for Java development companies in different countries, and gathered good feedback about Orange and Bronze from various forums. They reached out to O&B and realized that the communication issues they were initially worried about were non-existent. They were very comfortable speaking with a very articulate team, and they were confident that working with O&B would be a seamless experience.
+      O&B had been working with the company as their software training provider. When they were looking to migrate their email system, O&B presented the benefits of Google Apps for Business. The company was initially considering another cloud service, but O&B and Google’s reputation and track record were enough to convince them to “Go Google”.
+    </p>
+    <p>
+      O&B worked with key people to seamlessly migrate the existing email system to Google without disrupting the ongoing operations. From the discovery and planning, configuration, up until data migration, O&B worked closely with the stakeholders to ensure a seamless switch. O&B also provided user and admin training, as well as change management support to make sure that all 700+ employees transition with ease.
     </p>
   </div>
 </div>
@@ -53,21 +56,18 @@ date:       2018-04-03 13:42:00 +0800
   </div>
   <div class="col-12 col-lg-6 text-center">
     <img src="{{ "assets/images/img-casestudy-4b.jpg" | relative_url }}" alt="" class="img-fluid m10" />
-    <img src="{{ "assets/images/img-casestudy-4c.jpg" | relative_url }}" alt="" class="img-fluid m10" />
+    <!-- <img src="{{ "assets/images/img-casestudy-4c.jpg" | relative_url }}" alt="" class="img-fluid m10" /> -->
   </div>
 </div>
 <div class="row">
   <div class="col-12 col-lg-6">
     <H6>[ THE RESULT ]</H6>
-    <H3>50% cost savings and on-time delivery of tasks</H3>
+    <H3>No boundaries to growth</H3>
     <img src="{{ "assets/images/hr.svg" | relative_url }}" alt="" class="hr" />
   </div>
   <div class="col-12 col-lg-6">
     <p>
-      The company claims that this was a very different outsourcing experience from previous ones they had. The main difference was the type of developers they worked with. They realize that the O&B staff were well-qualified and competently trained. They were impressed with the skills and most importantly, the commitment of each resource to their project. They felt that the offshore team was part of their in-house team. It was an overall pleasant and productive working relationship.
-    </p>
-    <p>
-      Most importantly, offshore resources would cost a fraction of what US resources will cost. They were able to bring down development costs to 50% by bringing the work to the Philippines.
+      The company’s 700+ employees have successfully migrated to Google Apps with the help of Orange and Bronze. As they are posed for growth, Google Apps would allow them to add more licenses easily without the need to set up complex infrastructures or manage servers. Aside from the convenience, Google Apps provided a reliable and cost-efficient way to communicate and collaborate. Now, employees enjoy the various communication channels available to them, whether it be email, chat or video conferencing. They also have a platform for agility to do things in real time, develop a paperless environment, and build a knowledgebase using the different apps.
     </p>
   </div>
 </div>
@@ -84,7 +84,7 @@ date:       2018-04-03 13:42:00 +0800
             <p class="content">
               Google Apps is the best solution for us. The company is projected to have a population of 1000 at the end of the year, coincidentally on its 10th year in the business, and we are confident that only Google can scale with our needs.
             </p>
-            <h5 class="author">Raymond P.</h5>
+            <h5 class="author">Raymond Posadas</h5>
             <h6 class="company">
               Project Manager
             </h6>

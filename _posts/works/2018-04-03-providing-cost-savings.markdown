@@ -72,7 +72,7 @@ date:       2018-04-03 14:42:00 +0800
             <p class="content">
               “Your people are exceptional. You’ve helped us build a very skilled team that I’m able to view as part of our in-house team. I feel that they’re just as committed as my team is. I would recommend to any enterprise looking at Orange and Bronze for any outsourced software development needs. I highly recommend them.”
             </p>
-            <h5 class="author">Mark J.</h5>
+            <h5 class="author">Mark Janveaux</h5>
             <h6 class="company">
               Chief Information and Technology Officer
             </h6>

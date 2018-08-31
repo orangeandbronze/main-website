@@ -93,7 +93,7 @@ categories: works
               We have been working together as strategic partners. What I mean by strategic partnership is that not only do we get the much-needed help around the delivery of the projects, we also get hands-on training. It’s like getting two for the price of one.
             </p>
             <h5 class="author">
-              Richard S. 
+              Richard Salcedo
             </h5>
             <h6 class="company">
               Platforms Development Manager

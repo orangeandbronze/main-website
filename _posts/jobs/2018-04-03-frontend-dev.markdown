@@ -10,7 +10,7 @@ redirect_from:
   - /technical/front-end-web-developer
 ---
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
-<h6 class="-dark">Job Description:</h6>
+<h6 class="-dark">Job Descriptionsss:</h6>
 <ul>
   <li>
     Development of design prototypes, site navigation and layout of content for various web projects.

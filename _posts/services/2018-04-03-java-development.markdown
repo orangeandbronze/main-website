@@ -54,7 +54,7 @@ redirect_from:
       <H3>Turnkey Projects</H3>
       <img src="{{ "assets/images/hr.svg" | relative_url }}" alt="" class="hr" />
       <p>
-        We have successfully implemented complex, large-scale projects in various domains, including telecommunications, banking, insuance, and PCI-compliant financial services.
+        We have successfully implemented complex, large-scale projects in various domains, including telecommunications, banking, insurance, and PCI-compliant financial services.
       </p>
     </div>
   </div>

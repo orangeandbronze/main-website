@@ -37,6 +37,7 @@ redirect_from:
   <div class="row">
     <div class="col">
       <h3>Skills and Categories</h3>
+      <p>We have expertise in the following:</p>
       <div class="row mt20">
           <div class="col">
               <div id="accordion">

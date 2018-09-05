@@ -9401,7 +9401,12 @@ footer {
   .section-title > .bg {
     position: absolute;
     top: calc(70% - 130px);
-    z-index: -1; }
+    z-index: -1;
+    display: none; }
+
+@media only screen and (max-width: 991px) {
+  .section-title > .bg {
+    display: none; } }
 
 .service-box-list {
   display: -webkit-box;

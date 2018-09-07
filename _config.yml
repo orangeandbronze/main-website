@@ -44,6 +44,7 @@ header_pages:
  - trainings.html
  - about.html
  - careers.html
+ - contact.html
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

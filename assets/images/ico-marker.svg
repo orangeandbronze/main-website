@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design-v1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="7.0.0-Contacts-Page-Copy" transform="translate(-260.000000, -782.000000)">
+            <g id="Group-7" transform="translate(260.000000, 782.000000)">
+                <g id="Group-5">
+                    <circle id="Oval-15" fill="#FFEFDB" opacity="0.5" cx="20" cy="20" r="20"></circle>
+                    <g id="map-pin" transform="translate(13.000000, 11.000000)" stroke="#FFA02F" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <path d="M14.7272727,7.36363636 C14.7272727,13.0909091 7.36363636,18 7.36363636,18 C7.36363636,18 0,13.0909091 0,7.36363636 C6.06004011e-08,3.29681234 3.29681234,1.09726732e-07 7.36363636,1.09726732e-07 C11.4304604,1.09726733e-07 14.7272727,3.29681234 14.7272727,7.36363636 Z" id="Shape"></path>
+                        <circle id="Oval" cx="7.36363636" cy="7.36363636" r="2.45454545"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -10707,6 +10707,8 @@ img.figlio {
 
 .map-header {
   text-align: center; }
+  .map-header h4 {
+    text-align: center !important; }
   .map-header img {
     margin: 0 auto;
     width: 70%; }

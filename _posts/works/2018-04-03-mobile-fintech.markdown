@@ -3,7 +3,7 @@ layout:     works
 title:      Mobile Fintech for Third-World Countries
 description: A mobile fintech company needed a range of services to revive a failed project and bring it to completion.
 image:      assets/images/work-1.jpg
-service:     Java Software Development
+service:     Custom Software Solutions
 services_rendered: [Project Rescue, Advising, Solutioning, Training]
 date:       2018-04-03 16:42:00 +0800
 class:      casestudy

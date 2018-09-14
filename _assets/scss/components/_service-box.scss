@@ -20,9 +20,16 @@
       color: #fff;
       transition: none;
     }
-    > svg path {
+    > svg path{
       fill: #ffffff;
       transition: none;
+    }
+    >svg.sketched *{
+      fill: #fff;
+      stroke: rgb(255, 255, 255);
+    }
+    >svg.sketched .no-fill{
+      fill: none;
     }
     &:after {
       position: absolute;

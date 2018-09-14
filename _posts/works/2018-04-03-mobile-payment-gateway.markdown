@@ -3,7 +3,7 @@ layout:     works
 title:      Bringing fintech solutions for two major players in the Philippines
 description: A Philippine telco and a global credit card company needed a mobile payment gateway to be deployed in developing countries
 image:      assets/images/work-2.jpg
-service:     Java Software Development
+service:     Custom Software Solutions
 services_rendered: [Solutioning]
 date:       2018-04-03 15:42:00 +0800
 class:      casestudy

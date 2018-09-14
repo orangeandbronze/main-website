@@ -57,7 +57,7 @@ $(document).ready(function () {
     $("#serviceBtn2").addClass('active');
  }
 
-  if (window.location.href.indexOf("java-development") > -1) {
+  if (window.location.href.indexOf("software-solution") > -1) {
     $("#serviceBtn1").addClass('active');
  }
 });

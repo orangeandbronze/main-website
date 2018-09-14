@@ -18,7 +18,7 @@ redirect_from:
     <H6>
       &lt; SEE OUR EXPERTISE AND CAPABILITIES /&gt;
     </H6>
-    <H2>Java Software Development</H2>
+    <H2>Custom Software Solutions</H2>
     <img class="bg" src="{{ "assets/images/title-services.png" | relative_url }}" alt="" />
   </div>
   <div class="row mb20">
@@ -37,7 +37,7 @@ redirect_from:
       <img src="{{ "assets/images/ico-7.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
     </div>
     <div class="col-sm-8 col-lg-7">
-      <H6>[ JAVA SOFTWARE DEVELOPMENT ]</H6>
+      <H6>[ CUSTOM SOFTWARE SOLUTIONS ]</H6>
       <H3>Product Engineering</H3>
       <img src="{{ "assets/images/hr.svg" | relative_url }}" alt="" class="hr" />
       <p>
@@ -50,7 +50,7 @@ redirect_from:
       <img src="{{ "assets/images/ico-5.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
     </div>
     <div class="col-sm-8 col-lg-7">
-      <H6>[ JAVA SOFTWARE DEVELOPMENT ]</H6>
+      <H6>[ CUSTOM SOFTWARE SOLUTIONS ]</H6>
       <H3>Turnkey Projects</H3>
       <img src="{{ "assets/images/hr.svg" | relative_url }}" alt="" class="hr" />
       <p>
@@ -63,7 +63,7 @@ redirect_from:
       <img src="{{ "assets/images/ico-1.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
     </div>
     <div class="col-sm-8 col-lg-7">
-      <H6>[ JAVA SOFTWARE DEVELOPMENT ]</H6>
+      <H6>[ CUSTOM SOFTWARE SOLUTIONS ]</H6>
       <H3>Build-operate-transfer Of Offshore Development Team</H3>
       <img src="{{ "assets/images/hr.svg" | relative_url }}" alt="" class="hr" />
       <p>
@@ -76,7 +76,7 @@ redirect_from:
       <img src="{{ "assets/images/ico-6.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
     </div>
     <div class="col-sm-8 col-lg-7">
-      <H6>[ JAVA SOFTWARE DEVELOPMENT ]</H6>
+      <H6>[ CUSTOM SOFTWARE SOLUTIONS ]</H6>
       <H3>Legacy Migration and Modernization</H3>
       <img src="{{ "assets/images/hr.svg" | relative_url }}" alt="" class="hr" />
       <p>
@@ -89,7 +89,7 @@ redirect_from:
       <img src="{{ "assets/images/ico-8.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
     </div>
     <div class="col-sm-8 col-lg-7">
-      <H6>[ JAVA SOFTWARE DEVELOPMENT ]</H6>
+      <H6>[ CUSTOM SOFTWARE SOLUTIONS ]</H6>
       <H3>System Maintenance</H3>
       <img src="{{ "assets/images/hr.svg" | relative_url }}" alt="" class="hr" />
       <p>
@@ -102,7 +102,7 @@ redirect_from:
       <img src="{{ "assets/images/ico-2.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
     </div>
     <div class="col-sm-8 col-lg-7">
-      <H6>[ JAVA SOFTWARE DEVELOPMENT ]</H6>
+      <H6>[ CUSTOM SOFTWARE SOLUTIONS ]</H6>
       <H3>Project Rescue</H3>
       <img src="{{ "assets/images/hr.svg" | relative_url }}" alt="" class="hr" />
       <p>

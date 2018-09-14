@@ -9473,6 +9473,11 @@ footer {
       fill: #ffffff;
       -webkit-transition: none;
       transition: none; }
+    .service-box.active > svg.sketched * {
+      fill: #fff;
+      stroke: white; }
+    .service-box.active > svg.sketched .no-fill {
+      fill: none; }
     .service-box.active:after {
       position: absolute;
       bottom: 0;
@@ -10699,6 +10704,12 @@ img.figlio {
 
 .page-work .section-work {
   padding-bottom: 0; }
+
+.map-header {
+  text-align: center; }
+  .map-header img {
+    margin: 0 auto;
+    width: 70%; }
 
 .page-terms .section-terms {
   padding-top: 0;

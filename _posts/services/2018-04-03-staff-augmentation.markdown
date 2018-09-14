@@ -30,7 +30,7 @@ redirect_from:
         If you want to create mission-critical systems, take your products to market quickly, and maintain a clean code base, then you need great developers. O&B prides itself in recruiting competitive programming talent, who undergo intensive training and mentoring via the O&B University training program.
       </p>
       <p>
-        Our team of Java developers, business analysts and UI designers are well-versed in Object-Oriented Design, Domain-Driven Design, Agile practices such as Test-Driven Development and Continuous Integration, programming best practices, and of course technologies such as Spring, Hibernate, Grails and Javascript.
+        Our team of Java and Javascript developers, business analysts, quality engineers (automated and manual testers), and UI designers are well-versed in Object-Oriented Design, Domain-Driven Design, Agile practices such as Test-Driven Development and Continuous Integration, programming best practices, and of course technologies such as Spring, Hibernate, React and Angular.
       </p>
     </div>
   </div>

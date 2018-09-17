@@ -19,19 +19,23 @@ redirect_from:
   </div>
   <div class="row">
     <div class="col">
-      <H3>Highly-trained and competitive software professionals to complement your team.</H3>
+      <H3>If the quality of your software is important to you, put O&amp;B software professionals on your team.</H3>
       <div class="text-center">
         <img class="img-fluid mt30 mb30" src="{{ "assets/images/img-services.jpg" | relative_url }}" alt="person with laptop" />
       </div>
-      <p>
-        Complement your existing development team with trained professionals. Besides expanding your team, you also get the benefit of mentoring and coaching where we transfer our engineering practices to your team.
-      </p>
-      <p>
-        If you want to create mission-critical systems, take your products to market quickly, and maintain a clean code base, then you need great developers. O&B prides itself in recruiting competitive programming talent, who undergo intensive training and mentoring via the O&B University training program.
-      </p>
-      <p>
-        Our team of Java developers, business analysts and UI designers are well-versed in Object-Oriented Design, Domain-Driven Design, Agile practices such as Test-Driven Development and Continuous Integration, programming best practices, and of course technologies such as Spring, Hibernate, Grails and Javascript.
-      </p>
+<p>We've been told by at least one client that our "juniors are as good as seniors of other companies... with other developers, we have to teach them, but with yours, we learn from them."</p>
+
+<p>Such a high bar in our people is no accident. We attract thousands of applicants ever year, such that we have the luxury of choosing from less than the top 1% of them.</p>
+
+<p>But having great talent is not enough. They need to be trained in our processes &amp; practices so that their quality is consistent, and people can work together effectively as a team.</p>
+
+<p>We put them through the rigorous training courses found in Orange &amp; Bronze University, training courses so thorough that many of the local and multinational software development teams send their people to our classes as well. Training is not just when these professionals enter the company, but throughout their careers, making sure that they have the skills to meet their responsibilities at each level.</p>
+
+<p>As they work on your projects, they are overseen and mentored by some of the top thought leaders in the Philippine software industry, as well as supported by an internal community of professionals that embrace high standards in software development.</p>
+
+<p>If you want peace of mind that the people on your team are delivering quality software, place O&amp;B software professionals on your team.</p>
+
+
     </div>
   </div>
   <div class="row">

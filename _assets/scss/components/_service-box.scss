@@ -28,6 +28,17 @@
       fill: #fff;
       stroke: rgb(255, 255, 255);
     }
+    >svg.sketched-staff-aug > path{
+      fill: #ffffff;
+      stroke: none;
+    }
+    >svg.sketched-staff-aug [stroke-miterlimit]{
+      fill: none !important;
+    }
+    >svg.sketched-staff-aug g > path{
+      fill: #ffffff;
+      stroke: none;
+    }
     >svg.sketched .no-fill{
       fill: none;
     }

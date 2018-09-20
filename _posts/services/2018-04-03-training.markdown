@@ -17,30 +17,13 @@ categories:   services
   </div>
   <div class="row">
     <div class="col">
-      <H3>Collaboration, messaging, and archiving solutions for your organization.</H3>
+      <H3>Practical Lessons from Seasoned Practitioners</H3>
       <p>
-        Orange and Bronze is a Google Cloud partner and Philippine reseller for G Suite by Google Cloud (formerly Google Apps). We provide local support and can help you install your G Suite account - so you don't have to worry about the hassles of managing this IT solution yourself. As a reseller, O&B works with other reputable partners to:
+        The difference with O&B training is that it is primarily a software development company, not a pure training institution. The course content is product of lessons learned from dozens of tough projects, not just theories and concepts. Trainers are seasoned practitioners with the war stories to prove it, and can give trainees practical advice on real-world scenarios.
       </p>
-      <ul>
-        <li>
-           Install and manage G Suite accounts for companies of different sizes
-        </li>
-        <li>
-             Migrate to G Suite from another collaboration / email platform
-        </li>
-        <li>
-             Provide technical support to organizations with limited or no IT staff
-        </li>
-        <li>
-             Understand and learn the features of G Suite through classroom training
-        </li>
-        <li>
-             Integrate software and other applications to your G Suite account
-        </li>
-      </ul>
-      <div class="text-center">
-        <img src="{{ "assets/images/img-gsuite.jpg" | relative_url }}" alt="G Suite Features" class="img-fluid m30" />
-      </div>
+      <p>
+        After the training, O&B consultants can continue to coach (review & advise) trainees on how they are applying lessons learned to their actual projects.
+      </p>
     </div>
   </div>
 </div>

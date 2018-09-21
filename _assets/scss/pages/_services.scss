@@ -47,6 +47,25 @@
   }
 }
 
+.other-services{
+  text-align: center;
+  display: none;
+  @include breakpoint(lg) {
+    display: block;
+  }
+  h1{
+    text-align: center !important;
+  }
+  a{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #ff962c;
+    display: inline-block;
+    cursor: pointer;
+    margin: 10px;
+  }
+}
+
 .hr {
   margin-bottom: 10px;
 }

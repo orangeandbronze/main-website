@@ -46,14 +46,14 @@ categories:   jobs
 	</li>
 </ul>
 <h6 class="-dark">Skills and Attributes</h6>
-	<ul>
-		<li>Detail-oriented</li>
-		<li>Excellent written and oral communication skills
-			<ul>
-				<li>Articulate and can convey ideas very well</li>
-			</ul>
-		</li>
-		<li>Assertive yet diplomatic</li>
-		<li>Analytical and organizational skills</li>
-		<li>Can interface with people of any level or background within or outside the organization</li>
-	</ul>
+<ul>
+	<li>Detail-oriented</li>
+	<li>Excellent written and oral communication skills
+		<ul>
+			<li>Articulate and can convey ideas very well</li>
+		</ul>
+	</li>
+	<li>Assertive yet diplomatic</li>
+	<li>Analytical and organizational skills</li>
+	<li>Can interface with people of any level or background within or outside the organization</li>
+</ul>

@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "Senior Front-End Developer"
@@ -7,7 +7,7 @@ date:         2018-04-03 16:46:54 +0800
 categories:   jobs
 redirect_from:
   - /senior-front-end-developer
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <h6 class="-dark">Do:</h6>
 <ul>

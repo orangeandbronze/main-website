@@ -4,4 +4,11 @@
   @include breakpoint(sm) {
     justify-content: center;
   }
+  .img-fluid{
+    margin: 0 auto;
+    height: 100% !important;
+  }
+  .slick-slide{
+    margin: 10px;
+  }
 }

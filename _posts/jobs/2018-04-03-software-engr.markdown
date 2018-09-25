@@ -48,4 +48,6 @@ redirect_from:
   <li>Knowledge of programming best practices</li>
   <li>Knowledge of Object-Oriented Programming</li>
   <li>Object-Oriented Design</li>
+  <li>Design Patterns</li>
+  <li>Enterprise Patterns</li>
 </ul>

@@ -15,12 +15,141 @@ categories:   services
     <H2>Advisory Services & Project Rescue</H2>
     <img class="bg" src="{{ "assets/images/title-services.png" | relative_url }}" alt="" />
   </div>
-  <div class="row">
-    <div class="col">
-      <!-- <H3>Collaboration, messaging, and archiving solutions for your organization.</H3> -->
+  <div class="row mb20">
+    <div class="col-12">
+      <p>From database/application optimization, to Agile Transformation, to rescuing troubled projects, O&B has applied its experience to helping organizations and teams overcome their temporary roadblocks. </p>
+      <p>Take advantage of O&B's technical and process experience to resolve specific issues or develop/enhance specific capabilities in your organization, project, architecture, or codebase.</p>
+    </div>
+  </div>
+
+  <div class="row mb20">
+    <div class="col-4 d-none d-sm-block text-right">
+      <img src="{{ "assets/images/ico-7.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
+    </div>
+    <div class="col-sm-8 col-lg-7">
+      <H6>[ ADVISORY SERVICES ]</H6>
+      <H3>Agile Transformation and Coaching</H3>
+      <img src="{{ "assets/images/hr.svg" | relative_url }}" alt="" class="hr" />
       <p>
-        From database/application optimization, to Agile Transformation, to rescuing troubled projects, O&B has applied its experience to helping organizations and teams overcome their temporary roadblocks.
+        Have an Agile Coach work with you to observe and advise on your process, engineering and culture. O&B has helped organizations large and small adopt agile by identifying key issues, providing recommendations, and guiding the team through the implementation of such recommendations.
       </p>
     </div>
   </div>
-</div>
+
+  <div class="row mb20">
+    <div class="col-4 d-none d-sm-block text-right">
+      <img src="{{ "assets/images/ico-7.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
+    </div>
+    <div class="col-sm-8 col-lg-7">
+      <H6>[ ADVISORY SERVICES ]</H6>
+      <H3>Performace Optimization</H3>
+      <h5>Application and/or Database</h5>
+      <img src="{{ "assets/images/hr.svg" | relative_url }}" alt="" class="hr" />
+      <p>
+        O&B has helped increase the throughput of several large scale operations by as much as 1,000X - 5,000X in many cases. Besides implementing optimizations, O&B consultants provide your team with guidelines for measuring performance and avoiding future bottleneck.
+      </p>
+    </div>
+  </div>
+
+  <div class="row mb20">
+    <div class="col-4 d-none d-sm-block text-right">
+      <img src="{{ "assets/images/ico-7.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
+    </div>
+    <div class="col-sm-8 col-lg-7">
+      <H6>[ ADVISORY SERVICES ]</H6>
+      <H3>Test Automation</H3>
+      <img src="{{ "assets/images/hr.svg" | relative_url }}" alt="" class="hr" />
+      <p>
+        One of the hardest Agile/DevOps practices to adopt is test automation, which as been one of the key differentiators of O&B's development process since its beginning. O&B will review the structure of the codebase as well as the skills of the team, to provide a roadmap on adopting test automation.
+      </p>
+    </div>
+  </div>
+
+  <div class="row mb20">
+    <div class="col-4 d-none d-sm-block text-right">
+      <img src="{{ "assets/images/ico-7.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
+    </div>
+    <div class="col-sm-8 col-lg-7">
+      <H6>[ ADVISORY SERVICES ]</H6>
+      <H3>Load Testing & Profiling</H3>
+      <img src="{{ "assets/images/hr.svg" | relative_url }}" alt="" class="hr" />
+      <p>
+        O&B consultants can design realistic load tests on your application to warn you of possible issues. Consultants can also provide advice on where the bottlenecks may be lurking.
+      </p>
+    </div>
+  </div>
+
+  <div class="row mb20">
+    <div class="col-4 d-none d-sm-block text-right">
+      <img src="{{ "assets/images/ico-7.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
+    </div>
+    <div class="col-sm-8 col-lg-7">
+      <H6>[ ADVISORY SERVICES ]</H6>
+      <H3>Database Design, Optimization, Installation, Configuration</H3>
+      <h5>PostgreSQL, Oracle, MS SQL Server, IBM DB2, MySQL, Maria DB</h5>
+      <img src="{{ "assets/images/hr.svg" | relative_url }}" alt="" class="hr" />
+      <p>
+        Our engineers can identify performance bottlenecks in your queries or schema, and implement solutions. Or at the beginning of your project, our engineers can define a schema that is optimize for your needs. We also offer installation and configuration of a number of relational databases.
+      </p>
+    </div>
+  </div>
+
+  <div class="row mb20">
+    <div class="col-4 d-none d-sm-block text-right">
+      <img src="{{ "assets/images/ico-7.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
+    </div>
+    <div class="col-sm-8 col-lg-7">
+      <H6>[ ADVISORY SERVICES ]</H6>
+      <H3>DevOps Transformation</H3>
+      <img src="{{ "assets/images/hr.svg" | relative_url }}" alt="" class="hr" />
+      <p>
+        O&B will help your organization establish your DevOps practices and pipeline, introducing practices such as Continuous Integration and Continuous Deployment, as well as tools such as Docker and Kubernetes. It will also help you develop the necessary Test Automation skills, as well as organizational structure, policies and culture, needed for DevOps.
+      </p>
+    </div>
+  </div>
+
+  <div class="row mb20">
+    <div class="col-4 d-none d-sm-block text-right">
+      <img src="{{ "assets/images/ico-7.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
+    </div>
+    <div class="col-sm-8 col-lg-7">
+      <H6>[ ADVISORY SERVICES ]</H6>
+      <H3>Project Rescue</H3>
+      <img src="{{ "assets/images/hr.svg" | relative_url }}" alt="" class="hr" />
+      <p>
+        O&B has been able to bring several projects back on track by either providing specific advice, or an outright takeover of the project.
+      </p>
+    </div>
+  </div>
+
+  <div class="row mb20">
+    <div class="col-4 d-none d-sm-block text-right">
+      <img src="{{ "assets/images/ico-7.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
+    </div>
+    <div class="col-sm-8 col-lg-7">
+      <H6>[ ADVISORY SERVICES ]</H6>
+      <H3>Code Review</H3>
+      <img src="{{ "assets/images/hr.svg" | relative_url }}" alt="" class="hr" />
+      <p>
+        Our experienced engineers can review the code of your team to trace the source of mysterious bugs, or identify risky code before it becomes a problem. They can also advise your team on how to improve their code quality.
+      </p>
+    </div>
+  </div>
+
+  <div class="row mb20">
+    <div class="col-4 d-none d-sm-block text-right">
+      <img src="{{ "assets/images/ico-7.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
+    </div>
+    <div class="col-sm-8 col-lg-7">
+      <H6>[ ADVISORY SERVICES ]</H6>
+      <H3>Build-Operate-Transfer of Offshore Development Team</H3>
+      <h5>Build your own offshore development company</h5>
+      <img src="{{ "assets/images/hr.svg" | relative_url }}" alt="" class="hr" />
+      <p>
+        O&B can provide recruitment, training, establishment of development processes and standards, as well as tech-specific HR policies. It can also facilitate company formation and availment of government tax incentives and other government benefits.
+      </p>
+    </div>
+  </div>
+
+</div> 
+  

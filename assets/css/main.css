@@ -8423,6 +8423,11 @@ footer {
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center; } }
+  .client-box-list .img-fluid {
+    margin: 0 auto;
+    height: 100% !important; }
+  .client-box-list .slick-slide {
+    margin: 10px; }
 
 .client-box {
   width: 130px;
@@ -8464,8 +8469,6 @@ footer {
     bottom: 0;
     width: 70px;
     height: 30px;
-    -webkit-box-shadow: 0 2px 35px rgba(0, 0, 35, 0.15);
-    box-shadow: 0 2px 35px rgba(0, 0, 35, 0.15);
     position: absolute;
     z-index: -1;
     -webkit-transition: all 0.2s ease-in-out;
@@ -10560,11 +10563,23 @@ img.figlio {
     opacity: 0; } }
 
 /* 6. Page-specific styles*/
+.page-front .border-service {
+  width: calc(100%);
+  height: 5px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ffd13d), to(#ff962c));
+  background-image: linear-gradient(to right, #ffd13d, #ff962c); }
+
 .page-front .service-card {
-  padding: 10px;
-  margin: 30px 0; }
+  padding: 30px;
+  -webkit-box-shadow: 0 5px 20px 0 rgba(130, 133, 135, 0.1);
+  box-shadow: 0 5px 20px 0 rgba(130, 133, 135, 0.1);
+  margin: 0 0 30px 0;
+  height: 100%; }
   .page-front .service-card > img {
     margin: 10px 0; }
+
+.page-front #our_services .col-md-4 {
+  margin-bottom: 20px; }
 
 .page-front .section-hero {
   min-height: 500px;

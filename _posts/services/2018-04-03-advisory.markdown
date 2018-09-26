@@ -22,7 +22,7 @@ categories:   services
     </div>
   </div>
 
-  <div class="row mb20">
+  <!-- <div class="row mb20">
     <div class="col-4 d-none d-sm-block text-right">
       <img src="{{ "assets/images/ico-7.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
     </div>
@@ -149,7 +149,7 @@ categories:   services
         O&B can provide recruitment, training, establishment of development processes and standards, as well as tech-specific HR policies. It can also facilitate company formation and availment of government tax incentives and other government benefits.
       </p>
     </div>
-  </div>
+  </div> -->
 
 </div> 
   

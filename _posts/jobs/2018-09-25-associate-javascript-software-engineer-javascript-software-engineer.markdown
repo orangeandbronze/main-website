@@ -2,7 +2,7 @@
 layout:       jobs
 class:        job
 title:        "Associate JavaScript Software Engineer / JavaScript Software Engineer"
-description:  The candidate will be joining O&B’s Consulting Services in developing custom software, understanding the business problems of the customer and providing solutions with the help of engineers.
+description:  The Associate JavaScript Software Engineer / JavaScript Software Engineer assumes the role of programmer and consultant, which involves implementing, assisting clients in the field of software development.
 date:         2018-04-03 16:42:00 +0800
 categories:   jobs
 ---

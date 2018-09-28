@@ -48,14 +48,14 @@ $(document).ready(function() {
 });
 
 // Referral Codes
-$(document).ready(function() {
-  if (document.referrer.indexOf('university.orangeandbronze.com/') != -1) {
-    $("#content4").fadeIn(0);
-    $("#content2, #content3, #content1").hide();
-    $("#btn4").addClass("active");
-    $("#btn2, #btn3, #btn1").removeClass("active");
-  } 
-});
+// $(document).ready(function() {
+//   if (document.referrer.indexOf('university.orangeandbronze.com/') != -1) {
+//     $("#content4").fadeIn(0);
+//     $("#content2, #content3, #content1").hide();
+//     $("#btn4").addClass("active");
+//     $("#btn2, #btn3, #btn1").removeClass("active");
+//   } 
+// });
 
 // Client Slider
 // $(document).ready(function() {

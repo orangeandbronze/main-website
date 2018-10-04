@@ -58,17 +58,17 @@ $(document).ready(function() {
 // });
 
 // Client Slider
-// $(document).ready(function() {
-//   $('.client-box-list').slick({
-//     slidesToShow: 3,
-//     slidesToScroll: 1,
-//     autoplay: true,
-//     variableWidth: true,
-//     autoplaySpeed: 2000,
-//     adaptiveHeight: false,
-//     rows: 2,
-//   });
-// });
+$(document).ready(function() {
+  $('.client-box-list').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    variableWidth: true,
+    autoplaySpeed: 2000,
+    adaptiveHeight: false,
+    rows: 2,
+  });
+});
 
 // Services Page Selector
 // $(document).ready(function() {

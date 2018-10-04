@@ -22,14 +22,14 @@ categories:   services
     </div>
   </div>
 
-  <!-- <div class="row mb20">
+  <div class="row mb20">
     <div class="col-4 d-none d-sm-block text-right">
-      <img src="{{ "assets/images/ico-7.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
+      <img src="{{ "assets/images/advisory-agile-transformation-and-coaching.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
     </div>
     <div class="col-sm-8 col-lg-7">
       <H6>[ ADVISORY SERVICES ]</H6>
       <H3>Agile Transformation and Coaching</H3>
-      <img src="{{ "assets/images/hr.svg" | relative_url }}" alt="" class="hr" />
+      <img src="{{ "assets/images/hr.png" | relative_url }}" alt="" class="hr" />
       <p>
         Have an Agile Coach work with you to observe and advise on your process, engineering and culture. O&B has helped organizations large and small adopt agile by identifying key issues, providing recommendations, and guiding the team through the implementation of such recommendations.
       </p>
@@ -38,7 +38,7 @@ categories:   services
 
   <div class="row mb20">
     <div class="col-4 d-none d-sm-block text-right">
-      <img src="{{ "assets/images/ico-7.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
+      <img src="{{ "assets/images/advisory-Performance-Optimization.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
     </div>
     <div class="col-sm-8 col-lg-7">
       <H6>[ ADVISORY SERVICES ]</H6>
@@ -53,7 +53,7 @@ categories:   services
 
   <div class="row mb20">
     <div class="col-4 d-none d-sm-block text-right">
-      <img src="{{ "assets/images/ico-7.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
+      <img src="{{ "assets/images/advisory-test-automation.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
     </div>
     <div class="col-sm-8 col-lg-7">
       <H6>[ ADVISORY SERVICES ]</H6>
@@ -67,7 +67,7 @@ categories:   services
 
   <div class="row mb20">
     <div class="col-4 d-none d-sm-block text-right">
-      <img src="{{ "assets/images/ico-7.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
+      <img src="{{ "assets/images/advisory-load-testing-and-profiling.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
     </div>
     <div class="col-sm-8 col-lg-7">
       <H6>[ ADVISORY SERVICES ]</H6>
@@ -81,7 +81,7 @@ categories:   services
 
   <div class="row mb20">
     <div class="col-4 d-none d-sm-block text-right">
-      <img src="{{ "assets/images/ico-7.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
+      <img src="{{ "assets/images/advisory-database-design-optimization-installation-configuration.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
     </div>
     <div class="col-sm-8 col-lg-7">
       <H6>[ ADVISORY SERVICES ]</H6>
@@ -96,7 +96,7 @@ categories:   services
 
   <div class="row mb20">
     <div class="col-4 d-none d-sm-block text-right">
-      <img src="{{ "assets/images/ico-7.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
+      <img src="{{ "assets/images/advisory-devops-transformation.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
     </div>
     <div class="col-sm-8 col-lg-7">
       <H6>[ ADVISORY SERVICES ]</H6>
@@ -110,7 +110,7 @@ categories:   services
 
   <div class="row mb20">
     <div class="col-4 d-none d-sm-block text-right">
-      <img src="{{ "assets/images/ico-7.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
+      <img src="{{ "assets/images/ico-2.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
     </div>
     <div class="col-sm-8 col-lg-7">
       <H6>[ ADVISORY SERVICES ]</H6>
@@ -124,7 +124,7 @@ categories:   services
 
   <div class="row mb20">
     <div class="col-4 d-none d-sm-block text-right">
-      <img src="{{ "assets/images/ico-7.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
+      <img src="{{ "assets/images/advisory-code-review.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
     </div>
     <div class="col-sm-8 col-lg-7">
       <H6>[ ADVISORY SERVICES ]</H6>
@@ -138,7 +138,7 @@ categories:   services
 
   <div class="row mb20">
     <div class="col-4 d-none d-sm-block text-right">
-      <img src="{{ "assets/images/ico-7.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
+      <img src="{{ "assets/images/advisory-build-operate-transfer-of-offshore-development-team.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
     </div>
     <div class="col-sm-8 col-lg-7">
       <H6>[ ADVISORY SERVICES ]</H6>
@@ -149,7 +149,7 @@ categories:   services
         O&B can provide recruitment, training, establishment of development processes and standards, as well as tech-specific HR policies. It can also facilitate company formation and availment of government tax incentives and other government benefits.
       </p>
     </div>
-  </div> -->
+  </div>
 
 </div> 
   

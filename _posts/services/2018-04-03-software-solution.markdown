@@ -1,7 +1,7 @@
 ---
 layout:       services
 class:        service
-title:        "Java Software Development"
+title:        "Java Philippines"
 description:  Complement your existing development team with trained professionals.
 date:         2018-04-03 16:43:00 +0800
 categories:   services

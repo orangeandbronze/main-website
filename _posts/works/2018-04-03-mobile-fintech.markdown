@@ -1,6 +1,6 @@
 ---
 layout:     works
-title:      Mobile Fintech for Third-World Countries
+title:      Fintech Development Philippines
 description: A mobile fintech company needed a range of services to revive a failed project and bring it to completion.
 image:      assets/images/work-1.jpg
 service:     Custom Software Solutions

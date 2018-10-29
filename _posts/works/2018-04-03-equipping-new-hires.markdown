@@ -2,7 +2,7 @@
 layout:      works
 class:       casestudy
 categories:  works
-title:       Equipping new hires with programming best practices for a major telco
+title:       Software Training Philippines
 description: A major Philippine telco hires O&B to develop an intensive training program for their new software developers
 image:       assets/images/work-6.jpg
 service:     Training

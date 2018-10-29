@@ -1,6 +1,6 @@
 ---
 layout:     works
-title:      Bringing fintech solutions for two major players in the Philippines
+title:      Fintech Developers Philippines
 description: A Philippine telco and a global credit card company needed a mobile payment gateway to be deployed in developing countries
 image:      assets/images/work-2.jpg
 service:     Custom Software Solutions

@@ -24,7 +24,12 @@ categories:   jobs
             <li>Coordinates with Training for available classes.</li>
         </ul>
     </li>
-	<li>Monitors resource needs in relation to their project assignment and promotion requirements</li>
+	<li>Monitors resource needs in relation to their project assignment and promotion requirements
+        <ul>
+            <li>Manages the learning and growth needs of resources both collectively and individually</li>
+        </ul>
+    </li>
+    <li>Interacts with resources individually to understand their motivations and manage their concerns about work</li>
     <li>Documents and track all resources </li>
 	<li>Meets or exceeds monthly utilization target</li>
 	<li>Provides monthly utilization report</li>

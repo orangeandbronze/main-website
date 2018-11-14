@@ -102,21 +102,24 @@ $(document).ready(function() {
 if(window.location.href.indexOf("/services/software-solution/") > -1){
     $('#serviceBtn1').addClass('active');
 }
-
-if(window.location.href.indexOf("/services/staff-augmentation/") > -1){
+else if(window.location.href.indexOf("/services/staff-augmentation/") > -1){
     $('#serviceBtn2').addClass('active');
 }
-
-if(window.location.href.indexOf("/services/g-suite/") > -1){
+else if(window.location.href.indexOf("/services/g-suite/") > -1){
     $('#serviceBtn3').addClass('active');
 }
+//else if(window.location.href.indexOf("/services/training/") > -1){
+//    $('#serviceBtn4').addClass('active');
+//}
 
-if(window.location.href.indexOf("/services/training/") > -1){
+else if(window.location.href.indexOf("/services/advisory/") > -1){
     $('#serviceBtn4').addClass('active');
 }
-
-if(window.location.href.indexOf("/services/advisory/") > -1){
+else if(window.location.href.indexOf("/technical-recruitment/") > -1){
     $('#serviceBtn5').addClass('active');
+}
+else if(window.location.href.indexOf("/managed-scrum-devOps-teams/") > -1){
+    $('#serviceBtn6').addClass('active');
 }
 
 $("#toggle").click(function() {

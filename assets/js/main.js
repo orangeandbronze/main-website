@@ -48,27 +48,27 @@ $(document).ready(function() {
 });
 
 // Referral Codes
-$(document).ready(function() {
-  if (document.referrer.indexOf('university.orangeandbronze.com/') != -1) {
-    $("#content4").fadeIn(0);
-    $("#content2, #content3, #content1").hide();
-    $("#btn4").addClass("active");
-    $("#btn2, #btn3, #btn1").removeClass("active");
-  } 
-});
+// $(document).ready(function() {
+//   if (document.referrer.indexOf('university.orangeandbronze.com/') != -1) {
+//     $("#content4").fadeIn(0);
+//     $("#content2, #content3, #content1").hide();
+//     $("#btn4").addClass("active");
+//     $("#btn2, #btn3, #btn1").removeClass("active");
+//   } 
+// });
 
 // Client Slider
-// $(document).ready(function() {
-//   $('.client-box-list').slick({
-//     slidesToShow: 3,
-//     slidesToScroll: 1,
-//     autoplay: true,
-//     variableWidth: true,
-//     autoplaySpeed: 2000,
-//     adaptiveHeight: false,
-//     rows: 2,
-//   });
-// });
+$(document).ready(function() {
+  $('.client-box-list').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    variableWidth: true,
+    autoplaySpeed: 2000,
+    adaptiveHeight: false,
+    rows: 2,
+  });
+});
 
 // Services Page Selector
 // $(document).ready(function() {
@@ -102,21 +102,24 @@ $(document).ready(function() {
 if(window.location.href.indexOf("/services/software-solution/") > -1){
     $('#serviceBtn1').addClass('active');
 }
-
-if(window.location.href.indexOf("/services/staff-augmentation/") > -1){
+else if(window.location.href.indexOf("/services/staff-augmentation/") > -1){
     $('#serviceBtn2').addClass('active');
 }
-
-if(window.location.href.indexOf("/services/g-suite/") > -1){
+else if(window.location.href.indexOf("/services/g-suite/") > -1){
     $('#serviceBtn3').addClass('active');
 }
+//else if(window.location.href.indexOf("/services/training/") > -1){
+//    $('#serviceBtn4').addClass('active');
+//}
 
-if(window.location.href.indexOf("/services/training/") > -1){
+else if(window.location.href.indexOf("/services/advisory/") > -1){
     $('#serviceBtn4').addClass('active');
 }
-
-if(window.location.href.indexOf("/services/advisory/") > -1){
+else if(window.location.href.indexOf("/technical-recruitment/") > -1){
     $('#serviceBtn5').addClass('active');
+}
+else if(window.location.href.indexOf("/managed-scrum-devOps-teams/") > -1){
+    $('#serviceBtn6').addClass('active');
 }
 
 $("#toggle").click(function() {

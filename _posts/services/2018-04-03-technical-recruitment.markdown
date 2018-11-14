@@ -1,4 +1,4 @@
-<!-----
+---
 layout:       services
 class:        service
 title:        "Technical Recruitment"
@@ -22,4 +22,3 @@ categories:   services
     </div>
   </div>
 </div> 
-  -->

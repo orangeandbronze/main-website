@@ -20,5 +20,8 @@ categories:   services
       <p>Orange and Bronze has an extensive network and exceptional reputation in the tech community. And as a tech company, it has the capability to accurately screen technical candidates.</p>
       <p>Look to O&B to fill your hard-to-find requirements for technical staff and technical management.</p>
     </div>
+    <div class="text-center">
+        <img class="img-fluid mt30 mb30" src="{{ "assets/images/technical-recruitment-page.png" | relative_url }}" alt="person with laptop" />
+      </div>
   </div>
 </div> 

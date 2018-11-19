@@ -9438,8 +9438,8 @@ footer {
       display: none; } }
 
 .service-box {
-  width: 180px;
-  height: 160px;
+  width: 145px;
+  height: 125px;
   background-color: #ffffff;
   -webkit-box-shadow: 0 5px 30px 0 rgba(130, 132, 134, 0.13);
   box-shadow: 0 5px 30px 0 rgba(130, 132, 134, 0.13);

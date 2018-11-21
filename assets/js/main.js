@@ -118,7 +118,7 @@ else if(window.location.href.indexOf("/services/advisory/") > -1){
 else if(window.location.href.indexOf("/technical-recruitment/") > -1){
     $('#serviceBtn5').addClass('active');
 }
-else if(window.location.href.indexOf("/managed-scrum-devOps-teams/") > -1){
+else if(window.location.href.indexOf("/managed-scrum-devops-teams/") > -1){
     $('#serviceBtn6').addClass('active');
 }
 

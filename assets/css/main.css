@@ -7405,12 +7405,12 @@ h6 {
 
 p {
   font-family: "AkzidenzGroteskBQ-Reg", sans-serif;
-  font-size: 1rem;
+  font-size: 1.01rem;
   line-height: 1.75;
   text-align: left;
   color: #606e7b; }
   p.-sm {
-    font-size: 14px; }
+    font-size: 15px; }
 
 nav {
   padding: 50px 0;
@@ -8063,7 +8063,7 @@ footer {
         text-align: center; } }
   footer li a {
     font-family: "AkzidenzGroteskBQ-Reg", sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
@@ -8073,7 +8073,7 @@ footer {
     color: #5f6d7a; }
   footer p {
     font-family: "AkzidenzGroteskBQ-Reg", sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
@@ -10576,7 +10576,7 @@ img.figlio {
   margin: 0 0 30px 0;
   height: 100%; }
   .page-front .service-card > img {
-    margin: 10px 0; }
+    margin: 20px 0; }
 
 .page-front #our_services .col-md-4 {
   margin-bottom: 20px; }

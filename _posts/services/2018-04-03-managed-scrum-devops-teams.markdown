@@ -17,7 +17,7 @@ categories:   services
   </div>
   <div class="row mb20">
     <div class="col-12">
-      <p>Have a complete, self-managing, multi-disciplinary team, employing the best practices in software engineering and product development.</p>
+      <h3>Have a complete, self-managing, multi-disciplinary team, employing the best practices in software engineering and product development.</h3>
     </div>
      <div class="text-center">
         <img class="img-fluid mt30 mb30" src="{{ "assets/images/manage-scrum-devops-teams-page.png" | relative_url }}" alt="person with laptop" />

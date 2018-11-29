@@ -7405,12 +7405,12 @@ h6 {
 
 p {
   font-family: "AkzidenzGroteskBQ-Reg", sans-serif;
-  font-size: 1.01rem;
+  font-size: 1rem;
   line-height: 1.75;
   text-align: left;
   color: #606e7b; }
   p.-sm {
-    font-size: 15px; }
+    font-size: 12px; }
 
 nav {
   padding: 50px 0;
@@ -10575,7 +10575,7 @@ img.figlio {
   box-shadow: 0 5px 20px 0 rgba(130, 133, 135, 0.1);
   margin: 0 0 30px 0;
   height: 100%; }
-  .page-front .service-card > img {
+  .page-front .service-card > a > img {
     margin: 20px 0; }
 
 .page-front #our_services .col-md-4 {

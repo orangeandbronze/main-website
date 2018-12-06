@@ -1,11 +1,11 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "HR Business Partner"
 description:  This role will be responsible for creating a process in tracking and allocating resources in O&B’s consulting engagements. He should also be able to ensure the right amount of skill set among the company’s consultants. He will be expected to interact with consultants, sales, project managers and management team.
 date:         2018-04-03 16:42:00 +0800
 categories:   jobs
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <p>This role will be responsible for creating a process in tracking and allocating resources in O&B’s consulting engagements. He should also be able to ensure the right amount of skill set among the company’s consultants. He will be expected to interact with consultants, sales, project managers and management team.</p>
 <h6 class="-dark">Responsibilities:</h6>

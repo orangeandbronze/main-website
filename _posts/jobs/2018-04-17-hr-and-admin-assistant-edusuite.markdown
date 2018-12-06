@@ -1,11 +1,11 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "HR and Admin Assistant (Edusuite)"
 description:  Edusuite is looking for an awesome HR and Admin Assistant that can multitask while remaining focused. He or she will ensure the efficient and smooth day-to-day operations of our office.
 date:         2018-04-03 16:47:00 +0800
 categories:   jobs
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <h6 class="-dark">Job Descriptions:</h6>
 <p>Edusuite is looking for an awesome HR and Admin Assistant that can multitask while remaining focused. He or she will ensure the efficient and smooth day-to-day operations of our office. </p>

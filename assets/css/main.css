@@ -7408,7 +7408,7 @@ p {
   font-size: 1rem;
   line-height: 1.75;
   text-align: left;
-  color: #606e7b; }
+  color: #141516; }
   p.-sm {
     font-size: 12px; }
 
@@ -7479,7 +7479,7 @@ blockquote {
   font-size: 1rem;
   line-height: 1.75;
   text-align: left;
-  color: #606e7b;
+  color: #141516;
   padding-left: 0; }
 
 a {
@@ -7494,7 +7494,7 @@ main ul, main li {
   font-family: "AkzidenzGroteskBQ-Reg", sans-serif;
   font-size: 1rem;
   line-height: 1.75;
-  color: #606e7b; }
+  color: #141516; }
 
 .auto-960 {
   max-width: 960px;
@@ -8489,7 +8489,7 @@ footer {
     line-height: 1.75;
     letter-spacing: normal;
     text-align: left;
-    color: #5f6d7a; }
+    color: #141516; }
     @media (max-width: 575px) {
       .course-list li {
         display: block;
@@ -8652,7 +8652,7 @@ footer {
     line-height: 1.4;
     letter-spacing: normal;
     text-align: left;
-    color: #606e7b;
+    color: #141516;
     margin-bottom: 0; }
   .feedback-content > .company {
     font-size: 14px;

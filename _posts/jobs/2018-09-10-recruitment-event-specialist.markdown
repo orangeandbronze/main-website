@@ -1,11 +1,11 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "Recruitment and Events Specialist"
 description:  Builds relationship with the community (such as users groups, academe and industry institutions) ensure that we maintain visibility for prospective talent opportunities.  This may include communicating, organizing, facilitating and attending events.
 date:         2018-04-03 16:42:00 +0800
 categories:   jobs
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <h6 class="-dark">Responsibilities:</h6>
 <ul>

@@ -24,6 +24,8 @@
   <meta property="og:image" content="https://orangeandbronze.com/assets/images/img-services.jpg" /> -->
 
   <!-- <link rel="canonical" href="{{ page.url }}"> -->
+
+
   <link rel="stylesheet" href="{{ "assets/css/main.min.css" | relative_url }}">
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
@@ -37,5 +39,12 @@
     {%- include google-analytics.html -%}
   {%- endif -%} -->
 
-  {% seo title=false %}
+  <meta content="{{ site.title }}" property="og:site_name">
+
+  {% if page.fbheadline %}
+    <meta content="{{ page.fbheadline }}" property="og:title">
+  {% else %}
+    <meta content="{{ site.title }}" property="og:title">
+  {% endif %}
+
 </head>

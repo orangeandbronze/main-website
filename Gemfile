@@ -30,3 +30,6 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # Jekyll Redirect From
 gem 'jekyll-redirect-from'
+
+# Jekyll SEO Tag
+gem 'jekyll-seo-tag'

@@ -32,6 +32,7 @@ safe: false
 
 plugins: 
    - jekyll-redirect-from
+   - jekyll-seo-tag
 
 permalink: pretty
 permalink: /:categories/:title/

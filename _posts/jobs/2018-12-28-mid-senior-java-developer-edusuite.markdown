@@ -43,4 +43,3 @@ categories:   jobs
   <li>Design Patterns</li>
   <li>Enterprise Patterns</li>
 </ul>
-<p>Office will be in La Fuerza Plaza, 2241 Chino Roses Avenue, Makati City.</p>

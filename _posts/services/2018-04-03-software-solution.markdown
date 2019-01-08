@@ -2,7 +2,7 @@
 layout:       services
 class:        service
 title:        "Java Philippines"
-titles:       "Java Philippines Facebook"
+titles:       "Java Philippines"
 description:  Complement your existing development team with trained professionals.
 date:         2018-04-03 16:43:00 +0800
 categories:   services

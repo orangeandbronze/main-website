@@ -2,6 +2,7 @@
 layout:       jobs
 class:        job
 title:        "Front-end Web Developer"
+titles:       "Apply now | Front-end Web Developer"
 description:  This position will be responsible for the development of design prototypes, site navigation and layout of content for various web projects.
 date:         2018-04-03 16:47:00 +0800
 categories:   jobs

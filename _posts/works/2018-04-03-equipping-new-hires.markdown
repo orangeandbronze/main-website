@@ -3,6 +3,7 @@ layout:      works
 class:       casestudy
 categories:  works
 title:       Software Training Philippines
+titles:      Ramping up the programming skills of new hires
 description: A major Philippine telco hires O&B to develop an intensive training program for their new software developers
 image:       assets/images/work-6.jpg
 service:     Training

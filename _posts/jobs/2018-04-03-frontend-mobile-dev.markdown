@@ -2,6 +2,7 @@
 layout:       jobs
 class:        job
 title:        "Front-End & Mobile Developer"
+titles:        "Apply now | Front-End & Mobile Developer"
 description:  Orange & Bronze Software Labs and CIIT College of Arts and Technology have partnered to create Edusuite, an artificial-intelligence-driven system to manage universities & colleges.
 date:         2018-04-03 16:47:00 +0800
 categories:   jobs

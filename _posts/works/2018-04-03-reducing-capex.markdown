@@ -3,6 +3,7 @@ layout:     works
 class:      casestudy
 categories: works
 title:      G Suite Philippines
+titles:     Control increasing capital expenditure
 description: A pioneer in the Philippine finance outsourcing space taps Orange and Bronze to provide a solution to eliminate costs associated with hardware procurement
 image:      assets/images/work-5.jpg
 service:    G Suite

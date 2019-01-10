@@ -2,6 +2,7 @@
 layout:       jobs
 class:        job
 title:        "Java Software Architect / Senior Java Software Engineer"
+titles:        "Apply now | Java Software Architect / Senior Java Software Engineer"
 description:  Leads and mentor teams of software engineers, particularly in the technical aspects of their work.
 date:         2018-04-03 16:49:00 +0800
 categories:   jobs

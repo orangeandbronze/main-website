@@ -3,6 +3,7 @@ layout:     works
 class:      casestudy
 categories: works
 title:      Google Apps Philippines
+titles:     Legacy system failed to meet the demand
 description: One of the largest Filipino-owned BPOs partners with Orange and Bronze, a Google Cloud Partner, to migrate 700+ employees from their legacy system to G Suite
 image:      assets/images/work-4.jpg
 service:    G Suite

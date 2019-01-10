@@ -2,6 +2,7 @@
 layout:       jobs
 class:        job
 title:        "Project Manager"
+titles:        "Apply now | Project Manager"
 description:  Lead the team that is responsible for achieving the project objectives. Leading through oversight, process, advice, motivation, and discipline. 
 date:         2018-04-03 16:42:00 +0800
 categories:   jobs

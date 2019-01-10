@@ -1,6 +1,7 @@
 ---
 layout:     works
 title:      Fintech Developers Philippines
+titles:     Quickly assemble a team to develop a fintech product
 description: A Philippine telco and a global credit card company needed a mobile payment gateway to be deployed in developing countries
 image:      assets/images/work-2.jpg
 service:     Custom Software Solutions

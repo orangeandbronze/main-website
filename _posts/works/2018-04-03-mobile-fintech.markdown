@@ -1,7 +1,8 @@
 ---
 layout:     works
 title:      Fintech Development Philippines
-titles:      A Project Rescue
+titles:      Mobile Fintech for Third-World Countries
+articletitle: Mobile Fintech for Third-World Countries
 description: A mobile fintech company needed a range of services to revive a failed project and bring it to completion.
 image:      assets/images/work-1.jpg
 service:     Custom Software Solutions

@@ -2,8 +2,9 @@
 layout:     works
 class:      casestudy
 categories: works
-titles:     How can a company expands development efforts
+titles:     Providing cost savings to a medical billing software company in the US
 title:      Banking Software Philippines
+articletitle: Providing cost savings to a medical billing software company in the US
 description: A Texas-based company decreases software development costs by hiring an offshore development team
 image:      assets/images/work-3.jpg
 service:     Staff Augmentation

@@ -3,6 +3,7 @@ layout:       jobs
 class:        job
 title:        "HR Intern"
 titles:        "Apply now | HR Intern"
+photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  Helps in building the software community through supporting different areas, like academe, together with users groups and organizations.
 date:         2018-04-03 16:43:00 +0800
 categories:   jobs

@@ -7,6 +7,7 @@ titles:     Reducing CAPEX through a cloud solution for an accounting firm
 articletitle: Reducing CAPEX through a cloud solution for an accounting firm
 description: A pioneer in the Philippine finance outsourcing space taps Orange and Bronze to provide a solution to eliminate costs associated with hardware procurement
 image:      assets/images/work-5.jpg
+photo: "https://www.orangeandbronze.com/assets/images/fb-work.png"
 service:    G Suite
 services_rendered: [G Suite]
 date:       2018-04-03 12:42:00 +0800

@@ -3,6 +3,7 @@ layout:       services
 class:        service
 title:        "Technical Recruitment"
 titles:       "Technical Recruitment"
+photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  O&B has the capability to accurately screen technical candicates.
 date:         2018-04-03 16:43:00 +0800
 categories:   services

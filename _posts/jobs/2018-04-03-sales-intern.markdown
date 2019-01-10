@@ -3,6 +3,7 @@ layout:       jobs
 class:        job
 title:        "Sales Intern"
 title:        "Apply now | Sales Intern"
+photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  Maintains and updates the list of client contact information & makes outbound calls to prospective customers.
 date:         2018-04-03 16:40:00 +0800
 categories:   jobs

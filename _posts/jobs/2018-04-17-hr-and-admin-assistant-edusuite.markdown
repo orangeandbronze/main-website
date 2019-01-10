@@ -2,6 +2,7 @@
 layout:       jobs
 class:        job
 title:        "HR and Admin Assistant (Edusuite)"
+photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  Edusuite is looking for an awesome HR and Admin Assistant that can multitask while remaining focused. He or she will ensure the efficient and smooth day-to-day operations of our office.
 date:         2018-04-03 16:47:00 +0800
 categories:   jobs

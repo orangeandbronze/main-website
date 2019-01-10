@@ -2,6 +2,7 @@
 layout:       jobs
 class:        job
 title:        "Mid-Senior Java Developer (Edusuite)"
+photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  The Java Developer assumes the role of programmer and consultant, which involves implementing, assisting clients in the field of software development. Candidates must be willing to be assigned in Alabang.
 date:         2018-12-28 16:47:00 +0800
 categories:   jobs

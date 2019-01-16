@@ -210,7 +210,15 @@ redirect_from:
     <h6> < CLIENTS WHO BELIEVE US /> </h6>
     <h2>Our Sucess Stories</h2>
   </div>
-  <div class="buttons section-title">
-    <a href="/works/providing-cost-savings/" class="btn -primary">Providing cost savings to a medical billing software company in the US</a>
+  <div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-6 casestudy-btncontainer -left">
+          <a href="/works/providing-cost-savings/" class="casestudy-button">
+            <div class="casestudy-content -left">
+              <h5 class="title">Providing cost savings to a medical billing software company in the US</h5>
+            </div>
+          </a>
+        </div>
+    </div>
   </div>
 </div>

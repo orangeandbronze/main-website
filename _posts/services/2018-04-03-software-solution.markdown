@@ -117,8 +117,22 @@ redirect_from:
     <h6> < CLIENTS WHO BELIEVE US /> </h6>
     <h2>Our Sucess Stories</h2>
   </div>
-  <div class="buttons section-title">
-    <a href="/works/mobile-fintech/" class="btn -primary">Mobile Fintech for Third-World Countires</a>
-    <a href="/works/mobile-payment-gateway/" class="btn -primary">Bringing fintech solutions for two major players in the Philippines</a>
+  <div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-6 casestudy-btncontainer -left">
+          <a href="/works/mobile-fintech/" class="casestudy-button">
+            <div class="casestudy-content -left">
+              <h5 class="title">Mobile Fintech for Third-World Countires</h5>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 casestudy-btncontainer -right">
+          <a href="/works/mobile-payment-gateway/" class="casestudy-button">
+            <div class="casestudy-content -right">
+              <h5 class="title">Bringing fintech solutions for two major players in the Philippines</h5>
+            </div>
+          </a>
+        </div>
+    </div>
   </div>
 </div>

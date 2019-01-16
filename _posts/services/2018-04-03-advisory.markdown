@@ -157,8 +157,16 @@ categories:   services
     <h6> < CLIENTS WHO BELIEVE US /> </h6>
     <h2>Our Sucess Stories</h2>
   </div>
-  <div class="buttons section-title">
-    <a href="/works/mobile-fintech/" class="btn -primary">Mobile Fintech for Third-World Countires</a>
+   <div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-6 casestudy-btncontainer -left">
+          <a href="/works/mobile-fintech/" class="casestudy-button">
+            <div class="casestudy-content -left">
+              <h5 class="title">Mobile Fintech for Third-World Countires</h5>
+            </div>
+          </a>
+        </div>
+    </div>
   </div>
 </div> 
   

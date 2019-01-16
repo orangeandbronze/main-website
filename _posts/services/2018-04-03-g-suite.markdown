@@ -62,8 +62,22 @@ redirect_from:
     <h6> < CLIENTS WHO BELIEVE US /> </h6>
     <h2>Our Sucess Stories</h2>
   </div>
-  <div class="buttons section-title">
-    <a href="/works/providing-integrated-communication/" class="btn -primary">Providing integrated communication and collaboration tools to an IT / BPO company</a>
-    <a href="/works/reducing-capex/" class="btn -primary">Reducing CAPEX through a cloud solution for an accounting firm</a>
+  <div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-6 casestudy-btncontainer -left">
+          <a href="/works/providing-integrated-communication/" class="casestudy-button">
+            <div class="casestudy-content -left">
+              <h5 class="title">Providing integrated communication and collaboration tools to an IT / BPO company</h5>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 casestudy-btncontainer -right">
+          <a href="/works/reducing-capex/" class="casestudy-button">
+            <div class="casestudy-content -right">
+              <h5 class="title">Reducing CAPEX through a cloud solution for an accounting firm</h5>
+            </div>
+          </a>
+        </div>
+    </div>
   </div>
 </div>

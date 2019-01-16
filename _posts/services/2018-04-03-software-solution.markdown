@@ -112,4 +112,13 @@ redirect_from:
       </p>
     </div>
   </div>
+  <hr>
+  <div class="section-title">
+    <h6> < CLIENTS WHO BELIEVE US /> </h6>
+    <h2>Our Sucess Stories</h2>
+  </div>
+  <div class="buttons section-title">
+    <a href="/works/mobile-fintech/" class="btn -primary">Mobile Fintech for Third-World Countires</a>
+    <a href="/works/mobile-payment-gateway/" class="btn -primary">Bringing fintech solutions for two major players in the Philippines</a>
+  </div>
 </div>

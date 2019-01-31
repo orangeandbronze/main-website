@@ -152,6 +152,34 @@ categories:   services
       </p>
     </div>
   </div>
+
+  <div class="row mb20">
+    <div class="col-4 d-none d-sm-block text-right">
+      <img src="{{ "assets/images/advisory-security-audit.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
+    </div>
+    <div class="col-sm-8 col-lg-7">
+      <H6>[ ADVISORY SERVICES ]</H6>
+      <H3>Security Audit</H3>
+      <img src="{{ "assets/images/hr.svg" | relative_url }}" alt="" class="hr" />
+      <p>
+        Perform code review, penetration testing, and manual review in order to uncover possible security gaps in a system.
+      </p>
+    </div>
+  </div>
+
+  <div class="row mb20">
+    <div class="col-4 d-none d-sm-block text-right">
+      <img src="{{ "assets/images/advisory-technical-due-diligence.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
+    </div>
+    <div class="col-sm-8 col-lg-7">
+      <H6>[ ADVISORY SERVICES ]</H6>
+      <H3>Technical Due Diligence</H3>
+      <img src="{{ "assets/images/hr.svg" | relative_url }}" alt="" class="hr" />
+      <p>
+        Assist investors in assessing the value of a technology product or company, via review of code, architecture, and processes.
+      </p>
+    </div>
+  </div>
 <hr>
   <div class="section-title">
     <h6> < CLIENTS WHO BELIEVE US /> </h6>
@@ -163,6 +191,13 @@ categories:   services
           <a href="/works/mobile-fintech/" class="casestudy-button">
             <div class="casestudy-content -left">
               <h5 class="title">Mobile Fintech for Third-World Countires</h5>
+            </div>
+          </a>
+        </div>
+         <div class="col-12 col-sm-6 casestudy-btncontainer -right">
+          <a href="/works/equipping-new-hires/" class="casestudy-button">
+            <div class="casestudy-content -right">
+              <h5 class="title">Equipping new hires with programming best practices for a major telco</h5>
             </div>
           </a>
         </div>

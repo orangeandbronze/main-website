@@ -205,7 +205,7 @@ redirect_from:
       </div>
     </div>
   </div>
-  <hr>
+  <!-- <hr>
   <div class="section-title">
     <h6> < CLIENTS WHO BELIEVE US /> </h6>
     <h2>Our Sucess Stories</h2>
@@ -227,5 +227,5 @@ redirect_from:
           </a>
         </div>
     </div>
-  </div>
+  </div> -->
 </div>

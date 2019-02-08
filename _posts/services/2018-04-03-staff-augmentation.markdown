@@ -205,4 +205,27 @@ redirect_from:
       </div>
     </div>
   </div>
+  <hr>
+  <div class="section-title">
+    <h6> < CLIENTS WHO BELIEVE US /> </h6>
+    <h2>Our Sucess Stories</h2>
+  </div>
+  <div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-6 casestudy-btncontainer -left">
+          <a href="/works/providing-cost-savings/" class="casestudy-button">
+            <div class="casestudy-content -left">
+              <h5 class="title">Providing cost savings to a medical billing software company in the US</h5>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 casestudy-btncontainer -right">
+          <a href="/works/equipping-new-hires/" class="casestudy-button">
+            <div class="casestudy-content -right">
+              <h5 class="title">Equipping new hires with programming best practices for a major telco</h5>
+            </div>
+          </a>
+        </div>
+    </div>
+  </div>
 </div>

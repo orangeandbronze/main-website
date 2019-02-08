@@ -152,6 +152,32 @@ categories:   services
       </p>
     </div>
   </div>
+  <div class="row mb20">
+    <div class="col-4 d-none d-sm-block text-right">
+      <img src="{{ "assets/images/security-audit.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
+    </div>
+    <div class="col-sm-8 col-lg-7">
+      <H6>[ ADVISORY SERVICES ]</H6>
+      <H3>Security Audit</H3>
+      <img src="{{ "assets/images/hr.svg" | relative_url }}" alt="" class="hr" />
+      <p>
+        Perform code review, penetration testing, and manual review in order to uncover possible security gaps in a system.
+      </p>
+    </div>
+  </div>
+  <div class="row mb20">
+    <div class="col-4 d-none d-sm-block text-right">
+      <img src="{{ "assets/images/technical-due-diligence.png" | relative_url }}" class="img-fluid feature-ico" alt="placeholder" />
+    </div>
+    <div class="col-sm-8 col-lg-7">
+      <H6>[ ADVISORY SERVICES ]</H6>
+      <H3>Technical Due Diligence</H3>
+      <img src="{{ "assets/images/hr.svg" | relative_url }}" alt="" class="hr" />
+      <p>
+        Assist investors in assessing the value of a technology product or company, via review of code, architecture, and processes.
+      </p>
+    </div>
+  </div>
 
 </div> 
   

@@ -33,8 +33,9 @@ redirect_from:
     <div class="col">
       <H3>Collaboration, messaging, and archiving solutions for your organization.</H3>
       <p>
-        Orange and Bronze is a Google Cloud partner and Philippine reseller for G Suite by Google Cloud (formerly Google Apps). We provide local support and can help you install your G Suite account - so you don't have to worry about the hassles of managing this IT solution yourself. As a reseller, O&B works with other reputable partners to:
+        Orange and Bronze is the first Google Cloud partner and Philippine reseller for G Suite by Google Cloud (formerly Google Apps), providing Google Cloud services since 2009. We provide local support and can help you install your G Suite account - so you don't have to worry about the hassles of managing this IT solution yourself. We can also provide integration and customized solutions on top of G Suite and Google Cloud.
       </p>
+    <p>As a Google partner, we can...</p>
       <ul>
         <li>
            Install and manage G Suite accounts for companies of different sizes
@@ -51,6 +52,7 @@ redirect_from:
         <li>
              Integrate software and other applications to your G Suite account
         </li>
+        <li>Build custom solutions on top of G Suite and Google Cloud</li>
       </ul>
       <div class="text-center">
         <img src="{{ "assets/images/img-gsuite.jpg" | relative_url }}" alt="G Suite Features" class="img-fluid m30" />

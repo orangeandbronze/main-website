@@ -205,7 +205,7 @@ redirect_from:
       </div>
     </div>
   </div>
-  <hr>
+  <!-- <hr>
   <div class="section-title">
     <h6> < CLIENTS WHO BELIEVE US /> </h6>
     <h2>Our Sucess Stories</h2>
@@ -219,6 +219,13 @@ redirect_from:
             </div>
           </a>
         </div>
+        <div class="col-12 col-sm-6 casestudy-btncontainer -right">
+          <a href="/works/equipping-new-hires/" class="casestudy-button">
+            <div class="casestudy-content -right">
+              <h5 class="title">Equipping new hires with programming best practices for a major telco</h5>
+            </div>
+          </a>
+        </div>
     </div>
-  </div>
+  </div> -->
 </div>

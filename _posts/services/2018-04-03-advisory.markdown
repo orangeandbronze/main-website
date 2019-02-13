@@ -1,10 +1,10 @@
 ---
 layout:       services
 class:        service
-titles:       "Advisory Services"
+titles:       "Advisory Services & Project Rescue"
 title:        "Software Offshoring Philippines"
-photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
-description:  Complement your existing development team with trained professionals.
+photo: "https://www.orangeandbronze.com/assets/images/advisory-services-fblinkpost-photo.png"
+description:  From database/application optimization, to Agile Transformation, to rescuing troubled projects, O&B has applied its experience to helping organizations and teams overcome their temporary roadblocks.
 date:         2018-04-03 16:43:00 +0800
 categories:   services
 ---

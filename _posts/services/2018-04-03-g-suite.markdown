@@ -3,8 +3,8 @@ layout:       services
 class:        service
 titles:       "G Suite"
 title:        "G Suite and Google Cloud Partner Philippines"
-photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
-description:  Complement your existing development team with trained professionals.
+photo: "https://www.orangeandbronze.com/assets/images/gsuitet-fblinkpost-photo.png"
+description:  Collaboration, messaging, and archiving solutions for your organization.
 date:         2018-04-03 16:43:00 +0800
 categories:   services
 redirect_from:

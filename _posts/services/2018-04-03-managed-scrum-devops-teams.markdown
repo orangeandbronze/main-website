@@ -3,7 +3,7 @@ layout:       services
 class:        service
 titles:       "Managed Agile/DevOps Teams"
 title:        "Managed Agile/DevOps Teams"
-photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
+photo: "https://www.orangeandbronze.com/assets/images/managed-scrum-devops-teams-fblinkpost-photo.png"
 description:  Have a complete, self-managing, multi-disciplinary team, employing the best practices in software engineering and product development.
 date:         2018-04-03 16:43:00 +0800
 categories:   services

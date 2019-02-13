@@ -3,8 +3,8 @@ layout:       services
 class:        service
 title:        "Java Philippines"
 titles:       "Custom Software Solutions"
-photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
-description:  Complement your existing development team with trained professionals.
+photo: "https://www.orangeandbronze.com/assets/images/custom-software-solutions-fblinkpost-photo.png"
+description:  Customized Solutions using Java and Spring Framework.
 date:         2018-04-03 16:43:00 +0800
 categories:   services
 redirect_from:

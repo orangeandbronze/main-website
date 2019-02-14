@@ -205,7 +205,7 @@ redirect_from:
       </div>
     </div>
   </div>
-  <!-- <hr>
+<hr>
   <div class="section-title">
     <h6> < CLIENTS WHO BELIEVE US /> </h6>
     <h2>Our Sucess Stories</h2>
@@ -220,12 +220,12 @@ redirect_from:
           </a>
         </div>
         <div class="col-12 col-sm-6 casestudy-btncontainer -right">
-          <a href="/works/equipping-new-hires/" class="casestudy-button">
+          <a href="/works/mobile-payment-gateway/" class="casestudy-button">
             <div class="casestudy-content -right">
-              <h5 class="title">Equipping new hires with programming best practices for a major telco</h5>
+              <h5 class="title">Bringing fintech solutions for two major players in the Philippines</h5>
             </div>
           </a>
         </div>
     </div>
-  </div> -->
+  </div> 
 </div>

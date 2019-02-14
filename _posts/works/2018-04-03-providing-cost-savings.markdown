@@ -7,7 +7,7 @@ title:      Banking Software Philippines
 articletitle: Providing cost savings to a medical billing software company in the US
 description: A Texas-based company decreases software development costs by hiring an offshore development team
 image:      assets/images/work-3.jpg
-photo: "https://www.orangeandbronze.com/assets/images/fb-work.png"
+photo: "https://www.orangeandbronze.com/assets/images/casestudy-providing-medical-billing-fblinkpost.jpg"
 service:     Staff Augmentation
 services_rendered: [Staff Augmentation]
 date:       2018-04-03 14:42:00 +0800

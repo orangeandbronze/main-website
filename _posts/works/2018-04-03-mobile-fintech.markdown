@@ -5,7 +5,7 @@ titles:      Mobile Fintech for Third-World Countries
 articletitle: Mobile Fintech for Third-World Countries
 description: A mobile fintech company needed a range of services to revive a failed project and bring it to completion.
 image:      assets/images/work-1.jpg
-photo: "https://www.orangeandbronze.com/assets/images/fb-work.png"
+photo: "https://www.orangeandbronze.com/assets/images/casestudy-mobile-fintech-3rdworld-fblinkpost.jpg"
 service:     Custom Software Solutions
 services_rendered: [Project Rescue, Advising, Solutioning, Training]
 date:       2018-04-03 16:42:00 +0800

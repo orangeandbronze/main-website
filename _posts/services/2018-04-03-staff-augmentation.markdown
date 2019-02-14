@@ -4,7 +4,7 @@ class:        service
 titles:       "Staff Augmentation"
 title:        "Java Developer Philippines"
 photo: "https://www.orangeandbronze.com/assets/images/staff-augmentation-fblinkpost-photo.png"
-description:  If the quality of your software is important to you, put O&B software professionals on your team.
+og:description:  If the quality of your software is important to you, put O&B software professionals on your team.
 date:         2018-04-03 16:43:00 +0800
 categories:   services
 redirect_from:

@@ -38,7 +38,7 @@ The BA/QE is the first step in becoming a software industry Product Owner - one 
     <li>Any IT-related degree program - CS, IT, IS, MIS, etc.</li>
     <li>Any business-related program - Business Administration, Accounting, Industrial Engineering, Commerce, Management, etc.</li>
     <li>Library Science</li>
-<ul>
+</ul>
 </li>
 <li>Plus Points:
 <ul>

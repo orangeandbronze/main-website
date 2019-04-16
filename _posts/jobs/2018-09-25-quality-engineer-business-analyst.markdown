@@ -12,33 +12,46 @@ categories:   jobs
 Before a product can be built, it needs to be defined. This is the valuable role that Business Analyst & Quality Engineer (BA/QE) plays. The BA/QE engages business stakeholders to define and prioritize problems, risks, and opportunities, and then works with engineers to develop appropriate solutions to address such problems, risks and opportunities.
 The BA/QE is the first step in becoming a software industry Product Owner - one who shapes the vision and scope of innovative technology products. 
 ###### What You Will Learn
-* Software development best practices - e.g. Agile, DevOps
-* Various business domains
-* User Experience
-* Software technology
-* Management skills                    
-    ###### Roles and Responsibilities 
-* Speak to business stakeholders to understand and prioritize problems, risks and opportunities
-* Collaborate with engineers to create appropriate solutions
-* Test software to check if it meets agreed specifications
-* Document designs and plans
-* Advise clients on options and best practices
-* Other roles and responsibilities may be assigned as necessary         
+<ul>
+<li>Software development best practices - e.g. Agile, DevOps</li>
+<li>Various business domains</li>
+<li>User Experience</li>
+<li>Software technology</li>
+<li>Management skills</li>
+</ul> 
+###### Roles and Responsibilities 
+<li>Speak to business stakeholders to understand and prioritize problems, risks and opportunities</li>
+<li>Collaborate with engineers to create appropriate solutions</li>
+<li>Test software to check if it meets agreed specifications</li>
+<li>Document designs and plans</li>
+<li>Advise clients on options and best practices</li>
+<li>Other roles and responsibilities may be assigned as necessary</li>
 ###### Education and Experience
-* Experience in leading projects or teams
-    * e.g. school projects, school organizations, student council
-    * e.g. office projects, office teams
-* If fresh grad, preferred educational background (not necessarily graduate):
-    * Any IT-related degree program - CS, IT, IS, MIS, etc.
-    * Any business-related program - Business Administration, Accounting, Industrial Engineering, Commerce, Management, etc.
-    * Library Science
-* Plus Points:
-    * Basic competence in any programming language or in SQL.
-    * Accounting and Finance fundamentals
+<ul>
+<li>Experience in leading projects or teams
+<ul>
+    <li>e.g. school projects, school organizations, student council</li>
+    <li>e.g. office projects, office teams</li></ul>
+</li>
+<li>If fresh grad, preferred educational background (not necessarily graduate):
+<ul>
+    <li>Any IT-related degree program - CS, IT, IS, MIS, etc.</li>
+    <li>Any business-related program - Business Administration, Accounting, Industrial Engineering, Commerce, Management, etc.</li>
+    <li>Library Science</li>
+<ul>
+</li>
+<li>Plus Points:
+<ul>
+    <li>Basic competence in any programming language or in SQL.</li>
+    <li>Accounting and Finance fundamentals</li>
+</ul></li>
+<ul>
 ###### Skills and Attributes
-* Detail-oriented
-* Excellent written and oral communication skills
-* Articulate and can convey ideas very well
-* Assertive yet diplomatic
-* Analytical and organizational skills
-* Can interface with people of any level or background within or outside the organization
+<ul>
+<li>Detail-oriented</li>
+<li>Excellent written and oral communication skills</li>
+<li>Articulate and can convey ideas very well</li>
+<li>Assertive yet diplomatic</li>
+<li>Analytical and organizational skills</li>
+<li>Can interface with people of any level or background within or outside the organization</li>
+</ul>

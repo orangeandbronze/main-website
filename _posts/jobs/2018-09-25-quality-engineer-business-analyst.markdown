@@ -9,7 +9,7 @@ categories:   jobs
 ---
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 ###### Overview
-Before a product can be built, it needs to be defined. This is the valuable role that Business Analyst & Quality Engineer (BA/QE) plays. The BA/QE engages business stakeholders to define and prioritize problems, risks, and opportunities, and then works with engineers to develop appropriate solutions to address such problems, risks and opportunities.
+Before a product can be built, it needs to be defined. This is the valuable role that Business Analyst & Quality Engineer (BA/QE) plays. The BA/QE engages business stakeholders to define and prioritize problems, risks, and opportunities, and then works with engineers to develop appropriate solutions to address such problems, risks and opportunities.  
 The BA/QE is the first step in becoming a software industry Product Owner - one who shapes the vision and scope of innovative technology products. 
 ###### What You Will Learn
 <ul>

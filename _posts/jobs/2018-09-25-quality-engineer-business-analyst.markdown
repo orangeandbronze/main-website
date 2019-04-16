@@ -44,8 +44,9 @@ The BA/QE is the first step in becoming a software industry Product Owner - one 
 <ul>
     <li>Basic competence in any programming language or in SQL.</li>
     <li>Accounting and Finance fundamentals</li>
-</ul></li>
-<ul>
+</ul>
+</li>
+</ul>
 ###### Skills and Attributes
 <ul>
 <li>Detail-oriented</li>

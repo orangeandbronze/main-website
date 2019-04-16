@@ -19,13 +19,15 @@ The BA/QE is the first step in becoming a software industry Product Owner - one 
 <li>Software technology</li>
 <li>Management skills</li>
 </ul> 
-###### Roles and Responsibilities 
+###### Roles and Responsibilities
+<ul>
 <li>Speak to business stakeholders to understand and prioritize problems, risks and opportunities</li>
 <li>Collaborate with engineers to create appropriate solutions</li>
 <li>Test software to check if it meets agreed specifications</li>
 <li>Document designs and plans</li>
 <li>Advise clients on options and best practices</li>
 <li>Other roles and responsibilities may be assigned as necessary</li>
+</ul>
 ###### Education and Experience
 <ul>
 <li>Experience in leading projects or teams

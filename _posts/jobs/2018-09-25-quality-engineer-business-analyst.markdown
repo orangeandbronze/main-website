@@ -1,22 +1,17 @@
 ---
 layout:       jobs
 class:        job
-title:        "Quality Engineer / Business Analyst"
+title:        "Business Analyst and Quality Engineer"
 photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  The candidate will be joining O&B’s Consulting Services in developing custom software, understanding the business problems of the customer and providing solutions with the help of engineers.
 date:         2018-04-03 16:42:00 +0800
 categories:   jobs
 ---
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
-
 # Overview
-
 Before a product can be built, it needs to be defined. This is the valuable role that Business Analyst & Quality Engineer (BA/QE) plays. The BA/QE engages business stakeholders to define and prioritize problems, risks, and opportunities, and then works with engineers to develop appropriate solutions to address such problems, risks and opportunities.
-
 The BA/QE is the first step in becoming a software industry Product Owner - one who shapes the vision and scope of innovative technology products. 
-
 # What You Will Learn
-
 * Software development best practices - e.g. Agile, DevOps
 * Various business domains
 * User Experience
@@ -32,6 +27,7 @@ The BA/QE is the first step in becoming a software industry Product Owner - one 
 * Other roles and responsibilities may be assigned as necessary
 
 # Education and Experience
+
 * Experience in leading projects or teams
     * e.g. school projects, school organizations, student council
     * e.g. office projects, office teams

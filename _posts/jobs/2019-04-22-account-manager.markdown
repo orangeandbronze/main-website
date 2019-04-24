@@ -10,17 +10,19 @@ categories:   jobs
 ---
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <h6 class="-dark">Job Description:</h6>
-<p>The Account Manager will be responsible for handling Sales and Account Management for Gsuite and Consulting services’ day-to-day operations. This person will be working closely with the Head of Sales and Marketing in managing clients, responding to sales inquiries via emails, phone calls, and in-person meetings, responding to client requests, and maintaining high-level customer service. The Account Manager will be responsible for upholding the department’s and company’s reputation by accepting ownership for accomplishing new and different requests, and exploring opportunities to add value to the job.
+<p>
+The Account Manager's responsibilities include interfacing with clients and performing tasks for the company's day-to-day sales operations -  with the goal of maintaining high-level customer service. This person will be working closely with the Head of Sales and Marketing in managing clients and nurturing sales leads. 
 </p>
+<p>The Account Manager will be responsible for upholding the department and company’s reputation by accepting ownership of assigned tasks and exploring opportunities that add value to the job.</p>
 <ul>
   <li>
-    Conducts regular check point with all the existing accounts
+    Conducts regular check point meetings with existing accounts
   </li>
   <li>
-    Understands client’s business in order to analyze the implications of decisions and be able to identify any potential issues 
+    Understands client’s business to analyze the implications of decisions and be able to identify any potential issues 
   </li>
   <li>
-    Updates and maintains a database of clients including project start and end dates, scheduled follow-ups, contact names and numbers for future sales
+    Updates and maintains a database of clients
   </li>
   <li>
     Conducts extensive and in-depth account profiling through research and probing to support the objective/s of the clients
@@ -29,14 +31,15 @@ categories:   jobs
     Prepares and analyzes sales performance tools and reports, including trends analysis to monitor and improve sales results
   </li>
   <li>
-    Performs upselling and cross-selling strategies to expand profitability of the existing accounts 
+    Performs upselling and cross-selling strategies to expand profitability of existing accounts
   </li>
   <li>
     Coordinates with different teams/departments to ensure smooth business operations
   </li>
   <li>
-    Other roles and tasks may be assigned as necessary 
+    Other roles and tasks may be assigned as necessary
   </li>
+  
 </ul>
 <h6 class="-dark">Qualifications:</h6>
 <ul>

@@ -1,0 +1,45 @@
+---
+layout:       jobs
+class:        job
+title:        "DevOps/AWS Engineer (work from home)"
+photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
+description:  This role will work on application analysis for customer-reported issues including log interrogation, data consistency remediation, database tuning, capacity planning, monitoring, and automation, implementation of cleanup jobs, while being an expert resource for the team.
+date:         2019-06-04 00:00:01 +0800
+categories:   jobs
+---
+<!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
+<p>This role will work on application analysis for customer-reported issues including log interrogation, data consistency remediation, database tuning, capacity planning, monitoring, and automation, implementation of cleanup jobs, while being an expert resource for the team.</p>
+<h6 class="dark">Job Requirements:</h6>
+<ul>
+<li>Strong communication skills in written English</li>
+<li>AWS experience is an absolute must.</li>
+<li>Linux system administration skills is a must.</li>
+<li>Shell scripting (bash, etc.)</li>
+<li>Database skills (querying)  - can be in Oracle or SQL Server</li>
+<li>Familiarity in using cloud-based logging tools (data dog, log entries, elastic search, etc.)</li>
+<li>Strong troubleshooting skills</li>
+<li>This person must love to learn and be naturally curious and use the power of the Internet (YouTube, etc.) to come up to speed quickly.</li>
+</ul>
+<h6 class="dark">Qualities:</h6>
+<ul>
+<li>Ability to interact with the global engineering team and articulate technical concepts in written English via tickets and chat</li>
+<li>Have a natural curiosity, with an ability to research and solve problems independently as well as collaborate with a diverse team</li>
+<li>Is disciplined and regimented, with a zealous focus on small details and consistency</li>
+<li>Desire to make yourself and others more effective. You'd be bothered by an inefficient process</li>
+</ul>
+<h6 class="dark">Nice to haves:</h6>
+<ul>
+<li>Development background / CompSci degree</li>
+<li>DevOps skills - building/compiling, packaging, deploying, etc.</li>
+<li>Willingness to work outside of normal hours - but not on a regular basis.  This could mean occasional on call duties at night and on weekends but not on a regular basis.</li>
+<li>Ability to communicate well cross functionally - especially to the Support team.</li>
+<li>Ability to communicate with Developers especially in the following scenarios:
+<ul>
+<li>Helping developers build, package and deploy their code into production and non-production environments.</li>
+<li>Helping Developers understand Support Escalations to Engineering and delivering forensics to help them find the problem (logs, server stats)</li>
+</ul>
+</li></ul>
+
+
+
+

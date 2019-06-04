@@ -34,7 +34,7 @@ categories:   jobs
     <li>Analysis and repair of customer-reported issues related to data integrity issues</li>
     <li>Automate, audit and maintain data source backups including RDS MySQL, local MySQL dumps, EBS snapshots, Mongo and Elasticache/Redis.</li>
     <li>Configure and maintain slow query logging, alerting and reporting.</li>
-    <li>Ensure data sources are adequately monitored and configured to alert appropriately when performance issues arise.</li>   
+    <li>Ensure data sources are adequately monitored and configured to alert appropriately when performance issues arise.</li>
     <li>Determine appropriate response for database performance issues - create tickets and communicate in Slack channels.</li>
     <li>Evaluate performance issues - implement operational solutions such as adding indices, suggest functional solutions that require developer cooperation.</li>
     <li>Coordinate and implement regular database maintenance such as reboots, version upgrades and index rebuilds.</li> 

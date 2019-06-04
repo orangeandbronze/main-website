@@ -17,7 +17,6 @@ categories:   jobs
     <li>Manage the deployment of our product to our clients, inclusive of configuration, training of users, handling complaints, data migration and data entry.</li>
     <li>Develop and maintain standard project management deliverables such as project plan, product backlog, issues and action items log, meeting minutes etc.</li>
     <li>Manages communication and deployment for projects from start to end.</li>
-    <li>Develop and maintain standard project management deliverables such as project plan, product backlog, issues and action items log, meeting minutes etc.</li>
 </ul>
 <p>Business Analysis and Customer Support</p>
 <ul>

@@ -15,7 +15,7 @@ categories:   jobs
 <li>AWS experience is an absolute must.</li>
 <li>Linux system administration skills is a must.</li>
 <li>Shell scripting (bash, etc.)</li>
-<li>Database skills (querying)  - can be in Oracle or SQL Server</li>
+<li>SQL queries  - can be in Oracle or SQL Server</li>
 <li>Familiarity in using cloud-based logging tools (Datadog, Logentries, Elasticsearch/ELK, etc.)</li>
 <li>Strong troubleshooting skills</li>
 <li>This person must love to learn and be naturally curious and use the power of the Internet (YouTube, etc.) to come up to speed quickly.</li>

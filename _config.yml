@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Orange & Bronze Software Labs | Software Development
+title: Orange & Bronze Software Labs, Inc. | Software Development
 email: info@orangeandbronze.com
 contact_number: (63) 2 478-9999
 contact_number_2: (63) 2 856-5770

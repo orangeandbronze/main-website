@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "Account Manager"
@@ -7,7 +7,7 @@ photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description: The Account Manager will be responsible for handling Sales and Account Management for Gsuite and Consulting services’ day-to-day operations.
 date:         2018-04-03 16:43:00 +0800
 categories:   jobs
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <h6 class="-dark">Job Description:</h6>
 <p>

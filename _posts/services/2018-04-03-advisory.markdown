@@ -2,7 +2,7 @@
 layout:       services
 class:        service
 titles:       "Advisory Services & Project Rescue"
-title:        "Software Offshoring Philippines"
+title:        "Software Development Outsourcing and Offshoring"
 photo: "https://www.orangeandbronze.com/assets/images/advisory-services-fblinkpost-photo.png"
 description:  From database/application optimization, to Agile Transformation, to rescuing troubled projects, O&B has applied its experience to helping organizations and teams overcome their temporary roadblocks.
 date:         2018-04-03 16:43:00 +0800
@@ -19,7 +19,7 @@ categories:   services
   </div>
   <div class="row mb20">
     <div class="col-12">
-      <p>From database/application optimization, to Agile Transformation, to rescuing troubled projects, O&B has applied its experience to helping organizations and teams overcome their temporary roadblocks. </p>
+      <p>From database/application optimization, to Agile Transformation, to rescuing troubled projects, O&B has applied its experience to helping organizations and teams overcome their temporary roadblocks. Contact us today to find out how we've helped clients with their software outsourcing requirements.</p>
       <p>Take advantage of O&B's technical and process experience to resolve specific issues or develop/enhance specific capabilities in your organization, project, architecture, or codebase.</p>
     </div>
   </div>

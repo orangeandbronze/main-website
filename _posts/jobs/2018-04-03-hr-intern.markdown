@@ -13,68 +13,31 @@ redirect_from:
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <h6 class="-dark">Job Description:</h6>
 <p>
-  The HR Intern will be joining the talent management arm of Orange & Bronze Software Labs Inc. The team helps in building the software community through supporting different areas, like academe, together with users groups and organizations.
-</p>
-<p>
-  This is complemented by the internal growth and career development of all our O&Bers, balancing growth from within and outside the company.
-</p>
-<p>
-  Our role is defined by a long-term strategy, supported by our short-term wins. Aligning continuously, toward the vision of building a Filipino technology company admired by the world.
-</p>
-<p>
-  A successful candidate will be exposed to the different initiatives that drive growth throughout O&B, from organizational events to process initiatives that make our vision more possible.
-</p>
-<h6 class="-dark">Job Description:</h6>
-<ul>
-  <li>
-    Provides general administrative support to Recruitment activities of the company
-  </li>
-  <li>
-    Screens and sources out resumes to various job portals
-  </li>
-  <li>
-    Administers examinations to all shortlisted candidates
-  </li>
-  <li>
-    Compiles scores and schedule interviews for qualified applicants
-  </li>
-  <li>
-    Facilitates checking of examination papers, coordinates with the interviewer for his/her availability, and schedules interview both for technical and behavioral interviews
-  </li>
-  <li>
-    Updates recruitment tracker to provide detailed information of all applicants
-  </li>
-  <li>
-    Prepares Mutual Non-Disclosure Agreement for newly hired employees
-  </li>
-  <li>
-    Performs routine clerical duties including replying to emails, filing, photocopying, and data entry
-  </li>
-  <li>
-    Prepares job offer kits which includes pre-employment requirements, government forms, and bank forms
-  </li>
-  <li>
-    Updates HR tracker for all types of movements such as promotion and salary increases.
-  </li>
-  <li>
-    Assists in preparing HR internal and external events
-  </li>
-</ul>
-<h6 class="-dark">Qualifications:</h6>
-<p>
-  Candidate must be currently pursuing a Bachelor’s / College Degree in Business Administration/Management, Human Resource Management, Psychology or equivalent.
+  The HR Intern will be joining the O&B team in implementing various human resources programs and initiatives that drive growth throughout the company from recruitment, resource management, and compensation and benefits. As an intern, s/he will be exposed to various facets of HR that will best use his/her knowledge of human resource functions, analytical and problem-solving skills, creativity, and communication skills, in particular:
 </p>
 <ul>
   <li>
-    Required skills (s): Communication skills, adept in Office Applications
+    Provision of technical and administrative support to the recruitment process by identifying candidates, administering examinations to shortlisted applicants, compiling scores and scheduling interviews for qualified applicants, and updating tracking to provide detailed information of all applicants;
   </li>
   <li>
-    Required language (s): Filipino, English
+    Assisting with the onboarding process by improving the materials for new employee orientation and coordinating with successful hires on all HR-related matters to prepare them for their employment;
   </li>
   <li>
-    Enthusiastic and displays a genuine interest on the tasks assigned
+    Conducting background investigation and reference checks on all final candidates and on all new employees;
   </li>
   <li>
-    Ability to function under minimal supervision
+    Administering benefits and payroll by checking and providing employee self-service by reviewing data entries in the HRIS system and carrying out HRIS-related functions; 
+  </li>
+  <li>
+    Maintaining employee records through organizing the filing system and performing clerical work;
+  </li>
+  <li>
+    Improvement of the company’s internal communication by drafting, designing and posting HR-related announcements and communications;
+  </li>
+  <li>
+    Assisting and planning for events such as job fairs, seminars, career talks, and year-end celebration; and
+  </li>
+  <li>
+    Performing other relevant internal and external HR-related matters.
   </li>
 </ul>

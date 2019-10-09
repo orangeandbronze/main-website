@@ -4,7 +4,7 @@ class:        job
 title:        "HR Intern"
 titles:        "Apply now | HR Intern"
 photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
-description:  Helps in building the software community through supporting different areas, like academe, together with users groups and organizations.
+description:  The HR Intern will be joining the O&B team in implementing various human resources programs and initiatives that drive growth throughout the company from recruitment, resource management, and compensation and benefits.
 date:         2018-04-03 16:43:00 +0800
 categories:   jobs
 redirect_from: 

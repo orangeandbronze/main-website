@@ -17,7 +17,7 @@ categories:   jobs
     <li>Understanding the company’s value proposition & communicating this to the target audience.</li>
     <li>Occasionally organizing events, or supporting the events organized by other groups.</li>
     <li>Managing digital ads.</li>
-    <li>Will with a graphic artist to conceptualize graphics, photos & videos.</li>
+    <li>Will work with a graphic artist to conceptualize graphics, photos & videos.</li>
 </ul>
 <p><strong>Reports to:</strong> Head of Sales & Marketing</p>
 <h6 class="-dark">Compensation & Benefits</h6>

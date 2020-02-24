@@ -22,7 +22,7 @@ categories:   jobs
 <p><strong>Reports to:</strong> Head of Sales & Marketing</p>
 <h6 class="-dark">Compensation & Benefits</h6>
 <ul>
-	<li>₱18,000 salary</li>
+	<li>₱20,000 - salary</li>
     <li>Free catered lunch daily</li>
     <li>Formal training in digital marketing</li>
     <li>Flexible working hours</li>

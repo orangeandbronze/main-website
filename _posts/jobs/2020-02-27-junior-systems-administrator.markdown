@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "Apply now | Junior Systems Administrator"
@@ -7,7 +7,7 @@ photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  As a Junior Systems Administrator, the role is to plan, implement, maintain and enhance the IT infrastructure of the company, inclusive of assisting users.
 date:         2020-02-27 16:42:00 +0800
 categories:   jobs
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <h6 class="-dark">Job Description:</h6>
 <p>As a Junior Systems Administrator, the role is to plan, implement, maintain and enhance the IT infrastructure of the company, inclusive of assisting users.</p>

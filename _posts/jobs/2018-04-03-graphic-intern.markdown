@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "Graphic Design Intern"
@@ -9,7 +9,7 @@ date:         2018-04-03 16:42:00 +0800
 categories:   jobs
 redirect_from:
   - /graphic-designer-intern
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <h6 class="-dark">Job Description:</h6>
 <p>

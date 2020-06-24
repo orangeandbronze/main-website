@@ -2,22 +2,22 @@
 layout:       jobs
 class:        job
 title:        "Mid-Level Java Software Engineer"
-titles:       "Mid-Level Java Software Engineer"
+titles:        "Mid-Level Java Software Engineer"
 photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  A Mid-Level Java Software Engineer assumes the responsibility of a programmer and consultant whose responsibilities involve the implementation of and assisting/advising on the software development process.
-date:         2020-06-24 16:49:00 +0800
+date:         2018-04-03 16:42:00 +0800
 categories:   jobs
 ---
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <p>
 A Mid-Level Java Software Engineer assumes the responsibility of a programmer and consultant whose responsibilities involve the implementation of and assisting/advising on the software development process. Relevant skills include:
-</p>
-    <ul>
+     <ul>
         <li>Java</li>
         <li>Spring</li>
         <li>Spring Boot</li>
         <li>Agile Development</li>
     </ul>
+</p>
 <h6 class="-dark">Duties and Responsibilities</h6>
 <ul>
   <li>Software Development

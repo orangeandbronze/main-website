@@ -1,7 +1,7 @@
 ---
 layout:       jobs
 class:        job
-title:        "Apply now | Project-Based Software Tester - UAT Analyst"
+title:        "Project-Based Software Tester - UAT Analyst"
 titles:       "Project-Based Software Tester - UAT Analyst"
 photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  The Project-Based Software Tester-User Acceptance Testing (UAT) Analyst will be joining a collaborative team for a banking and financial institution until December 2021. 

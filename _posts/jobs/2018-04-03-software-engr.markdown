@@ -2,7 +2,7 @@
 layout:       jobs
 class:        job
 title:        "Associate Java Software Engineer/ Java Software Engineer"
-titles:        "Apply now | Associate Java Software Engineer/ Java Software Engineer"
+titles:       "Associate Java Software Engineer/ Java Software Engineer"
 description:  This position assumes the role of a consultant, which involves implementing, assisting and/or advising clients in the field of software development.
 date:         2018-04-03 16:50:00 +0800
 categories:   jobs

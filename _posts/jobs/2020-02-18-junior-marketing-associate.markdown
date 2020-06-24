@@ -1,8 +1,8 @@
 ---
 layout:       jobs
 class:        job
-title:        "Apply now | Junior Marketing Associate"
-titles:        "Junior Marketing Associate"
+title:        "Junior Marketing Associate"
+titles:       "Junior Marketing Associate"
 photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  Strategize & implement marketing initiatives targeted at young professionals & college students. This job will provide a lot of creative freedom & independent decision-making.
 date:         2020-02-18 16:42:00 +0800

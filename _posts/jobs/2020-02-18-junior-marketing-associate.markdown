@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "Junior Marketing Associate"
@@ -7,7 +7,7 @@ photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  Strategize & implement marketing initiatives targeted at young professionals & college students. This job will provide a lot of creative freedom & independent decision-making.
 date:         2020-02-18 16:42:00 +0800
 categories:   jobs
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <h6 class="-dark">Job Description:</h6>
 <p>Strategize & implement marketing initiatives targeted at <strong>young professionals & college students.</strong> This job will provide a lot of creative freedom & independent decision-making.</p>

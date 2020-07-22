@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "Account Specialist"
@@ -7,7 +7,7 @@ photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description: The Account Specialist’s responsibilities include interfacing with clients and performing tasks for the company's day-to-day sales operations - with the goal of maintaining high-level customer service. 
 date:         2018-04-03 16:43:00 +0800
 categories:   jobs
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <h6 class="-dark">Job Description:</h6>
 <p>

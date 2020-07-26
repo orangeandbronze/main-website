@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "DevOps/AWS Engineer (work from home)"
@@ -6,7 +6,7 @@ photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  This role will work on application analysis for customer-reported issues including log interrogation, data consistency remediation, database tuning, capacity planning, monitoring, and automation, implementation of cleanup jobs, while being an expert resource for the team.
 date:         2019-06-04 00:00:01 +0800
 categories:   jobs
----
+--- -->
 
 This role will work on application analysis for customer-reported issues including log interrogation, data consistency remediation, database tuning, capacity planning, monitoring, and automation, implementation of cleanup jobs, while being an expert resource for the team.
 

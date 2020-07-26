@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "Python Developer"
@@ -6,7 +6,7 @@ photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  The Python Developer is required to develop, enhance and support suite of system interfaces and regulatory reports  using Python and SQL technologies.
 date:         2018-04-03 16:42:00 +0800
 categories:   jobs
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <p>The Python Developer is required to develop, enhance and support suite of system interfaces and regulatory reports  using Python and SQL technologies.</p>
 <h6 class="-dark">Responsibilities:</h6>

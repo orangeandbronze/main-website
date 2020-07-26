@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "Mid-level to Senior Node.js Developer"
@@ -6,7 +6,7 @@ photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  This role will be tasked to write server-side application logic in TypeScript and JavaScript and implement automated testing platforms and unit tests.
 date:         2019-06-04 00:00:01 +0800
 categories:   jobs
----
+--- -->
 
 ###### Responsibilities
 

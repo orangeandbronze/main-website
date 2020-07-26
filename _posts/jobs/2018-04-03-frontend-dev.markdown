@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "Front-end Web Developer"
@@ -10,7 +10,7 @@ categories:   jobs
 redirect_from:
   - /front-end-web-developer
   - /technical/front-end-web-developer
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <h6 class="-dark">Job Descriptions:</h6>
 <ul>

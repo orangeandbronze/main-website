@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "Python Web Developer"
@@ -6,7 +6,7 @@ photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  As a Python Developer you will help in designing, enhancing, and supporting the web applications of our Pension Administration System. 
 date:         2018-04-03 16:42:00 +0800
 categories:   jobs
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <p>As a Python Developer you will help in designing, enhancing, and supporting the web applications of our Pension Administration System. Our team provides professional services for a large number of blue chip clients, who in turn use our client’s web applications which are written in Python/Django.</p>
 <h6 class="-dark">Responsibilities:</h6>

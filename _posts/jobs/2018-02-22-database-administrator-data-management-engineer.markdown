@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "Database Administrator/Data Management Engineer"
@@ -6,7 +6,7 @@ photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  This role will work on application analysis for customer-reported issues including log interrogation, data consistency remediation, database tuning, capacity planning, monitoring, and automation, implementation of cleanup jobs, while being an expert resource for the team.
 date:         2018-12-28 16:47:00 +0800
 categories:   jobs
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <p>This role will work on application analysis for customer-reported issues including log interrogation, data consistency remediation, database tuning, capacity planning, monitoring, and automation, implementation of cleanup jobs, while being an expert resource for the team.</p>
 <p>This position includes participation in a 24x7 on-call rotation, requiring an elevated level of personal commitment.</p>

@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "Cloud Native Developer"
@@ -7,7 +7,7 @@ photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  A Cloud Native Developer takes a key role in the team in implementing, assisting and advising on the server/back-end architecture.
 date:         2020-07-26 16:42:00 +0800
 categories:   jobs
----
+--- -- >
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <p>
 A Cloud Native Developer takes a key role in the team in implementing, assisting and advising on the server/back-end architecture using the following technologies:

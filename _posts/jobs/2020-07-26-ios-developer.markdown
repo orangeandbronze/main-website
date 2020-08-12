@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "iOS Developer"
@@ -7,7 +7,7 @@ photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  The iOS Developer assumes the responsibility of designing and developing applications for mobile devices running Apple’s iOS operating system.
 date:         2020-07-26 16:42:00 +0800
 categories:   jobs
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <p>
 The iOS Developer assumes the responsibility of designing and developing applications for mobile devices running Apple’s iOS operating system. The following are the relevant technical knowledge and skills required for the position:

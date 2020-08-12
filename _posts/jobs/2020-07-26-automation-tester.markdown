@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "Automation Tester"
@@ -7,7 +7,7 @@ photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  The Automation Tester is responsible for converting manual tests into scripts and involved in performing automated tests to ensure the quality of software development. 
 date:         2020-07-26 16:42:00 +0800
 categories:   jobs
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <p>The Automation Tester is responsible for converting manual tests into scripts and involved in performing automated tests to ensure the quality of software development which includes:
     <ul>

@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "Android Developer"
@@ -7,7 +7,7 @@ photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  The Android Developer or Mobile Software Developer is responsible for designing, developing, and integrating new mobile software features as part of the software development lifecycle. 
 date:         2020-07-26 16:42:00 +0800
 categories:   jobs
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <p>The Android Developer or Mobile Software Developer is responsible for designing, developing, and integrating new mobile software features as part of the software development lifecycle which includes:
     <ul>

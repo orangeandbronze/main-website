@@ -1,8 +1,8 @@
 ---
 layout:       services
 class:        service
-titles:       "G Suite"
-title:        "G Suite and Google Cloud Partner Philippines"
+titles:       "Google Workspace"
+title:        "Google Workspace and Google Cloud Partner Philippines"
 photo: "https://www.orangeandbronze.com/assets/images/gsuitet-fblinkpost-photo.png"
 description:  Collaboration, messaging, and archiving solutions for your organization.
 date:         2018-04-03 16:43:00 +0800
@@ -26,38 +26,59 @@ redirect_from:
     <H6>
       &lt; SEE OUR EXPERTISE AND CAPABILITIES /&gt;
     </H6>
-    <H2>G Suite</H2>
+    <H2>Google Workspace</H2>
     <img class="bg" src="{{ "assets/images/title-services.png" | relative_url }}" alt="" />
   </div>
   <div class="row">
     <div class="col">
       <H3>Collaboration, messaging, and archiving solutions for your organization.</H3>
       <p>
-        Orange and Bronze is the first Google Cloud partner and Philippine reseller for G Suite by Google Cloud (formerly Google Apps), providing Google Cloud services since 2009. We provide local support and can help you install your G Suite account - so you don't have to worry about the hassles of managing this IT solution yourself. We can also provide integration and customized solutions on top of G Suite and Google Cloud.
+        Orange and Bronze is the first Google Cloud partner and Philippine reseller for Google Workspace (formerly G Suite), providing Google Cloud services since 2009. We provide local support and can help you install your Google Workspace account - so you don't have to worry about the hassles of managing this IT solution yourself. We can also provide integration and customized solutions on top of Google Workspace and Google Cloud.
       </p>
     <p>As a Google partner, we can...</p>
       <ul>
         <li>
-           Install and manage G Suite accounts for companies of different sizes
+           Install and manage Google Workspace accounts for companies of different sizes
         </li>
         <li>
-             Migrate to G Suite from another collaboration / email platform
+             Migrate to Google Workspace from another collaboration / email platform
         </li>
         <li>
              Provide technical support to organizations with limited or no IT staff
         </li>
         <li>
-             Understand and learn the features of G Suite through classroom training
+             Understand and learn the features of Google Workspace through classroom training
         </li>
         <li>
-             Integrate software and other applications to your G Suite account
+             Integrate software and other applications to your Google Workspace account
         </li>
-        <li>Build custom solutions on top of G Suite and Google Cloud</li>
+        <li>Build custom solutions on top of Google Workspace and Google Cloud</li>
       </ul>
-      <div class="text-center">
-        <img src="{{ "assets/images/img-gsuite.jpg" | relative_url }}" alt="G Suite Features" class="img-fluid m30" />
+      <div class="row">
+      <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+            <hr>
+              <h4><span>Google Workspace: Business Starter</span></h4><br>
+              <h6>Annual price per user:<p>USD 72 + VAT</p></h6>
+            <hr>
+      </div>
+      <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+            <hr>
+              <h4><span>Google Workspace: Business Standard</span></h4><br>
+              <h6>Annual price per user:<p>USD 144 + VAT</p></h6>
+            <hr>
+      </div>
+      <div class="col-6 col-sm-6 col-md-6 col-lg-3">
+            <hr>
+              <h4><span>Google Workspace: Business Plus</span></h4><br>
+              <h6>Annual price per user:<p>USD 216 + VAT</p></h6>
+            <hr>
+      </div>
+  </div>
+      <div>
+        <img src="{{ "assets/images/img-gsuite.jpg" | relative_url }}" alt="Google Workspace Features" class="img-fluid m30" />
       </div>
     </div>
+  </div>
   </div>
 <hr>
   <div class="section-title">
@@ -81,5 +102,4 @@ redirect_from:
           </a>
         </div>
     </div>
-  </div>
 </div>

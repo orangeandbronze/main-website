@@ -1,6 +1,8 @@
-# Orange&Bronze Website
+# Orange & Bronze (O&B) Website
 
-Orange & Bronze Software Labs developed mission-critical systems using the Spring Framework, handling millions of transactions for companies.
+Orange & Bronze Software Labs developes mission-critical systems using the Spring Framework, handling millions of transactions for companies.
+
+*Want to write a blog post on O&B's site?* [Please read this](README-blog-post.md).
 
 ## Getting Started
 

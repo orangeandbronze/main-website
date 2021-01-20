@@ -33,9 +33,20 @@ safe: false
 plugins: 
    - jekyll-redirect-from
    - jekyll-seo-tag
+   - jekyll-paginate-v2
 
 permalink: pretty
 permalink: /:categories/:title/
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 # Build settings
 markdown: kramdown

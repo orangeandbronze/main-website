@@ -33,3 +33,6 @@ gem 'jekyll-redirect-from'
 
 # Jekyll SEO Tag
 gem 'jekyll-seo-tag'
+
+# Jekyll Paginate
+gem 'jekyll-paginate-v2'

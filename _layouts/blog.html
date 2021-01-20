@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="page-about">
+
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+    {%- include header.html -%}
+
+    <main>
+      <section class="section-about">
+        <div class="container panel-bg">
+          <div class="row">
+            <div class="col">
+              <div class="section-title">
+                <h1>{{ page.title }}</h1>
+                <p class="mb-1" style="line-height: 1.2">Posted on {{ page.date | date_to_string }}
+                  {% assign authorCount = page.authors | size %}
+                  {% if authorCount == 1 %}
+                    by <span>{{ page.authors | first }}</span>
+                  {% elsif authorCount > 1 %}
+                    {% for author in page.authors %}
+                      {% if forloop.first %}
+                        by <span>{{ author }}</span>
+                      {% elsif forloop.last %}
+                        and <span>{{ author }}</span>
+                      {% else %}
+                        , <span>{{ author }}</span>
+                      {% endif %}
+                    {% endfor %}
+                  {% endif %}
+                </p>
+                {% if page.tags.size > 0 %}
+                <p class="mb-1" style="line-height: 1.2"><span>Tag{% if page.tags.size > 1 %}s{% endif %}:</span>
+                  {% if page.tags.size == 1 %}
+                    <a href="/tags/{{ tag | first | slugify }}/">{{ tag | replace:'-', ' ' }}</a>
+                  {% else %}
+                    {% assign tags = page.tags | sort %}
+                    {% for tag in tags %}
+                      {% if forloop.last == false %}
+                        <a href="/tags/{{ tag | first | slugify }}/">{{ tag | replace:'-', ' ' }}</a>,
+                      {% else %}
+                        <a href="/tags/{{ tag | first | slugify }}/">{{ tag | replace:'-', ' ' }}</a>
+                      {% endif %}
+                    {% endfor %}
+                  {% endif %}
+                </p>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+{{ content }}
+            </div>
+          </div>
+      </section>
+    </main>
+
+    {%- include footer.html -%}
+
+    <script src="{{ "assets/js/vendor/jquery-3.3.1.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/vendor/bootstrap.bundle.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/vendor/slick.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/main.js" | relative_url }}"></script>
+  </body>
+
+</html>

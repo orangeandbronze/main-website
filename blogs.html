@@ -1,0 +1,77 @@
+---
+layout: default
+title: Blogs
+photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
+nav-title: Blogs
+permalink: /blogs
+class: blogs
+pagination:
+  enabled: true
+  category: blogs
+---
+
+<section class="section-header">
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-12 col-md-8 col-lg-7 col-xl-7">
+              <h6>
+                  &lt; SOFTWARE ENGINEERING DONE RIGHT /&gt;
+              </h6>
+              <h1>Latest Blog Posts</h1>
+              <p>Our people often have opinions, experiences to share, and things to say. Here are just a few of them.</p>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+          </div>
+      </div>
+  </div>
+</section>
+
+<section id="blog-post-list" class="" style="padding-top: 0.5em">
+  <div class="container">
+      <div class="row">
+          {% for post in paginator.posts %}
+          <div class="col-sm-6 col-md-6 col-lg-4">
+            <a class="job-card" href="{{ post.url }}">
+                <h4 class="title">
+                  {{ post.title | truncate_words: 10 }}
+                </h4>
+                <p>{{ post.date | date_to_string }}</p>
+<!-- {{ post.excerpt | escape }} -->
+            </a>
+          </div>
+          {% endfor %}
+      </div>
+      {% if paginator.total_pages > 1 %}
+      <div class="row feedback-controls">
+        {% if paginator.previous_page %}
+        <div class="col-6">
+          <a class="btn-prev" style="text-decoration: none" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><img class="prev" src="{{ "/assets/images/btn-prev.svg" }}" alt="previous page" /> Newer Posts</a>
+        </div>
+        {% endif %}
+        {% if paginator.next_page %}
+        <div class="col-6" style="text-align: right">
+          <a class="btn-next" style="text-decoration: none" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"> Older Posts <img class="next" src="{{ "/assets/images/btn-next.svg" }}" alt="next page" /></a>
+        </div>
+        {% endif %}
+      </div>
+      {% endif %}
+  </div>
+</section>
+
+<section class="container">
+  <div class="row">
+    <div class="col">
+      <h2 class="major">Tags</h2>
+      <div class="category-list left">
+          {% assign tags = site.tags | sort %}
+          {% for tag in tags %}
+          <span>
+              <a href="/tags/{{ tag | first | slugify }}/" style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%"> 
+                  <i class="fa fa-tag fa-fw"></i>{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+              </a>
+          </span>
+          {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

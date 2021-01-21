@@ -17,7 +17,7 @@
           <div class="row">
             <div class="col">
               <div class="section-title">
-                <h1>{{ page.title }}</h1>
+                <h1>{{ page.title | escape }}</h1>
                 <p class="mb-1" style="line-height: 1.2">Posted on {{ page.date | date_to_string }}
                   {% assign authorCount = page.authors | size %}
                   {% if authorCount == 1 %}
@@ -37,14 +37,14 @@
                 {% if page.tags.size > 0 %}
                 <p class="mb-1" style="line-height: 1.2"><span>Tag{% if page.tags.size > 1 %}s{% endif %}:</span>
                   {% if page.tags.size == 1 %}
-                    <a href="/tags/{{ tag | first | slugify }}/">{{ tag | replace:'-', ' ' }}</a>
+                    <a href="/tags/{{ tag | slugify }}/">{{ tag | replace:'-', ' ' }}</a>
                   {% else %}
                     {% assign tags = page.tags | sort %}
                     {% for tag in tags %}
                       {% if forloop.last == false %}
-                        <a href="/tags/{{ tag | first | slugify }}/">{{ tag | replace:'-', ' ' }}</a>,
+                        <a href="/tags/{{ tag | slugify }}/">{{ tag | replace:'-', ' ' }}</a>,
                       {% else %}
-                        <a href="/tags/{{ tag | first | slugify }}/">{{ tag | replace:'-', ' ' }}</a>
+                        <a href="/tags/{{ tag | slugify }}/">{{ tag | replace:'-', ' ' }}</a>
                       {% endif %}
                     {% endfor %}
                   {% endif %}
@@ -58,6 +58,22 @@
 {{ content }}
             </div>
           </div>
+
+        {% if page.previous_in_category or page.next_in_category %}
+          <div class="row pb-0">
+            <div class="col-6 feedback-controls">
+              {% if page.previous_in_category %}
+              <a class="btn-links" style="text-decoration: none" href="{{ page.previous_in_category.url }}"><img class="prev" src="{{ "/assets/images/btn-prev.svg" }}" alt="newer post" /> {{ page.previous_in_category.title }}</a>
+              {% endif %}
+            </div>
+            {% if page.next_in_category %}
+            <div class="col-6 text-right feedback-controls">
+              <a class="btn-links" style="text-decoration: none" href="{{ page.next_in_category.url }}">{{ page.next_in_category.title }} <img class="next" src="{{ "/assets/images/btn-next.svg" }}" alt="older post" /></a>
+            </div>
+            {% endif %}
+          </div>
+        {% endif %}
+
       </section>
     </main>
 

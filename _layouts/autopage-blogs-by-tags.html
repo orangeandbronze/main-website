@@ -1,13 +1,7 @@
 ---
 layout: default
-title: Blogs
 photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
-nav-title: Blogs
-permalink: /blogs
 class: blogs
-pagination:
-  enabled: true
-  category: blogs
 ---
 
 <section class="section-header">
@@ -17,8 +11,8 @@ pagination:
               <h6>
                   &lt; SOFTWARE ENGINEERING DONE RIGHT /&gt;
               </h6>
-              <h1>Latest Blog Posts</h1>
-              <p>Our people often have opinions, experiences to share, and things to say. Here are just a few of them.</p>
+              <h1>{{ page.autopages.display_name | escape }} <small>- Blogs</small></h1>
+              <p>Blog posts tagged with <span>&ldquo;{{ page.autopages.display_name }}&rdquo;</span>.</p>
           </div>
           <div class="col-xs-12 col-sm-6">
           </div>
@@ -55,20 +49,12 @@ pagination:
   </div>
 </section>
 
-<section class="container">
-  <div class="row">
-    <div class="col">
-      <h2>Tags</h2>
-      <div class="">
-          {% assign tags = site.tags | sort %}
-          {% for tag in tags %}
-          <span>
-              <a href="/tags/{{ tag | first | slugify }}/" style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%"> 
-                  <i class="fa fa-tag fa-fw"></i>{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
-              </a>
-          </span>
-          {% endfor %}
-      </div>
-    </div>
-  </div>
-</section>
+    {%- include footer.html -%}
+
+    <script src="{{ "assets/js/vendor/jquery-3.3.1.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/vendor/bootstrap.bundle.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/vendor/slick.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/main.js" | relative_url }}"></script>
+  </body>
+
+</html>

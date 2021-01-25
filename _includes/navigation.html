@@ -5,7 +5,7 @@
   {%- for path in page_paths -%}
     {%- assign my_page = site.pages | where: "path", path | first -%}
     {%- unless my_page -%}
-      {% comment %}Fall back to directory if no paths match{% endcomment %}
+      {% comment %}Fall back to directory, if no paths match{% endcomment %}
       {%- assign my_page = site.pages | where: "dir", path | first -%}
     {%- endunless -%}
     {%- if my_page.title -%}

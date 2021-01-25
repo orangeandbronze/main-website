@@ -47,7 +47,6 @@ pagination:
   limit: 0
   sort_field: 'date'
   sort_reverse: true
-  indexpage: blogs
 
 autopages:
   enabled: true
@@ -71,7 +70,7 @@ header_pages:
  - trainings.html
  - about.html
  - careers.html
- - blogs.html
+ - /blogs/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

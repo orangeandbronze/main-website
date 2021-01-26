@@ -3,7 +3,7 @@
 
   {%- include head.html -%}
 
-  <body class="page-about">
+  <body class="page-blog"><!-- override nav:not(.overlay-menu) { padding-top: 30px; padding-bottom: 30px; } -->
 
     <!--[if lte IE 9]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
@@ -11,70 +11,76 @@
 
     {%- include header.html -%}
 
-    <main>
-      <section class="section-about">
-        <div class="container panel-bg">
-          <div class="row">
-            <div class="col">
-              <div class="section-title">
-                <h1>{{ page.title | escape }}</h1>
-                <p class="mb-1" style="line-height: 1.2">Posted on {{ page.date | date_to_string }}
-                  {% assign authorCount = page.authors | size %}
-                  {% if authorCount == 1 %}
-                    by <span>{{ page.authors | first }}</span>
-                  {% elsif authorCount > 1 %}
-                    {% for author in page.authors %}
-                      {% if forloop.first %}
-                        by <span>{{ author }}</span>
-                      {% elsif forloop.last %}
-                        and <span>{{ author }}</span>
-                      {% else %}
-                        , <span>{{ author }}</span>
-                      {% endif %}
-                    {% endfor %}
-                  {% endif %}
-                </p>
-                {% if page.tags.size > 0 %}
-                <p class="mb-1" style="line-height: 1.2"><span>Tag{% if page.tags.size > 1 %}s{% endif %}:</span>
-                  {% if page.tags.size == 1 %}
-                    <a href="/tags/{{ tag | slugify }}/">{{ tag | replace:'-', ' ' }}</a>
+    <main class="blog-post">
+      <div class="blog-post__header-wrapper">
+        <div class="blog-post__header-bg" style="background-image: url('{{ page.header-image }}')"></div>
+        <div class="blog-post__header container">
+          <div>
+            <h1 class="blog-post__title">{{ page.title | escape }}</h1>
+            <p class="blog-post__meta mb-1">Posted on {{ page.date | date_to_string }}
+              {% assign authorCount = page.authors | size %}
+              {% if authorCount == 1 %}
+                by <span>{{ page.authors | first }}</span>
+              {% elsif authorCount > 1 %}
+                {% for author in page.authors %}
+                  {% if forloop.first %}
+                    by <span>{{ author }}</span>
+                  {% elsif forloop.last %}
+                    and <span>{{ author }}</span>
                   {% else %}
-                    {% assign tags = page.tags | sort %}
-                    {% for tag in tags %}
-                      {% if forloop.last == false %}
-                        <a href="/tags/{{ tag | slugify }}/">{{ tag | replace:'-', ' ' }}</a>,
-                      {% else %}
-                        <a href="/tags/{{ tag | slugify }}/">{{ tag | replace:'-', ' ' }}</a>
-                      {% endif %}
-                    {% endfor %}
+                    , <span>{{ author }}</span>
                   {% endif %}
-                </p>
-                {% endif %}
-              </div>
-            </div>
+                {% endfor %}
+              {% endif %}
+            </p>
+            {% if page.tags.size > 0 %}
+            <p class="blog-post__meta mb-1" style=""><span>Tag{% if page.tags.size > 1 %}s{% endif %}:</span>
+              {% if page.tags.size == 1 %}
+                <a href="/tags/{{ tag | slugify }}/">{{ tag | replace:'-', ' ' }}</a>
+              {% else %}
+                {% assign tags = page.tags | sort %}
+                {% for tag in tags %}
+                  {% if forloop.last == false %}
+                    <a href="/tags/{{ tag | slugify }}/">{{ tag | replace:'-', ' ' }}</a>,
+                  {% else %}
+                    <a href="/tags/{{ tag | slugify }}/">{{ tag | replace:'-', ' ' }}</a>
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+            </p>
+            {% endif %}
           </div>
-          <div class="row">
-            <div class="col">
+        </div>
+      </div>
+      <div class="container">
+        <div class="row" style="min-height: 320px">
+          <div class="col blog-post__body">
 {{ content }}
-            </div>
           </div>
-
-        {% if page.previous_in_category or page.next_in_category %}
-          <div class="row pb-0">
-            <div class="col-6 feedback-controls">
+        </div>
+      </div>
+      {% if page.previous_in_category or page.next_in_category %}
+      <div class="container">
+          <div class="row py-3">
+            <div class="col-6 col-lg-4 feedback-controls">
               {% if page.previous_in_category %}
-              <a class="btn-links" style="text-decoration: none" href="{{ page.previous_in_category.url }}"><img class="prev" src="{{ "/assets/images/btn-prev.svg" }}" alt="newer post" /> {{ page.previous_in_category.title }}</a>
+              <a class="btn-links d-flex" style="text-decoration: none" href="{{ page.previous_in_category.url }}">
+                <img class="prev mr-2" src="{{ "/assets/images/btn-prev.svg" }}" alt="newer post" />
+                <span class="align-self-center" style="line-height: 1.2">{{ page.previous_in_category.title | escape | truncatewords: 8 }}</span>
+              </a>
               {% endif %}
             </div>
             {% if page.next_in_category %}
-            <div class="col-6 text-right feedback-controls">
-              <a class="btn-links" style="text-decoration: none" href="{{ page.next_in_category.url }}">{{ page.next_in_category.title }} <img class="next" src="{{ "/assets/images/btn-next.svg" }}" alt="older post" /></a>
+            <div class="col-6 col-lg-4 offset-lg-4 text-right feedback-controls">
+              <a class="btn-links d-flex justify-content-end" style="text-decoration: none" href="{{ page.next_in_category.url }}">
+                <span class="align-self-center" style="line-height: 1.2">{{ page.next_in_category.title | escape | truncatewords: 8 }}</span>
+                <img class="next ml-2" src="{{ "/assets/images/btn-next.svg" }}" alt="older post" />
+              </a>
             </div>
             {% endif %}
           </div>
-        {% endif %}
-
-      </section>
+      </div>
+      {% endif %}
     </main>
 
     {%- include footer.html -%}

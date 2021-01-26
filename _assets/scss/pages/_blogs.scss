@@ -1,0 +1,7 @@
+.page-blog {
+  // Override navigation bar padding
+  nav:not(.overlay) {
+    padding-top: 30px; // from 50px down to 30px
+    padding-bottom: 30px; // from 50px down to 30px
+  }
+}

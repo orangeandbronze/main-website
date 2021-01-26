@@ -1,0 +1,84 @@
+.blog-post {
+  &__header-wrapper {
+    position: relative;
+    background-color: #454545;
+    height: 320px;
+    margin-bottom: 2rem;
+  }
+  &__header-bg {
+    position: absolute;
+    left: -2.5%;
+    width: 105%;
+    height: 100%;
+    background-color: #454545;
+    // background-image shall be specified inline
+    background-position: center;   
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px) brightness(0.5);
+  }
+  &__header {
+    position: relative;
+    height: 100%;
+    // @include make-container()
+    display: flex; // d-flex
+    align-items: center; // align-items-center
+    margin-bottom: 2rem;
+  }
+  &__title,
+  &__meta {
+    color: white; // to contrast with dark background in wrapper
+  }
+  &__title {
+    max-width: 55rem;
+    line-height: 1.025; // tight
+  }
+  &__meta {
+    line-height: 1.2; // tighter than the body-wide line-height of 1.7
+  }
+
+  &__body {
+    // Override line-height for some nested elements
+    p, li {
+      font-size: 1.2rem; // since AkzidenzGrotesk has a small x-height
+      line-height: 1.5; // better than the site-wide 1.7
+    }
+    p, ul, ol {
+      max-width: 55rem; // for easier reading
+      margin-bottom: 1.2rem;
+    }
+    h2, h3, h4, h5, h6 {
+      max-width: 42rem;
+    }
+  }
+}
+
+// @include media-breakpoint-up(lg)
+@media (min-width: 992px) {
+  .blog-post {
+    &__header-wrapper {
+      height: 400px;
+    }
+  }  
+}
+
+.blog-post-card {
+  position: relative;
+  height: 100% !important;
+  padding: 30px;
+  background-color: #f8f9fa !important; // $light
+  box-shadow: 0 5px 20px 0 hsla(210,2%,52%,.1);
+  border: 0 none;
+  border-top: 5px solid transparent; // $border-top-width
+  background-clip: padding-box;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0.5px; bottom: 0.5px; left: 0;
+    z-index: -1;
+    border-radius: inherit;
+    background: linear-gradient(to right, #ffd13d, #ff962c);
+    margin-top: -5px; // $border-top-width
+  }
+}

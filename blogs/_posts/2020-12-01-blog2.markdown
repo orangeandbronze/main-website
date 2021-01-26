@@ -1,58 +1,21 @@
 ---
-layout: default
-titles: About Orange and Bronze
-title: Software Development Philippines | About Orange and Bronze
+layout: blog
+title: Software Development Philippines
+header-image: /assets/images/LDPhoto-blog2.png
 ---
-<main>
-      <section class="section-about">
-        <div class="container panel-bg">
-          <div class="row">
-            <div class="col">
-                <img src="/assets/images/Blog2-PagePhoto.png" class="img-fluid" alt="Developers coding on laptop">
-                <h4 style="margin-top:50px;">ARTICLE 2 TITLE: Software Development Philippines</h4>
-                <h6>Posted | 04 Feb 2020 by LORENZO DEE</h6>
-                <h5 class="subtitle"><span>Tags:</span>
-                        <a href="/tags/development/">development</a>,
-                        <a href="/tags/software/">software</a>
-                </h5> 
-              </div>
-          </div>
-          <div class="row">
-            <div class="col">
-<p style="margin-top:30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<h3>Sub-section 1</h3>
-<p>How are you doing?</p>
-<p>How about we show some code?</p>
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@Entity</span>
-<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Person</span> <span class="o">{</span>
-    <span class="nd">@Id</span> <span class="kd">private</span> <span class="n">Long</span> <span class="n">id</span><span class="o">;</span>
-<span class="o">}</span>
-</code></pre></div></div>
-<p>Did the above code get syntax highlighted correctly?</p>
-<p>How about some JavaScript ❤️?</p>
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/**
- * Does a thing
- */</span>
-<span class="kd">function</span> <span class="nx">helloWorld</span><span class="p">(</span><span class="nx">param1</span><span class="p">,</span> <span class="nx">param2</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kd">var</span> <span class="nx">something</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
 
-  <span class="c1">// Do something</span>
-  <span class="k">if</span> <span class="p">(</span><span class="mf">2.0</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="nx">something</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Hello, world!'</span><span class="p">);</span>
-  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="kc">null</span><span class="p">;</span>
-  <span class="p">}</span>
-  <span class="c1">// @TODO comment</span>
-<span class="p">}</span>
-</code></pre></div></div>
-<h3>Sub-section 2</h3>
-<p>Why do we even exist?</p>
-<h3 id="conclusion">Conclusion</h3>
-<p>We think, therefore we exist.</p>
-            </div>
-          </div>
-          <div class="row pb-0">
-            <div class="col-6 feedback-controls">
-              <a class="btn-links" style="text-decoration: none" href="/blogs/second-blog-post/"><img class="prev" src="/assets/images/btn-prev.svg" alt="newer post" /> Second Post!</a>
-            </div>
-          </div>
+Phasellus molestie eget velit vitae congue. Ut fermentum elit ut risus finibus suscipit. Donec efficitur sapien eget ultrices aliquet. Nullam at lectus lorem. Integer non risus sed magna dapibus volutpat et vel lacus. Pellentesque convallis nec erat in finibus. Morbi pharetra leo ac elit pharetra, vitae elementum sem ultrices. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In ac vestibulum mi. Proin vehicula ligula a diam faucibus, sed ultricies nunc ullamcorper. Nulla posuere massa vitae tortor fringilla, in iaculis libero laoreet. Duis convallis, nunc a feugiat congue, dolor mi efficitur eros, vitae porta risus urna sed leo. Fusce in venenatis neque.
+
+- Bullet point 1, Nulla posuere massa vitae tortor fringilla.
+- Bullet point 2, Mauris auctor sagittis felis.
+- Bullet point 3, Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+- Bullet point 4
+- Bullet point 5
+
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed ultricies gravida odio, id mattis ipsum luctus vitae. Curabitur in sagittis dolor. Curabitur id ipsum porttitor, malesuada lacus et, aliquet risus. Sed malesuada purus quis risus commodo mattis. Maecenas eu cursus urna. Vivamus non lacus vitae lectus lobortis scelerisque vitae a diam. Aliquam fermentum vel ligula et maximus. Mauris auctor sagittis felis, eget suscipit nulla efficitur non. Aliquam erat volutpat. Morbi velit diam, finibus sit amet fringilla eu, aliquam et felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Ut auctor urna et nulla ultrices, ac gravida neque fringilla. Vestibulum eleifend fringilla urna, et vulputate dolor auctor vitae. Suspendisse condimentum tempor ornare. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque purus quam, ultricies nec lorem at, tempor lacinia nulla. Mauris quis libero mi. Integer varius massa non sagittis feugiat. Vestibulum neque risus, varius vel pharetra et, feugiat nec turpis. Fusce ullamcorper, nisl vitae fringilla volutpat, dui purus ornare purus, vel eleifend enim eros id tellus. Vestibulum luctus eget elit et scelerisque. In congue enim in augue bibendum varius. Cras id cursus ex, a tristique lectus. Integer condimentum, turpis vitae euismod fringilla, magna ante mattis velit, sed aliquet tortor elit at tortor. In fermentum quam at justo molestie rhoncus. Maecenas suscipit pretium luctus. Donec ac ipsum pharetra, interdum nunc vitae, porta lectus.
+
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut sit amet tristique velit. Quisque vitae neque luctus, hendrerit libero et, efficitur urna. Donec sit amet feugiat eros. Cras porta massa eget nulla lacinia, in mollis ante tempor. Duis ligula nunc, auctor vel semper in, maximus at nisl. Etiam pretium sit amet urna a dignissim. Pellentesque dapibus massa eget lorem consequat aliquam. Fusce maximus ligula eu iaculis molestie. Integer egestas nisi turpis, dignissim tempus justo tincidunt vitae. Duis ut gravida ligula.
+
+Maecenas interdum, lectus ut tincidunt accumsan, mi arcu placerat purus, sit amet accumsan velit quam sit amet augue. Quisque porta aliquam orci, vel posuere mi placerat ac. Donec rutrum pulvinar magna, ut pellentesque velit imperdiet et. Sed congue porttitor rutrum. Vivamus hendrerit enim ac velit dignissim laoreet. Nunc nec mi vel lorem pretium mollis vitae sed risus. Nullam sagittis varius pellentesque. Aliquam eleifend vulputate arcu in ornare. Mauris dapibus sollicitudin est, at suscipit augue feugiat ac. Morbi hendrerit ligula in velit pulvinar sollicitudin. Fusce interdum velit pharetra libero dapibus faucibus. Donec id massa porta nulla sagittis laoreet tempor id erat. Ut lacinia felis laoreet arcu suscipit mattis. Nunc quis elit et felis volutpat rutrum nec et dolor. Ut gravida venenatis semper. Sed auctor at felis eget vehicula.

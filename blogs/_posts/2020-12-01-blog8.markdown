@@ -1,60 +1,50 @@
 ---
-layout: default
-titles: About Orange and Bronze
-title: Software Development Philippines | About Orange and Bronze
+layout: blog
+title: About Orange and Bronze
+header-image: /assets/images/Blog8-PagePhoto.png
 ---
-<main>
-      <section class="section-about">
-        <div class="container panel-bg">
-          <div class="row">
-            <div class="col">
-                <img src="/assets/images/Blog8-PagePhoto.png" class="img-fluid" alt="Developers coding on laptop">
-                <h4 style="margin-top:50px;">ARTICLE 8 TITLE : Software Development Philippines</h4>
-                <h6>Posted | 25 JAN 2020 by DHORIS DE LEON</h6>
-                <h5 class="subtitle"><span>Tags:</span>
-                        <a href="/tags/development/">development</a>,
-                        <a href="/tags/software/">software</a>
-                </h5> 
-              </div>
-          </div>
-          <div class="row">
-            <div class="col">
-<p style="margin-top:30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<h3>Sub-section 1</h3>
-<p>How are you doing?</p>
-<p>How about we show some code?</p>
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@Entity</span>
-<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Person</span> <span class="o">{</span>
-    <span class="nd">@Id</span> <span class="kd">private</span> <span class="n">Long</span> <span class="n">id</span><span class="o">;</span>
-<span class="o">}</span>
-</code></pre></div></div>
-<p>Did the above code get syntax highlighted correctly?</p>
-<p>How about some JavaScript ❤️?</p>
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/**
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+### Sub-section 1
+
+How are you doing?
+
+How about we show some code?
+
+```java
+@Entity
+public class Person {
+    @Id private Long id;
+}
+```
+
+Did the above code get syntax highlighted correctly?
+
+How about some JavaScript ❤️?
+
+```javascript
+/**
  * Does a thing
- */</span>
-<span class="kd">function</span> <span class="nx">helloWorld</span><span class="p">(</span><span class="nx">param1</span><span class="p">,</span> <span class="nx">param2</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kd">var</span> <span class="nx">something</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+ */
+function helloWorld(param1, param2) {
+  var something = 0;
 
-  <span class="c1">// Do something</span>
-  <span class="k">if</span> <span class="p">(</span><span class="mf">2.0</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="nx">something</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Hello, world!'</span><span class="p">);</span>
-  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="kc">null</span><span class="p">;</span>
-  <span class="p">}</span>
-  <span class="c1">// @TODO comment</span>
-<span class="p">}</span>
-</code></pre></div></div>
-<h3>Sub-section 2</h3>
-<p>Why do we even exist?</p>
-<h3 id="conclusion">Conclusion</h3>
-<p>We think, therefore we exist.</p>
-            </div>
-          </div>
-          <div class="row pb-0">
-            <div class="col-6 feedback-controls">
-              <a class="btn-links" style="text-decoration: none" href="/blogs/second-blog-post/"><img class="prev" src="/assets/images/btn-prev.svg" alt="newer post" /> Second Post!</a>
-            </div>
-          </div>
+  // Do something
+  if (2.0 % 2 == something) {
+    console.log('Hello, world!');
+  } else {
+    return null;
+  }
 
+  // @TODO comment
+}
+```
 
+### Sub-section 2
+
+Why do we even exist?
+
+### Conclusion
+
+We think, therefore we exist.

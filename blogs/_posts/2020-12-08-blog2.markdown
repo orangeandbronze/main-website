@@ -1,6 +1,6 @@
 ---
-layout: blog
-title: Software Development Philippines
+layout:       blog
+title:        "Making Remote Work Work: Useful Tools And Resources"
 header-image: /assets/images/LDPhoto-blog2.png
 ---
 

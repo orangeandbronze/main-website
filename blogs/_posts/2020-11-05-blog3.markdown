@@ -1,6 +1,6 @@
 ---
-layout: blog
-title: Software Development Philippines
+layout:       blog
+title:        A Practical Introduction To Dependency Injection
 header-image: /assets/images/LDPhoto-blog3.png
 ---
 

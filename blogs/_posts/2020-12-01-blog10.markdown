@@ -1,6 +1,0 @@
----
-layout: blog
-title: Software Development Philippines (10)
-header-image: /assets/images/Blog10-PagePhoto.png
----
-

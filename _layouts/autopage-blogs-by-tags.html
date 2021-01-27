@@ -21,10 +21,15 @@ class: blogs
       <div class="row" style="min-height: 380px">
           {% for post in paginator.posts %}
           <div class="col-sm-6 col-lg-4">
-            <article class="blog-post-card rounded">              
-              <h4 class="title"><a href="{{ post.url }}">{{ post.title | escape | truncatewords: 8 }}</a></h4>
-              <p>{{ post.date | date_to_string }}</p>
-            </article>
+            <a class="a--no-underline-on-hover" href="{{ post.url }}">
+              <article class="blog-post-card rounded">
+                <img class="blog-post-card__thumbnail-img" src="{{ post.header-image }}" alt="Thumbnail for {{ post.title | escape | truncatewords: 8 }}">
+                <div class="blog-post-card__body">
+                  <p class="blog-post-card__meta mb-1">{{ post.date | date_to_string }}</p>
+                  <h2 class="blog-post-card__title a-like">{{ post.title | escape | truncatewords: 8 }}</h2>
+                </div>
+              </article>
+            </a>
           </div>
           {% endfor %}
       </div>

@@ -15,7 +15,7 @@
       <div class="blog-post__header-wrapper">
         <div class="blog-post__header-bg" style="background-image: url('{{ page.header-image }}')"></div>
         <div class="blog-post__header container">
-          <div>
+          <div class="py-3">
             <h1 class="blog-post__title">{{ page.title | escape }}</h1>
             <p class="blog-post__meta mb-1">Posted on {{ page.date | date_to_string }}
               {% assign authorCount = page.authors | size %}
@@ -49,6 +49,7 @@
               {% endif %}
             </p>
             {% endif %}
+          </div>
           </div>
         </div>
       </div>

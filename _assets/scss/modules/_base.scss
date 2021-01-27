@@ -184,3 +184,39 @@ main ul,main li{
     line-height: 1.75;
     color: #141516;
 }
+
+/**
+ * This is typically used to style an anchor (<a>)
+ * around block-level elements, as this is now allowed in HTML5.
+ *
+ * This was first used to wrap an <article> in an <a>. But
+ * simply wrapping it will cause all the text inside to have
+ * an underline on hover (due to a:hover). To negate this,
+ * the .a--no-underline-on-hover is applied to the <a>. And
+ * selected child/descendant elements that wish to behave like
+ * an anchor can be styled with .a-like so that it will have
+ * an underline on hover.
+ */
+a {
+  &.a--no-underline-on-hover {
+    .a-like {
+      color: #ff9c2e;
+    }
+  }
+  &:hover.a--no-underline-on-hover {
+    text-decoration: none;
+
+    .a-like {
+      text-decoration: underline;
+    }
+  }
+  // This may be useful for a11y, since Bootstrap removes all outlines
+  /*
+  &:focus.a--no-underline-on-hover {
+    .a-like {
+      outline: 1px dashed rgba(255, 156, 46, 0.25);
+      outline-offset: 0.125rem;
+    }
+  }
+  */
+}

@@ -4,4 +4,7 @@
     padding-top: 30px; // from 50px down to 30px
     padding-bottom: 30px; // from 50px down to 30px
   }
+  .bg1 {
+    top: -30px; // from -10px (to align with the above reduction in padding)
+  }
 }

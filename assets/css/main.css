@@ -8314,7 +8314,8 @@ footer {
   margin-bottom: 1.2rem; }
 
 .blog-post__body h2, .blog-post__body h3, .blog-post__body h4, .blog-post__body h5, .blog-post__body h6 {
-  max-width: 42rem; }
+  max-width: 42rem;
+  text-align: left; }
 
 @media (min-width: 992px) {
   .blog-post__header {

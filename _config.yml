@@ -53,7 +53,7 @@ autopages:
   tags:
     layouts:
       - autopage-blogs-by-tags.html
-    title: ':tag - Blogs'
+    title: ':tag | Orange Orchard'
     permalink: '/tags/:tag'
     enabled: true
   categories:

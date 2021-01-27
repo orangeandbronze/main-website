@@ -17,38 +17,37 @@
         <div class="blog-post__header container">
           <div class="py-3">
             <h1 class="blog-post__title">{{ page.title | escape }}</h1>
-            <p class="blog-post__meta mb-1">Posted on {{ page.date | date_to_string }}
-              {% assign authorCount = page.authors | size %}
-              {% if authorCount == 1 %}
-                by <span>{{ page.authors | first }}</span>
-              {% elsif authorCount > 1 %}
-                {% for author in page.authors %}
-                  {% if forloop.first %}
-                    by <span>{{ author }}</span>
-                  {% elsif forloop.last %}
-                    and <span>{{ author }}</span>
-                  {% else %}
+            <p class="blog-post__meta mb-1">Posted on <span>{{ page.date | date_to_string }}</span> 
+              {%- assign authorCount = page.authors | size -%}
+              {%- if authorCount == 1 -%}<span> by </span><span>{{ page.authors | first }}</span>
+              {%- elsif authorCount > 1 -%}
+                {%- for author in page.authors -%}
+                  {%- if forloop.first -%}
+                    <span> by </span><span>{{ author }}</span>
+                  {%- elsif forloop.last -%}
+                    <span> and </span><span>{{ author }}</span>
+                  {%- else -%}
                     , <span>{{ author }}</span>
-                  {% endif %}
-                {% endfor %}
-              {% endif %}
+                  {%- endif -%}
+                {%- endfor -%}
+              {%- endif -%}
             </p>
-            {% if page.tags.size > 0 %}
-            <p class="blog-post__meta mb-1" style=""><span>Tag{% if page.tags.size > 1 %}s{% endif %}:</span>
-              {% if page.tags.size == 1 %}
-                <a href="/tags/{{ tag | slugify }}/">{{ tag | replace:'-', ' ' }}</a>
-              {% else %}
-                {% assign tags = page.tags | sort %}
-                {% for tag in tags %}
-                  {% if forloop.last == false %}
-                    <a href="/tags/{{ tag | slugify }}/">{{ tag | replace:'-', ' ' }}</a>,
-                  {% else %}
+            {%- if page.tags.size > 0 -%}
+            <p class="blog-post__meta mb-1" style=""><span>Tag{%- if page.tags.size > 1 -%}s{%- endif -%}: </span>
+              {%- if page.tags.size == 1 -%}
+                <a href="/tags/{{ page.tags | first | slugify }}/">{{ page.tags | first | replace:'-', ' ' }}</a>
+              {%- else -%}
+                {%- assign tags = page.tags | sort -%}
+                {%- for tag in tags -%}
+                  {%- if forloop.last == false -%}
+                    <a href="/tags/{{ tag | slugify }}/">{{ tag | replace:'-', ' ' }}</a><span>, </span>
+                  {%- else -%}
                     <a href="/tags/{{ tag | slugify }}/">{{ tag | replace:'-', ' ' }}</a>
-                  {% endif %}
-                {% endfor %}
-              {% endif %}
+                  {%- endif -%}
+                {%- endfor -%}
+              {%- endif -%}
             </p>
-            {% endif %}
+            {%- endif -%}
           </div>
         </div>
       </div>

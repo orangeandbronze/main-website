@@ -206,7 +206,8 @@
 }
 .highlight {
   background-color: #f6f8fa;
+  border-radius: .5rem;
 }
 pre.highlight {
-  padding: 0.25rem 0.5rem;
+  padding: .5rem;
 }

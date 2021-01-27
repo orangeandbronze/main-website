@@ -1,6 +1,8 @@
 ---
 layout:       blog
 title:        "New in Chrome 88: aspect-ratio"
+authors:      ["Kathleen Garcia", "Dhoris Tayag-De Leon"]
+tags:         [css, web-design]
 header-image: /assets/images/LDPhoto-blog6.png
 ---
 

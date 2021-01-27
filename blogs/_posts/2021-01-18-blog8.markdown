@@ -1,6 +1,8 @@
 ---
 layout:       blog
 title:        AWS Talaga? An AWS Solutions Architect Certification Story
+authors:      Redan Alcaide
+tags:         cloud
 header-image: /assets/images/LDPhoto-blog8.png
 ---
 

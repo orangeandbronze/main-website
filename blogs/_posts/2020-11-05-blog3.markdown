@@ -1,6 +1,7 @@
 ---
 layout:       blog
 title:        A Practical Introduction To Dependency Injection
+authors:      Calen Legaspi
 header-image: /assets/images/LDPhoto-blog3.png
 ---
 

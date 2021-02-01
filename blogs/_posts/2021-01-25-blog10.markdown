@@ -1,6 +1,0 @@
----
-layout:       blog
-title:        Cooking Meals Made Me More Agile
-header-image: /assets/images/LDPhoto-blog10.png
----
-

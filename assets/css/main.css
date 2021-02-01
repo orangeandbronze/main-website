@@ -8310,12 +8310,29 @@ footer {
   line-height: 1.5; }
 
 .blog-post__body p, .blog-post__body ul, .blog-post__body ol {
-  max-width: 55rem;
+  max-width: 55rem; }
+
+.blog-post__body p, .blog-post__body ul, .blog-post__body ol, .blog-post__body table {
   margin-bottom: 1.2rem; }
 
 .blog-post__body h2, .blog-post__body h3, .blog-post__body h4, .blog-post__body h5, .blog-post__body h6 {
   max-width: 42rem;
   text-align: left; }
+
+.blog-post__body img {
+  max-width: 100%; }
+
+.blog-post__body table {
+  width: 100%;
+  max-width: 100%; }
+  .blog-post__body table th,
+  .blog-post__body table td {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6; }
+  .blog-post__body table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6; }
 
 @media (min-width: 992px) {
   .blog-post__header {

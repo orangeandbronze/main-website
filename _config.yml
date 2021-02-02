@@ -38,6 +38,14 @@ plugins:
 permalink: pretty
 permalink: /:categories/:title/
 
+defaults:
+  - scope:
+      path: 'blogs/_posts'
+      type: posts
+    values:
+      permalink: /blogs/:year/:month/:title
+      category: blogs
+
 # Pagination Settings
 pagination:
   enabled: true

@@ -1,0 +1,141 @@
+.blog-post {
+  &__header-wrapper {
+    position: relative;
+    background-color: #454545;
+    height: auto;
+    margin-bottom: 2rem;
+    overflow: hidden;
+  }
+  &__header-bg {
+    position: absolute;
+    left: -2.5%;
+    width: 105%;
+    height: 100%;
+    background-color: #454545;
+    // background-image shall be specified inline
+    background-position: center;   
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px) brightness(0.5); // reduced brightness to keep white title visible
+  }
+  &__header {
+    position: relative;
+    min-height: 320px;
+    height: auto;
+    // @include make-container()
+    display: flex; // d-flex
+    align-items: center; // align-items-center
+  }
+  &__title,
+  &__meta {
+    color: white; // to contrast with dark background in wrapper
+  }
+  &__title {
+    max-width: 55rem;
+    line-height: 1.025; // tight
+  }
+  &__meta {
+    line-height: 1.2; // tighter than the body-wide line-height of 1.7
+  }
+
+  &__body {
+    // Override line-height for some nested elements
+    p, li {
+      font-size: 1.2rem; // since AkzidenzGrotesk has a small x-height
+      line-height: 1.5; // better than the site-wide 1.7
+    }
+    p, ul, ol {
+      max-width: 55rem; // for easier reading
+    }
+    p, ul, ol, table {
+      margin-bottom: 1.2rem;
+    }
+    h2, h3, h4, h5, h6 {
+      max-width: 42rem;
+      text-align: left;
+    }
+    img {
+      max-width: 100%;
+    }
+    table {
+      width: 100%;
+      max-width: 100%;
+
+      th,
+      td {
+        padding: .75rem;
+        vertical-align: top;
+        border-top: 1px solid #dee2e6; // $table-border-color
+      }
+
+      thead th {
+        vertical-align: bottom;
+        border-bottom: 2px solid #dee2e6; // $table-border-color
+      }
+    }
+  }
+}
+
+// @include media-breakpoint-up(lg)
+@media (min-width: 992px) {
+  .blog-post {
+    &__header {
+      min-height: 400px;
+    }
+  }  
+}
+
+.blog-post-card {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  height: 100% !important;
+  padding: 0;
+  background-color: white !important; // otherwise ::before will show through
+  box-shadow: 0 5px 20px 0 hsla(204,2%,52%,.25);
+  border: 0 none;
+  border-top: 5px solid transparent; // $border-top-width
+  background-clip: padding-box;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -1;
+    border-radius: inherit;
+    background: linear-gradient(to right, #ffd13d, #ff962c);
+    margin-top: -5px; // $border-top-width
+  }
+
+  &__thumbnail-img {
+    display: block;
+    width: 100%;
+    height: 160px;
+    background-color: rgba(0, 0, 0, 0.1);
+    object-fit: cover; // to allow images of varying sizes and aspect-ratios
+    flex-grow: 0;
+  }
+
+  &__body {
+    padding: 20px;
+    min-height: 120px; // complements thumbnail-img height of 160px
+    flex-grow: 1;
+  }
+
+  &__title {
+    font-size: 24px; // like <h4>
+    text-align: left;
+  }
+  &__meta {
+    opacity: 0.5;
+    line-height: 1.2;
+  }
+}
+
+a:hover .blog-post-card {
+  box-shadow: 0 5px 20px 0 hsla(204,2%,52%,.5);
+}
+
+a:focus .blog-post-card {  
+}

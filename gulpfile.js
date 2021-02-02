@@ -98,10 +98,10 @@ gulp.task("watch", ["sass"], function() {
 
 gulp.task("css", function() {
   return gulp
-    .src("assets/css/main.css")
-    .pipe(rename("assets/css/main.min.css"))
+    .src(["assets/css/**/*.css", "!assets/css/**/*.min.css"])
     .pipe(cssnano())
-    .pipe(gulp.dest("./")); 
+    .pipe(rename({ suffix: ".min" }))
+    .pipe(gulp.dest("assets/css")); 
 });
 
 gulp.task("js", function() {

@@ -1,0 +1,61 @@
+---
+layout: default
+photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
+class: blogs
+---
+
+<section class="section-header">
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-12 col-md-8 col-lg-7">
+              <h6 class="xml-tag-like">SOFTWARE ENGINEERING DONE RIGHT</h6>
+              <h1>{{ page.autopages.display_name | escape }} <small>- Orange Orchard</small></h1>
+              <p>Blog posts tagged with <span>&ldquo;{{ page.autopages.display_name }}&rdquo;</span>.</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section id="blog-post-list" class="" style="padding-top: 0.5em">
+  <div class="container">
+      <div class="row" style="min-height: 380px">
+          {% for post in paginator.posts %}
+          <div class="col-sm-6 col-lg-4">
+            <a class="a--no-underline-on-hover" href="{{ post.url }}">
+              <article class="blog-post-card rounded">
+                <img class="blog-post-card__thumbnail-img" src="{{ post.header-image }}" alt="Thumbnail for {{ post.title | escape | truncatewords: 8 }}">
+                <div class="blog-post-card__body">
+                  <p class="blog-post-card__meta mb-1">{{ post.date | date_to_string }}</p>
+                  <h2 class="blog-post-card__title a-like">{{ post.title | escape | truncatewords: 8 }}</h2>
+                </div>
+              </article>
+            </a>
+          </div>
+          {% endfor %}
+      </div>
+      {% if paginator.total_pages > 1 %}
+      <div class="row">
+        <div class="col-6 feedback-controls">
+          {% if paginator.previous_page %}
+          <a class="btn-links" style="text-decoration: none" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><img class="prev" src="{{ "/assets/images/btn-prev.svg" }}" alt="previous page" /> Newer Posts</a>
+          {% endif %}
+        </div>
+        {% if paginator.next_page %}
+        <div class="col-6 text-right feedback-controls">
+          <a class="btn-links" style="text-decoration: none" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"> Older Posts <img class="next" src="{{ "/assets/images/btn-next.svg" }}" alt="next page" /></a>
+        </div>
+        {% endif %}
+      </div>
+      {% endif %}
+  </div>
+</section>
+
+    {%- include footer.html -%}
+
+    <script src="{{ "assets/js/vendor/jquery-3.3.1.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/vendor/bootstrap.bundle.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/vendor/slick.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/js/main.js" | relative_url }}"></script>
+  </body>
+
+</html>

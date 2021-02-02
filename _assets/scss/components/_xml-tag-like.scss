@@ -1,0 +1,10 @@
+.xml-tag-like {
+  &::before {
+    content: '<';
+    margin-inline-end: 0.35em;
+  }
+  &::after {
+    content: '/>';
+    margin-inline-start: 0.35em;
+  }
+}

@@ -33,9 +33,41 @@ safe: false
 plugins: 
    - jekyll-redirect-from
    - jekyll-seo-tag
+   - jekyll-paginate-v2
 
 permalink: pretty
 permalink: /:categories/:title/
+
+defaults:
+  - scope:
+      path: 'blogs/_posts'
+      type: posts
+    values:
+      permalink: /blogs/:year/:month/:title
+      category: blogs
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+autopages:
+  enabled: true
+  tags:
+    layouts:
+      - autopage-blogs-by-tags.html
+    title: ':tag | Orange Orchard'
+    permalink: '/tags/:tag'
+    enabled: true
+  categories:
+    enabled: false
+  collections:
+    enabled: false
 
 # Build settings
 markdown: kramdown
@@ -46,6 +78,7 @@ header_pages:
  - trainings.html
  - about.html
  - careers.html
+ - /blogs/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

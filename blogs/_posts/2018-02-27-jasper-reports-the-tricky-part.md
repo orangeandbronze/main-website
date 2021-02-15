@@ -3,7 +3,7 @@ layout:       blog
 title:        "JasperReports: The Tricky Parts"
 authors:      Lorenzo Dee
 tags:         java
-header-image: /assets/images/2018-02-27-jasper-reporst-the-tricky-part/2018-02-18-jasper-reporst-the-tricky-part.jpg
+header-image: /assets/images/2018-02-27-jasper-reports-the-tricky-part/2018-02-18-jasper-reports-the-tricky-part.jpg
 ---
 
 If you have been programming in Java long enough, chances are you needed to generate reports for business users. In my case, I’ve seen several projects use [JasperReports® Library](https://community.jaspersoft.com/project/jasperreports-library){:target="_blank"} to generate reports in PDF and other file formats. Recently, I’ve had the privilege of observing Mike and his team use the said reporting library and the challenges they faced.
@@ -97,7 +97,7 @@ We also created utility test classes to generate large amounts of data by repeat
 
 Another thing to consider is the opening and closing of the resource needed when filling the report. This could be a JDBC connection, a Hibernate session, a JPA EntityManager, or a file input stream (e.g. CSV, XML). Illustrated below is a rough sketch of my design considerations.
 
-![dependency-injection](/assets/images/2018-02-27-jasper-reporst-the-tricky-part/image-1-300x91.jpg)
+![dependency-injection](/assets/images/2018-02-27-jasper-reports-the-tricky-part/image-1-300x91.jpg)
 
 We want to isolate #2 and define decorators that would open the resource, fill the report, and close the opened resource in a <span style="color:green">finally</span> block. The resource that is opened may depend on the element (if present) inside the report. In some cases, where there is no element, there is probably no need to open a resource.
 

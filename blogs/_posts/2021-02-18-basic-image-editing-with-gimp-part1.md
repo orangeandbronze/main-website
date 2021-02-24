@@ -106,4 +106,4 @@ Saving you work on GIMP creates an xcf file. To save the actual image file (jpg,
 
 XCF is short for eXperimental Computing Facility, the native image format used by GIMP.
 
-*Watch out for part 2 of this tutorial!*
+*Click [here](https://www.orangeandbronze.com/blogs/2021/02/basic-image-editing-with-gimp-part1){:target="_blanck"} for the second part of the tutorial.*

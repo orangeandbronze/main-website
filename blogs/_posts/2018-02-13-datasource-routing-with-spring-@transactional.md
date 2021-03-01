@@ -2,7 +2,7 @@
 layout:       blog
 title:        "DataSource Routing with Spring @Transactional"
 authors:      Lorenzo Dee
-tags:         java
+tags:         java, spring
 header-image: /assets/images/2018-02-13-datasource-routing-with-spring-@transactional/2018-02-13-datasource-routing-with-spring-@transactional-banner.png
 ---
 

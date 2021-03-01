@@ -10,13 +10,12 @@ I was inspired by Carl Papa's use of aspects with the Spring Framework to determ
 
 I must admit that I have long been familiar with Spring's [AbstractRoutingDataSource](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/jdbc/datasource/lookup/AbstractRoutingDataSource.html){:target="_blank"}. But I did not have a good idea where it can be used. Thanks to Carl and team, and one of their projects. Now, I know a good use case.
 
-![Two blue cylinder with letter R and M](/assets/images/2018-02-13-datasource-routing-with-spring-@transactional/imageedit_1_6934082642.png "Two blue cylinder with letter R and M")
-
 ## @Transactional
+
 With Spring, read-only transactions are typically marked with annotations.
 
 ```java
-public class ... {
+public class SomeTransactionalComponent {
     @Transactional(readOnly=true)
     public void ...() {...}
  
@@ -28,7 +27,11 @@ To take advantage of this, we use Spring's [TransactionSynchronizationManager](h
 
 ## AbstractRoutingDataSource
 
+![Master and replica databases](/assets/images/2018-02-13-datasource-routing-with-spring-@transactional/imageedit_1_6934082642.png "Master and replica databases"){:style="float: right; margin: 1rem 0 1rem 1rem"}
+
 Here, we use Spring's `AbstractRoutingDataSource` to route to the read-only replica if the current transaction is read-only. Otherwise, it routes to the default which is the master.
+
+<div style="clear: both"></div>
 
 ```java
 public class ... extends AbstractRoutingDataSource {

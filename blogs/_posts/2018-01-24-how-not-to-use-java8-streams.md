@@ -6,7 +6,7 @@ tags:         java
 header-image: /assets/images/2018-01-24-how-not-to-use-java8-streams/HowNotToUseJava8Streams.png
 ---
 
-Now (it’s been years) that Java has gotten functional programming syntax, it can be pretty easy to get carried away and use it unnecessarily. Take for instance, this piece of code someone i know has written:
+Now (it’s been years) that Java has gotten functional programming syntax, it can be pretty easy to get carried away and use it unnecessarily. Take for instance, this piece of code someone I know has written:
 
 ```java
 List<String> listToReturn = listOfAcceptableCountries.stream()
@@ -18,9 +18,9 @@ List<String> listToReturn = listOfAcceptableCountries.stream()
 
 I’ll give you a few **minutes** to read that and please form some opinion on what it’s supposed to do.
 
-***
+<hr style="margin: 2em 2rem">
 
-Done? The fact that i said “minutes” should have been a red flag. If you can’t decipher the intention of 5 lines of code by literally just reading it, then you have a big problem right there.
+Done? The fact that I said “minutes” should have been a red flag. If you can’t decipher the intention of 5 lines of code by literally just reading it, then you have a big problem right there.
 
 The *supposed* intention of the code was:
 
@@ -33,7 +33,7 @@ Surprised? I’ll try to go through the code to explain what’s wrong with the 
 ```java
 listOfAcceptableCountries.stream()
 ```
-So we convert the list of country objects to a stream so we can iterate over it. Let’s use [philippines, unitedStates, mexico] as our test case and assume that they’re objects.
+So we convert the list of country objects to a stream so we can iterate over it. Let’s use <code style="white-space: nowrap">[philippines, unitedStates, mexico]</code> as our test case and assume that they’re objects.
 
 ## Second line:
 
@@ -47,7 +47,7 @@ Next we filter out the countries that match our user’s country. Since the coun
 ```java
 .findFirst()
 ```
-We get the first value and also the **only** value that matches the user’s country. So if our user is from the US, we have the variable, unitedStates.
+We get the first value and also the **only** value that matches the user’s country. So if our user is from the US, we have the variable, `unitedStates`.
 
 ## Fourth line:
 
@@ -55,19 +55,14 @@ We get the first value and also the **only** value that matches the user’s cou
 .map(countryCode -> customList)
 ```
 
-This part is where it **literally** gets unnecessary. Our object(unitedStates) is mapped to customList. The word map as a verb(as per google) is defined as
+This part is where it **literally** gets unnecessary. Our object (`unitedStates`) is mapped to customList. The word "map" as a verb (as per Google) is defined as
 
-* MATHEMATICS
-  
-  associate each element of (a set) with an element of another set.
-  
-  “the direct sum of two rings A and B may be mapped homomorphically on the summand” 
-
-* MATHEMATICS
-  
-  be associated with or linked to.
-
-  “if more than one suffix can be mapped on to the end of a word then the longest is chosen for removal”
+* <small style="padding: 0.125rem 0.5rem; background-color: lightgray; color: gray">MATHEMATICS</small> 
+  <div>associate each element of (a set) with an element of another set.</div>
+  <div style="color: gray">“the direct sum of two rings A and B may be mapped homomorphically on the summand”</div>
+* <small style="padding: 0.125rem 0.5rem; background-color: lightgray; color: gray">MATHEMATICS</small>
+  <div>be associated with or linked to.</div>
+  <div style="color: gray">“if more than one suffix can be mapped on to the end of a word then the longest is chosen for removal”</div>
 
 Even a non-programmer reading the symbols would get confused as he would read it as countryCode **turning into** customList, which doesn’t make sense at all without context. As developers, we read it as “Given this variable countryCode, simply return customList” and the nature of its pointlessness is made even more evident when you write it down as a method. We literally just throw away the value and not care about it, as long as it exists.
 
@@ -77,9 +72,9 @@ Even a non-programmer reading the symbols would get confused as he would read it
 .else(defaultList);
 ```
 
-The last line is simply a glorified else statement since findFirst() returns an Optional object.
+The last line is simply a glorified else statement since `findFirst()` returns an `Optional` object.
 
-***
+<hr style="margin: 2em 2rem">
 
 ## A better solution
 
@@ -104,9 +99,9 @@ Let’s read the problem statement again.
 
 > Check if a user is from a list of countries and return a “custom list”, otherwise return a default list.
 
-Notice that every time (which is like, only two times) I’ve tried to suggest a solution i keep going back to the problem statement. That is because when you want to write good code, it is important to have a clear vision of what your code does or should do.
+Notice that every time (which is like, only two times) I’ve tried to suggest a solution I keep going back to the problem statement. That is because when you want to write good code, it is important to have a clear vision of what your code does or should do.
 
-A lot of OOP concepts like Law of Demeter encourage encapsulation and information hiding. I particularly like the rule that says “The object that has the data should do the job”. In this regard, our service code can simply ***ask*** the user object if he is from a special country(i made up this domain term). We’ll modify the problem statement to:
+A lot of OOP concepts like Law of Demeter encourage encapsulation and information hiding. I particularly like the rule that says “The object that has the data should do the job”. In this regard, our service code can simply ***ask*** the user object if he is from a special country (I made up this domain term). We’ll modify the problem statement to:
 
 > Check if a user is from a special country and return a “custom list”, otherwise return a default list.
 
@@ -129,7 +124,7 @@ We can quite literally shorten it to one line of code. Now we have hidden the im
 
 If you want to know what makes a user *“from a special country”* or how a user gives back its *“country based list”*, you can peer into the user object and see for yourself. But most likely, if you want to read a service method (for example a deposit to bank account service method), you want to abstract away pointless details and be satisfied with knowing that “a user’s list of whatevers is different if it’s from a special country”.
 
-It is up to you, the developer, what level of information hiding you want to implement and what is practical in the system you are working on right now. Maybe the information and logic needed cannot be injected inside the user object for practical reasons. You can use another classes instead and ask it if a user is special or what its special list is. In this case however, whatever may be deemed most appropriate, it is definitely not the java-8 code.
+It is up to you, the developer, what level of information hiding you want to implement and what is practical in the system you are working on right now. Maybe the information and logic needed cannot be injected inside the user object for practical reasons. You can use another classes instead and ask it if a user is special or what its special list is. In this case however, whatever may be deemed most appropriate, it is definitely not the Java-8 code.
 
 Originally posted at: [How not to use Java 8 streams](https://medium.com/@samong05/how-not-to-use-java-8-streams-4b399f7af2d4){:target="_blank"}
 

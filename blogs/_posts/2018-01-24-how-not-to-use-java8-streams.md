@@ -3,7 +3,7 @@ layout:       blog
 title:        "How not to use Java 8 Streams"
 authors:      Sam Ong
 tags:         java
-header-image: /assets/images/2018-01-24-how-not-to-use-java8-streams/HowNotToUseJava8Streams.png
+header-image: /assets/images/2018-01-24-how-not-to-use-java8-streams/HowNotToUseJava8Streams2.png
 ---
 
 Now (it’s been years) that Java has gotten functional programming syntax, it can be pretty easy to get carried away and use it unnecessarily. Take for instance, this piece of code someone I know has written:

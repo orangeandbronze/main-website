@@ -3,7 +3,7 @@ layout:       blog
 title:        "DataSource Routing with Spring @Transactional"
 authors:      Lorenzo Dee
 tags:         java, spring
-header-image: /assets/images/2018-02-13-datasource-routing-with-spring-@transactional/2018-02-13-datasource-routing-with-spring-@transactional-banner.png
+header-image: /assets/images/2018-02-13-datasource-routing-with-spring-@transactional/2018-02-13-datasource-routing-with-spring-@transactional-banner2.png
 ---
 
 I was inspired by Carl Papa's use of aspects with the Spring Framework to determine the `DataSource` to use (either read-write or read-only). So, I'm writing this post.

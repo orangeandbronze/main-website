@@ -3,7 +3,7 @@ layout:       blog
 title:        "JasperReports: The Tricky Parts"
 authors:      Lorenzo Dee
 tags:         java
-header-image: /assets/images/2018-02-27-jasper-reports-the-tricky-part/2018-02-18-jasper-reports-the-tricky-part.jpg
+header-image: /assets/images/2018-02-27-jasper-reports-the-tricky-part/JasperReportsTheTrickyParts.png
 ---
 
 If you have been programming in Java long enough, chances are you needed to generate reports for business users. In my case, I’ve seen several projects use [JasperReports® Library](https://community.jaspersoft.com/project/jasperreports-library){:target="_blank"} to generate reports in PDF and other file formats. Recently, I’ve had the privilege of observing Mike and his team use the said reporting library and the challenges they faced.

@@ -33,7 +33,7 @@ Let's try to answer the most feared interview question of all time - tell *me so
 
 <figure>
   <img src="/assets/images/2021-03-11-creating-great-first-impressions-in-the-time-of-COVID/HowToAnswerTheTellMeAboutYourselfQuestion.png" />
-  <figcaption>Image by Emilie Dunphy via The Balance 20190</figcaption>
+  <figcaption>Image by Emilie Dunphy via The Balance 2019</figcaption>
 </figure>
 
 Think of your introduction in an interview as if you are in an elevator with the interviewer. Create an overview that's concise enough during that elevator ride. This should include your top selling points for the position that may differ from job to job.

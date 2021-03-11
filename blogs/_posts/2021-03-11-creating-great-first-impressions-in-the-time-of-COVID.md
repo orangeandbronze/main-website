@@ -31,13 +31,9 @@ Understanding the context is always important in any conversation. First, identi
 
 Let's try to answer the most feared interview question of all time - tell *me something about yourself*? It's the simplest yet the hardest question to be asked, but effectively answering this question helps you set the tone of your interview.
 
-![Shaking hands](/assets/images/2021-03-11-creating-great-first-impressions-in-the-time-of-COVID/tell-me-about-yourself-job-interview-question-2060956-v2-3d6cb665d7f3491aa07d518a2fbc0293.webp "Shaking hands")
-
-[^]: Image by Emilie Dunphy © The Balance 2019
-
-<figure class="image">
-  <img src="{{ /assets/images/2021-03-11-creating-great-first-impressions-in-the-time-of-COVID/tell-me-about-yourself-job-interview-question-2060956-v2-3d6cb665d7f3491aa07d518a2fbc0293.webp }}" alt="{{ include.description }}">
-  <figcaption>Image by Emilie Dunphy via The Balance 2019</figcaption>
+<figure>
+  <img src="/assets/images/2021-03-11-creating-great-first-impressions-in-the-time-of-COVID/HowToAnswerTheTellMeAboutYourselfQuestion.png" />
+  <figcaption>Image by Emilie Dunphy via The Balance 20190</figcaption>
 </figure>
 
 Think of your introduction in an interview as if you are in an elevator with the interviewer. Create an overview that's concise enough during that elevator ride. This should include your top selling points for the position that may differ from job to job.

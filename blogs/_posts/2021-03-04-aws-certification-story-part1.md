@@ -23,7 +23,10 @@ There were a lot of upfront costs to get you up and running. This was primarily 
 
 I know what I've said sounds daunting, but thanks to Cloud Computing you don't have to worry!
 
-![Woman working on server machines](/assets/images/2021-03-04-aws-certification-story/pexels-christina-morillo-1181354.jpg "Woman working on server machines") 
+<figure>
+  <img src="/assets/images/2021-03-04-aws-certification-story/pexels-christina-morillo.jpg" alt="Woman working on server machine" />
+  <figcaption>Image by Christina Morillo via Pexels</figcaption>
+</figure>
 
 ## Cloud Computing
 
@@ -33,7 +36,10 @@ Cloud Computing can best be described as:
 >
 > Source: https://aws.amazon.com/what-is-cloud-computing/
 
-![Data-center](/assets/images/2021-03-04-aws-certification-story/pexels-brett-sayles-4508751.jpg "Data-center")
+<figure>
+  <img src="/assets/images/2021-03-04-aws-certification-story/pexels-brett-sayles.jpg" alt="Data Center" />
+  <figcaption>Image by Brett Sayles via Pexels</figcaption>
+</figure>
 
 Cloud Computing makes provisioning resources easy and mundane. Instead of doing the heavy lifting yourself, you can pay for a Cloud Computing platform to do it for you! 
 

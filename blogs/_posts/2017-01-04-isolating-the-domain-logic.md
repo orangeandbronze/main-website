@@ -2,11 +2,11 @@
 layout:       blog
 title:        "Isolating the Domain Logic"
 authors:      Lorenzo Dee
-tags:         architecture DDD design java JPA
+tags:         [domain-driven-design, java, jpa]
 header-image: /assets/images/2017-01-04-isolating-the-domain-logic/IsolatingtheDomainLogic-Banner-Image.png
 ---
 
-Lorenzo explains the reason why code in applications is arranged and split in a certain way, and provides tips for arranging your application. 
+<i>Lorenzo explains the reason why code in applications is arranged and split in a certain way, and provides tips for arranging your application.</i>
 
 In one design patterns class, I had an interesting discussion about modelling domain logic. Specifically, it was about isolating the domain logic. An application would typically be divided into three parts:
 
@@ -98,5 +98,4 @@ That’s all for now. I hope this short explanation can shed some light to those
 
 Thanks to [Juno Aliento](https://currents.google.com/108603150488137710491){:target="_blank"} for helping me with the class during this interesting discussion.
 
-
-
+Originally posted at: [Isolating the Domain Logic](https://lorenzo-dee.blogspot.com/2016/12/isolating-domain-logic.html){:target="_blank"}

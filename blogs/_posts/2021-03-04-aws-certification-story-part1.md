@@ -57,5 +57,5 @@ Cloud Computing makes provisioning resources easy and mundane. Instead of doing 
 
 Thank you for taking the time to read my very first blog post. I could've gone on and on about Cloud Computing but I know that there are much much better resources for this. My goal here is to give people at least a sense of what Cloud Computing is. In the next part of this blog post, I'll share my experience and motivations in taking the AWS Solutions Architect Association (SAA-C02) exam.
 
-Until then!
+*Click [here](/blogs/2021/03/aws-certification-story-part2) for the second part of the story.*
 

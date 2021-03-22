@@ -2,7 +2,7 @@
 layout:       blog
 title:        "Architectural Layers and Modeling Domain Logic"
 authors:      Lorenzo Dee
-tags:         java, JPA, DDD
+tags:         [domain-driven-design, java, jpa]
 header-image: /assets/images/2016-11-14-architectural-layers-and-modeling-domain-logic/ArchitecturalLayersAndModelingDomainLogic-BannerImage.png
 ---
 *Lorenzo corrects the impression that the domain model pattern is always the best to use. He provides options and tips on when to use (and not to use) the domain model pattern.*
@@ -28,15 +28,15 @@ package com.acme.bc.domain.model;
 ...
 @Entity
 class Person {
- @Id ... private Long id;
- private String firstName;
- private String lastName;
- // ...
- // getters and setters
+  @Id ... private Long id;
+  private String firstName;
+  private String lastName;
+  // ...
+  // getters and setters
 }
 ...
 interface PersonRepository /* extends CrudRepository<Person, Long> */ {
- // CRUD methods (e.g. find, find/pagination, update, delete)
+  // CRUD methods (e.g. find, find/pagination, update, delete)
 }
 ```
 
@@ -44,7 +44,7 @@ interface PersonRepository /* extends CrudRepository<Person, Long> */ {
 package com.acme.bc.infrastructure.persistence;
 ...
 class PersonRepositoryJpa implements PersonRepository {
- ...
+  ...
 }
 ```
 
@@ -55,9 +55,9 @@ package com.acme.bc.interfaces.web;
  
 @Controller
 class PersonsController {
- private PersonRepository personRepository;
- public PersonsController(PersonRepository personRepository) {...}
- // ...
+  private PersonRepository personRepository;
+  public PersonsController(PersonRepository personRepository) {...}
+  // ...
 }
 ```
 
@@ -85,13 +85,13 @@ class Person {...}
  
 @Controller
 class PersonsController {
- private PersonDao personDao;
- public PersonsController(PersonDao personDao) {...}
- // ...
+  private PersonDao personDao;
+  public PersonsController(PersonDao personDao) {...}
+  // ...
 }
  
 interface PersonDao /* extends CrudRepository<Person, Long> */ {
- // CRUD methods (e.g. find, find/pagination, update, delete)
+  // CRUD methods (e.g. find, find/pagination, update, delete)
 }
 ```
 
@@ -99,7 +99,7 @@ interface PersonDao /* extends CrudRepository<Person, Long> */ {
 package com.acme.bc.infrastructure.persistence;
  
 class PersonDaoJpa implements PersonDao {
- ...
+  ...
 }
 ```
 
@@ -112,9 +112,9 @@ package com.acme.bc.interfaces.web;
 ...
 @Controller
 class PersonsController {
- private PersonService personService;
- public PersonsController(PersonService personService) {...}
- // ...
+  private PersonService personService;
+  public PersonsController(PersonService personService) {...}
+  // ...
 }
 ```
 
@@ -123,16 +123,16 @@ package com.acme.bc.application;
 ...
 @Service
 class PersonService {
- private PersonRepository personRepository;
- public PersonService(PersonRepository personRepository) {...}
- // expose repository CRUD methods and pass to repository
- // no value add
+  private PersonRepository personRepository;
+  public PersonService(PersonRepository personRepository) {...}
+  // expose repository CRUD methods and pass to repository
+  // no value add
 }
 ```
 
-<aside style="clear: right; float: right; margin: 1em 0 1em 1em; width: 50%; max-width: 38em; padding: 0.5em; border: 1px solid #ccc; border-radius: 4px">
+<aside class="float-md-right my-md-3 ml-md-3 mb-3" style="max-width: 30rem; padding: 1rem; border: 1px solid #ccc; border-radius: 4px">
 <p>Keep the repository in the <code>domain.model</code> package. Place the repository implementations in another package (e.g. <code>infrastructure.persistence</code>). But why?</p>
-<p>The <code>domain.model</code> package is where the repository is defined. The elements in the domain model dictate what methods are needed in the repository interface definition. Thus, the repository definition is placed in the <code>domain.model</code> package. The repository implementations need to follow what new methods are added (or remove unused ones). This packaging follows the dependency inversion principle. The <code>infrastructure.persistence</code> package depends on the <code>domain.model</code> package, and not the other way around.</p>
+<p class="mb-0">The <code>domain.model</code> package is where the repository is defined. The elements in the domain model dictate what methods are needed in the repository interface definition. Thus, the repository definition is placed in the <code>domain.model</code> package. The repository implementations need to follow what new methods are added (or remove unused ones). This packaging follows the dependency inversion principle. The <code>infrastructure.persistence</code> package depends on the <code>domain.model</code> package, and not the other way around.</p>
 </aside>
 
 ## Application Services for Transactions
@@ -141,7 +141,9 @@ So, when would application services be appropriate? The application services are
 
 If you find the simple CRUD application needing to start transactions in the presentation-layer controller, then it might be a good sign to move them into an application service. This usually happens when the controller needs to update more than one entity that does not have a single root. The usual example here is transferring amounts between bank accounts. A transaction is needed to ensure that debit and credit both succeed, or both fail.
 
-![Class Diagram](/assets/images/2016-11-14-architectural-layers-and-modeling-domain-logic/Class-Diagram2.png "Class Diagram")
+![Application Services for Transactions](/assets/images/2016-11-14-architectural-layers-and-modeling-domain-logic/Class-Diagram2.png "Application Services for Transactions")
+{:style="min-width: 640px;"}
+{:style="overflow: auto"}
 
 ```java
 package sample.domain.model;
@@ -157,10 +159,10 @@ package sample.interfaces.web;
 ...
 @Controller
 class AccountsController {
- private AccountRepository accountRepository;
- ...
- @Transactional
- public ... transfer(...) {...}
+  private AccountRepository accountRepository;
+  ...
+  @Transactional
+  public ... transfer(...) {...}
 }
 ```
 
@@ -171,10 +173,10 @@ package sample.interfaces.web;
 ...
 @Controller
 class AccountsController {
- private AccountRepository accountRepository;
- private TransferService transferService;
- ...
- public ... transfer(...) {...}
+  private AccountRepository accountRepository;
+  private TransferService transferService;
+  ...
+  public ... transfer(...) {...}
 }
 
 ```
@@ -185,9 +187,9 @@ package sample.application;
 @Service
 @Transactional
 class TransferService {
- private AccountRepository accountRepository;
- ...
- public ... transfer(...) {...}
+  private AccountRepository accountRepository;
+  ...
+  public ... transfer(...) {...}
 }
 ```
 
@@ -212,10 +214,10 @@ package ….accounting.domain.model;
 /** Immutable */
 @Entity
 class JournalEntry {
- // zero-sum items
- @ElementCollection
- private Collection<JournalEntryItem> items;
- ...
+  // zero-sum items
+  @ElementCollection
+  private Collection<JournalEntryItem> items;
+  ...
 }
 ...
 /** A value object */
@@ -255,9 +257,9 @@ package ….interfaces.web;
  
 @Controller
 class AccountsController {
- private AccountRepository accountRepository;
- private AccountTransactionRepository accountTransactionRepository;
- private PostingService postingService;
+  private AccountRepository accountRepository;
+  private AccountTransactionRepository accountTransactionRepository;
+  private PostingService postingService;
   ...
 }
 ```
@@ -266,7 +268,8 @@ class AccountsController {
 
 So, there you have it. Hopefully, this post can shed some light on when (and when not) to use domain model pattern.
 
-![Class Diagram](/assets/images/2016-11-14-architectural-layers-and-modeling-domain-logic/Class-Diagram3.png "Class Diagram")
+![Alternative Anemic Domain Model and Isolated Domain Model Side-by-Side](/assets/images/2016-11-14-architectural-layers-and-modeling-domain-logic/Class-Diagram3.png "Alternative Anemic Domain Model and Isolated Domain Model Side-by-Side"){:style="min-width: 640px;"}
+{:style="overflow: auto"}
 
 Now I think I need a cold one.
 <figure>

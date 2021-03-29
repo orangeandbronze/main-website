@@ -5,7 +5,7 @@ authors:      Lorenzo Dee
 tags:         [java, jdbc, jpa, spring]
 header-image: /assets/images/2016-09-13-spring-managed-transactions-explained-part1-JDBC/Spring-managedTransactionsExplainedPart-1-JDBC-banner.png
 ---
-*Learn the common pitfalls/mistakes encountered that caused some problems in Java-based systems that use JPA.*
+*Learn how transactions work in plain-vanilla JDBC and how Spring manages JDBC-based transactions.*
 
 I've been meaning to write about this for quite some time now. In the [training courses](https://university.orangeandbronze.com/){:target="_blank"} I've been privileged to conduct, I've noticed that course participants have had the most difficulty trying to understand how Spring manages transactions. In the first part of this series, I'll start by showing how transactions work in plain-vanilla JDBC. And then show how Spring manages JDBC-based transactions.
 

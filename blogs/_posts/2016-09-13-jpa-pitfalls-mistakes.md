@@ -2,9 +2,10 @@
 layout:       blog
 title:        "JPA Pitfalls / Mistakes"
 authors:      Lorenzo Dee
-tags:         [java, jpa ]
+tags:         [java, jpa]
 header-image: /assets/images/2016-09-13-jpa-pitfalls-mistakes/confused-woman1.jpeg
 ---
+
 *Learn the common pitfalls/mistakes encountered that caused some problems in Java-based systems that use JPA.*
 
 From my experience, both in helping teams and conducting training, here are some pitfalls/mistakes I have encountered that caused some problems in Java-based systems that use JPA.
@@ -32,14 +33,14 @@ Let's say we're modeling a hotel room reservation system. In it, we probably hav
 ```java
 @Entity
 public class Reservation { ...
- public Reservation(
-   RoomType roomType, DateRange startAndEndDates) {
-  if (roomType == null || startAndEndDates == null) {
-   throw new IllegalArgumentException(...);
-  } ...
- }
- ...
- protected Reservation() { /* as required by ORM/JPA */ }
+  public Reservation(
+      RoomType roomType, DateRange startAndEndDates) {
+    if (roomType == null || startAndEndDates == null) {
+      throw new IllegalArgumentException(...);
+    } ...
+  }
+  ...
+  protected Reservation() { /* as required by ORM/JPA */ }
 }
 ```
 
@@ -54,16 +55,16 @@ Although I could not find it mentioned in the JPA 2.1 spec, embeddable classes a
 ```java
 @Embeddable
 public class DateRange { ...
- public DateRange(Date start, Date end) {
-  if (start == null || end == null) {
-   throw new IllegalArgumentException(...);
+  public DateRange(Date start, Date end) {
+    if (start == null || end == null) {
+      throw new IllegalArgumentException(...);
+    }
+    if (start.after(end)) {
+      throw new IllegalArgumentException(...);
+    } ...
   }
-  if (start.after(end)) {
-   throw new IllegalArgumentException(...);
-  } ...
- }
- ...
- protected DateRange() { /* as required by ORM/JPA */ }
+  ...
+  protected DateRange() { /* as required by ORM/JPA */ }
 }
 ```
 The [DDD sample project](https://github.com/citerus/dddsample-core){:target="_blank"} also hides the no-arg constructor by making it package scope (see [Cargo](https://github.com/citerus/dddsample-core/blob/master/src/main/java/se/citerus/dddsample/domain/model/cargo/Cargo.java){:target="_blank"} entity class where no-arg constructor is near the bottom).
@@ -75,16 +76,16 @@ Instructional material on JPA often show a bi-directional association. But this 
 ```java
 @Entity
 public class Order {
- @Id private Long id;
- @OneToMany private List<OrderItem> items;
- ...
+  @Id private Long id;
+  @OneToMany private List<OrderItem> items;
+  ...
 }
  
 @Entity
 public class OrderItem {
- @Id private Long id;
- @ManyToOne private Order order;
- ...
+  @Id private Long id;
+  @ManyToOne private Order order;
+  ...
 }
 ```
 
@@ -93,18 +94,18 @@ It's good to know that bi-directional associations are supported in JPA. But in 
 ```java
 @Entity
 public class Order {
- @Id Long id;
- @OneToMany
- @JoinColumn(name="order_id", ...)
- private List<OrderItem> items;
- ...
+  @Id Long id;
+  @OneToMany
+  @JoinColumn(name="order_id", ...)
+  private List<OrderItem> items;
+  ...
 }
  
 @Entity
 public class OrderItem {
- @Id private Long id;
- // @ManyToOne private Order order;
- ...
+  @Id private Long id;
+  // @ManyToOne private Order order;
+  ...
 }
 ```
 
@@ -117,23 +118,23 @@ Here's another example. Let's say you have several entities that refer to a coun
 ```java
 @Entity
 public class Person {
- @Id Long id;
- @ManyToOne private Country countryOfBirth;
- ...
+  @Id Long id;
+  @ManyToOne private Country countryOfBirth;
+  ...
 }
  
 @Entity
 public class PostalAddress {
- @Id private Long id;
- @ManyToOne private Country country;
- ...
+  @Id private Long id;
+  @ManyToOne private Country country;
+  ...
 }
  
 @Entity
 public class Country {
- @Id ...;
- // @OneToMany private List<Person> persons;
- // @OneToMany private List<PostalAddress> addresses;
+  @Id ...;
+  // @OneToMany private List<Person> persons;
+  // @OneToMany private List<PostalAddress> addresses;
 }
 ```
 
@@ -146,17 +147,17 @@ Let's say you're modeling bank accounts and its transactions. Over time, an acco
 ```java
 @Entity
 public class Account {
- @Id Long id;
- @OneToMany
- @JoinColumn(name="account_id", ...)
- private List<AccountTransaction> transactions;
- ...
+  @Id Long id;
+  @OneToMany
+  @JoinColumn(name="account_id", ...)
+  private List<AccountTransaction> transactions;
+  ...
 }
  
 @Entity
 public class AccountTransaction {
- @Id Long id;
- ...
+  @Id Long id;
+  ...
 }
 ```
 
@@ -169,20 +170,20 @@ With accounts that have only a few transactions, there doesn't seem to be any pr
 ```java
 @Entity
 public class Account {
- @Id Long id;
- // @OneToMany private List<AccountTransaction> transactions;
- ...
+  @Id Long id;
+  // @OneToMany private List<AccountTransaction> transactions;
+  ...
 }
  
 @Entity
 public class AccountTransaction {
- @Id Long id;
- @ManyToOne
- private Account account;
- ...
- public AccountTransaction(Account account, ...) {...}
+  @Id Long id;
+  @ManyToOne
+  private Account account;
+  ...
+  public AccountTransaction(Account account, ...) {...}
  
- protected AccountTransaction() { /* as required by ORM/JPA */ }
+  protected AccountTransaction() { /* as required by ORM/JPA */ }
 }
 ```
 
@@ -191,9 +192,9 @@ To retrieve the possibly thousands (if not millions) of transactions of an accou
 ```java
 @Transactional
 public interface AccountTransactionRepository {
- Page<AccountTransaction> findByAccount(
-  Long accountId, int offset, int pageSize);
- ...
+  Page<AccountTransaction> findByAccount(
+    Long accountId, int offset, int pageSize);
+  ...
 }
 ```
 
@@ -208,17 +209,5 @@ I hope these notes can help developers avoid making these mistakes. To summarize
 - ~~Using~~ Avoid `@OneToMany` for collections that can become huge. Consider mapping the `@ManyToOne`-side of the association/relationship instead, and support pagination.
 
 Originally posted at: [JPA Pitfalls / Mistakes](https://lorenzo-dee.blogspot.com/search?q=JPA+Pitfalls%2FMistakes){:target="_blank"}
-
-
-
-
-
-
-
-
-
-
-
-
 
 

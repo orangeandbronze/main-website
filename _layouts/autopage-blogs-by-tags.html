@@ -20,7 +20,7 @@ class: blogs
   <div class="container">
       <div class="row" style="min-height: 380px">
           {% for post in paginator.posts %}
-          <div class="col-sm-6 col-lg-4">
+          <div class="col-sm-6 col-lg-4 mb-4">
             <a class="a--no-underline-on-hover" href="{{ post.url }}">
               <article class="blog-post-card rounded">
                 <img class="blog-post-card__thumbnail-img" src="{{ post.header-image }}" alt="Thumbnail for {{ post.title | escape | truncatewords: 8 }}">

@@ -3,7 +3,7 @@ layout:       blog
 title:        "JPA Pitfalls / Mistakes"
 authors:      Lorenzo Dee
 tags:         [java, jpa]
-header-image: /assets/images/2016-09-13-jpa-pitfalls-mistakes/confused-woman1.jpeg
+header-image: /assets/images/2016-09-13-jpa-pitfalls-mistakes/JPAPitfallsMistakes-ArticleBlogBanner.png
 ---
 
 *Learn the common pitfalls/mistakes encountered that caused some problems in Java-based systems that use JPA.*
@@ -161,7 +161,7 @@ public class AccountTransaction {
 }
 ```
 
-<img border="0" src="//3.bp.blogspot.com/-lHzYWd7mIio/VpMkMnWrS9I/AAAAAAAAAL0/vUy6ATFt5ec/s320/confused-woman1.jpg" style="display: block; float: right; margin: 1em 0 1em 1em">
+<img border="0" src="/assets/images/2021-02-18-basic-image-editing-with-gimp/JPAPitfallsMistakes-contentImage.png" style="display: block; float: right; margin: 1em 0 1em 1em">
 
 With accounts that have only a few transactions, there doesn't seem to be any problem. But over time, when an account contains thousands (if not millions) of transactions, you'll most likely experience out-of-memory errors. So, what's a better way to map this?
 

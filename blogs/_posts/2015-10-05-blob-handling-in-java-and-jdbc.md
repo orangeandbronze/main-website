@@ -2,7 +2,7 @@
 layout:       blog
 title:        "Blob Handling in Java and JDBC"
 authors:      Lorenzo Dee
-tags:         [Blob, java, JDBC]
+tags:         [java, jdbc]
 header-image: /assets/images/2015-05-10-blob-handling-in-java-and-JDBC/BlobHandlingInJavaAndJDBC-banner.png
 ---
 
@@ -104,9 +104,9 @@ request.getPart("...").write(fileName);
 // Open an input stream with the file (created from uploaded part)
 InputStream in = new FileInputStream(fileName);
 try {
- ... blobKey = blobstoreService.createBlob(in, ...);
+  ... blobKey = blobstoreService.createBlob(in, ...);
 } finally {
- in.close();
+  in.close();
 }
 ```
 
@@ -151,9 +151,9 @@ Instead of embedding the BLOB with their related persistent objects (or entities
 ```java
 @Entity
 public class Person {
- @Id private Long id;
- @Lob byte[] photo;
- ...
+  @Id private Long id;
+  @Lob byte[] photo;
+  ...
 }
 ```
 
@@ -162,9 +162,9 @@ public class Person {
 ```java
 @Entity
 public class Person {
- @Id private Long id;
- String photoId; // retrieved via BlobstoreService
- ...
+  @Id private Long id;
+  String photoId; // retrieved via BlobstoreService
+  ...
 }
 ```
 

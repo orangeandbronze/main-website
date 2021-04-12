@@ -2,7 +2,7 @@
 layout:       blog
 title:        "Groovy and Grails Infographic"
 authors:      Kathleen Fonacier Garcia
-tags:         [ groovy on grails]
+tags:         [groovy, grails]
 header-image: /assets/images/2013-03-13-groovy-and-grails-infographic/GroovyAndGrailsInfographic-banner.png
 ---
 

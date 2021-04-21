@@ -93,5 +93,5 @@ Just a few days ago, I saw this book by Douglas Stone and Sheila Heen at [Fully 
 
 I don't have a copy. But I watched some talks (on YouTube) given by the book's authors. So far, it's good to know that receiving feedback is a skill that can be learned.
 
-Originally posted at: [Feedback: Giving, Seeking, and Receiving](https://lorenzo-dee.blogspot.com/search?q=Feedback%3A+Giving%2C+Seeking%2C+and+Receiving){:target="_blank"}
+Originally posted at: [Feedback: Giving, Seeking, and Receiving](https://lorenzo-dee.blogspot.com/2014/04/feedback-giving-seeking-and-receiving.html){:target="_blank"}
 

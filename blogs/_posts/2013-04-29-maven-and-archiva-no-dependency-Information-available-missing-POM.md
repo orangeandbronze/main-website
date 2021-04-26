@@ -2,7 +2,7 @@
 layout:       blog
 title:        "Maven & Archiva – No Dependency Information Available / Missing POM"
 authors:      Ria Mora
-tags:         [ java, spring and grails]
+tags:         [ java, spring and grails, archiva]
 header-image: /assets/images/2013-04-29-maven-and-archiva-no-dependency-Information-available-missing-POM/mavenandarchiva.png
 ---
 

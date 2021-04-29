@@ -2,7 +2,7 @@
 layout:       blog
 title:        "Template Method Pattern Example Using Java Generics"
 authors:      Calen Legaspi
-tags:         [java, tutorial]
+tags:         [java]
 header-image: /assets/images/2021-04-29-template-method-pattern-example-using-java-generics/TemplateMethodPatternExampleUsingJavaGenerics.jpg
 ---
 
@@ -27,7 +27,7 @@ public class ProductCsvReader {
  
     Set<Product> getAll(File file) throws IOException {
         Set<Product> returnSet = new HashSet<>();
-        try (BufferedReader reader = new BufferedReader(new FileReader(file))){
+        try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             String line = reader.readLine();
             while (line != null && !line.trim().equals("")) {
                 String[] tokens = line.split("\\s*,\\s*");
@@ -49,7 +49,7 @@ public class CustomerCsvReader {
  
     Set<Customer> getAll(File file) throws IOException {
         Set<Customer> returnSet = new HashSet<>();
-        try (BufferedReader reader = new BufferedReader(new FileReader(file))){
+        try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             String line = reader.readLine();
             while (line != null && !line.trim().equals("")) {
                 String[] tokens = line.split("\\s*,\\s*");
@@ -76,7 +76,7 @@ public class ProductCsvReader {
  
     Set<Product> getAll(File file) throws IOException {
         Set<Product> returnSet = new HashSet<>();
-        try (BufferedReader reader = new BufferedReader(new FileReader(file))){
+        try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             String line = reader.readLine();
             while (line != null && !line.trim().equals("")) {
                 String[] tokens = line.split("\\s*,\\s*");
@@ -105,7 +105,7 @@ abstract class AbstractCsvReader {
 
     Set<Product> getAll(File file) throws IOException {
         Set<Product> returnSet = new HashSet<>();
-        try (BufferedReader reader = new BufferedReader(new FileReader(file))){
+        try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             String line = reader.readLine();
             while (line != null && !line.trim().equals("")) {
                 String[] tokens = line.split("\\s*,\\s*");
@@ -141,7 +141,7 @@ abstract class AbstractCsvReader {
 
     Set<Product> getAll(File file) throws IOException {
         Set<Product> returnSet = new HashSet<>();
-        try (BufferedReader reader = new BufferedReader(new FileReader(file))){
+        try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             String line = reader.readLine();
             while (line != null && !line.trim().equals("")) {
                 String[] tokens = line.split("\\s*,\\s*");
@@ -166,7 +166,7 @@ abstract class AbstractCsvReader<T> {
 
     Set<T> getAll(File file) throws IOException {
         Set<T> returnSet = new HashSet<>();
-        try (BufferedReader reader = new BufferedReader(new FileReader(file))){
+        try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             String line = reader.readLine();
             while (line != null && !line.trim().equals("")) {
                 String[] tokens = line.split("\\s*,\\s*");
@@ -222,4 +222,4 @@ Before I go, I'd like to leave a quick note on the disadvantage of the Template 
 
 Please give me feedback so I can continue to improve my articles.
 
-Originally posted at: [Template Method Pattern Example Using Java Generics](http://calenlegaspi.blogspot.com/2014/07/template-method-pattern-example-using.html?q=Template+Method+Pattern+Example+Using+Java+Generics){:target="_blank"}
+Originally posted at: [Template Method Pattern Example Using Java Generics](http://calenlegaspi.blogspot.com/2014/07/template-method-pattern-example-using.html){:target="_blank"}

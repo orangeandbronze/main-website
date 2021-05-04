@@ -114,7 +114,7 @@ redirect_from:
   </div>
   <hr>
   <div class="section-title">
-    <h6> < CLIENTS WHO BELIEVE US /> </h6>
+    <h6> < CLIENTS WHO BELIEVE IN US /> </h6>
     <h2>Our Sucess Stories</h2>
   </div>
   <div class="container">
@@ -122,7 +122,7 @@ redirect_from:
         <div class="col-12 col-sm-6 casestudy-btncontainer -left">
           <a href="/works/mobile-fintech/" class="casestudy-button">
             <div class="casestudy-content -left">
-              <h5 class="title">Mobile Fintech for Third-World Countires</h5>
+              <h5 class="title">Mobile Fintech for Third-World Countries</h5>
             </div>
           </a>
         </div>

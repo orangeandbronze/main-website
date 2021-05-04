@@ -207,7 +207,7 @@ redirect_from:
   </div>
 <hr>
   <div class="section-title">
-    <h6> < CLIENTS WHO BELIEVE US /> </h6>
+    <h6> < CLIENTS WHO BELIEVE IN US /> </h6>
     <h2>Our Sucess Stories</h2>
   </div>
   <div class="container">

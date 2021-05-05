@@ -2,7 +2,7 @@
 layout:       blog
 title:        "Foreign Keys - What Do You Think?"
 authors:      Calen Legaspi
-tags:         java
+tags:         sql
 header-image: /assets/images/2021-05-05-foreign-keys-what-do-you-think/ForeignKeysWhatDoYouThink.png
 ---
 
@@ -14,4 +14,4 @@ Ultimately, I think it depends on how important referential integrity is to your
 
 I found a pretty good listing of pros and cons on [StackOverflow](http://stackoverflow.com/a/83393){:target="_blank"}.
 
-Originally posted at: [Foreign Keys - What Do You Think?](http://calenlegaspi.blogspot.com/2014/09/foreign-keys-what-do-you-think.html?q=Foreign+Keys){:target="_blank"}
+Originally posted at: [Foreign Keys - What Do You Think?](http://calenlegaspi.blogspot.com/2014/09/foreign-keys-what-do-you-think.html){:target="_blank"}

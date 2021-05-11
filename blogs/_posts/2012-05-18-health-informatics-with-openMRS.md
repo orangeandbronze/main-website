@@ -43,5 +43,5 @@ Within the health informatics sector, enabling integration between health care s
  
 Another angle by which to approach OpenMRS is to use it as a springboard to train people in general health informatics, and developers in basic and enterprise Java with Spring and Hibernate. It will provide students with a more relevant domain and real-world problems, promote the existence and value of OpenMRS, and hopefully increase awareness of IT professionals in health informatics and build up the technical experience that implementing organizations crucially require.
  
-Locally, the annual global OpenMRS Implementers Meeting **will be held in the Philippines on October 2012. This is an excellent opportunity to connect with OpenMRS deployers, developers and users.
+Locally, the annual global OpenMRS Implementers Meeting will be held in the Philippines on October 2012. This is an excellent opportunity to connect with OpenMRS deployers, developers and users.
 

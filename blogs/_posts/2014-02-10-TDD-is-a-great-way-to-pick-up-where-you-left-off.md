@@ -2,7 +2,7 @@
 layout:       blog
 title:        "TDD is a Great Way to Pick-Up Where You Left Off"
 authors:      Calen Legaspi
-tags:         TDD
+tags:         [TDD, java]
 header-image: /assets/images/2014-02-10-TDD-is-a-great-way-to-pick-up-where-you-left-off/TDDisAGreatWayToPickUpWhereYouLeftOff.png
 ---
 
@@ -17,4 +17,4 @@ I've always considered TDD as my favorite Agile practice. Today just reinforces 
 ![Screenshot](/assets/images/2014-02-10-TDD-is-a-great-way-to-pick-up-where-you-left-off/Screenshot-2.png "Screenshot")  
 
 
-Originally posted at: [TDD is a Great Way to Pick-Up Where You Left Off](http://calenlegaspi.blogspot.com/2014/09/tdd-is-great-way-to-pick-up-where-you.html?q=TDD+is+a+Great+Way+to+Pick-Up+Where+You+Left+Off){:target="_blank"}
+Originally posted at: [TDD is a Great Way to Pick-Up Where You Left Off](http://calenlegaspi.blogspot.com/2014/09/tdd-is-great-way-to-pick-up-where-you.html){:target="_blank"}

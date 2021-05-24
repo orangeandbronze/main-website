@@ -2,7 +2,7 @@
 layout:       blog
 title:        "Early UI, Early Feedback, Better Results"
 authors:      Lorenzo Dee
-tags:         grails HTML UI UX
+tags:         [grails, HTML, UI, UX]
 header-image: /assets/images/2013-11-01-early-ui-early-feedback-better-results/Early-UI-Early-Feedback-Better-Results-banner.png
 ---
 A few months back, I was reviewing some internal apps we had in our organization, and this thing we humbly call the "library app" got my attention. We have a lot of books (physical copies) lying around, and we encourage everyone in the organization to read and apply/share what they've read. So far, it seems to be working.
@@ -63,4 +63,4 @@ I'm no design guru. This simple enhancement is far from a breakthrough. I hardly
 
 As you can see from the screenshot, I have not implemented the borrowing part of the app (*yet*). But I'm thinking of ways to add a "comments" section to allow users to post their comments about the book. I'm hoping that these comments shall further "entice" others to grab a copy, read, apply, and share.
 
-Originally posted at: [Early UI, Early Feedback, Better Results](https://lorenzo-dee.blogspot.com/search?q=Early+UI%2C+Early+Feedback%2C+Better+Results){:target="_blank"}
+Originally posted at: [Early UI, Early Feedback, Better Results](https://lorenzo-dee.blogspot.com/2013/09/early-ui-early-feedback-better-results.html){:target="_blank"}

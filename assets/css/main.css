@@ -8072,6 +8072,20 @@ header {
   header .bg1 {
     display: none !important; } }
 
+.springbootexpert {
+  color: #6db33f; }
+
+.iconspringboot {
+  float: right; }
+
+@media only screen and (max-width: 900px) {
+  .iconspringboot {
+    float: none;
+    margin: 0 auto;
+    display: block; }
+  .springbootexpert {
+    text-align: center; } }
+
 footer {
   padding-top: 50px; }
   footer ul,

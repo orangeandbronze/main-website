@@ -53,3 +53,23 @@ header {
     }
   }
 }
+
+.springbootexpert {
+  color: #6db33f;
+}
+
+.iconspringboot {
+  float:right;
+}
+ 
+@media only screen and (max-width: 900px) {
+  .iconspringboot {
+      float: none;
+      margin: 0 auto;
+      display: block;
+  }
+  
+  .springbootexpert {
+    text-align: center;
+  }
+}

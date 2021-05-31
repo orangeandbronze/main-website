@@ -72,17 +72,6 @@ Follow the steps:
     ![Create New Android Step4](/assets/images/2012-04-17-beginning-android-part2/create-new-android-step-4.png "Create New Android Step4")
     ![Create New Android Step4.1](/assets/images/2012-04-17-beginning-android-part2/create-new-android-step-4.1.png "Create New Android Step4.1")
     ![Create New Android Step4.2](/assets/images/2012-04-17-beginning-android-part2/create-new-android-step-4.2.png "Create New Android Step4.2")
-    ![Create New Android Step2](/assets/images/2012-04-17-beginning-android-part2/create-new-android-step-2-300x225.png "Create New Android Step2")
-
-3. Select Android Project in the New Project dialog
-
-    ![Create New Android Step3](/assets/images/2012-04-17-beginning-android-part2/create-new-android-step-3-300x245.png "Create New Android Step3")
-
-4. Complete the New Android Project wizard.
-
-    ![Create New Android Step4](/assets/images/2012-04-17-beginning-android-part2/create-new-android-step-4-248x300.png "Create New Android Step4")
-    ![Create New Android Step4.1](/assets/images/2012-04-17-beginning-android-part2/create-new-android-step-4.1-247x300.png "Create New Android Step4.1")
-    ![Create New Android Step4.2](/assets/images/2012-04-17-beginning-android-part2/create-new-android-step-4.2-246x300.png "Create New Android Step4.1")
 
 5. Open `main.xml` (located in `/res/layout`) and replace its contents with the code below:
 
@@ -144,7 +133,6 @@ Follow the steps:
 8. That’s it. Deploy and run the project.
 
     ![Create New Android Step8](/assets/images/2012-04-17-beginning-android-part2/creat-new-android-step-81.png "Create New Android Step8")
-    ![Create New Android Step8](/assets/images/2012-04-17-beginning-android-part2/creat-new-android-step-81-300x76.png "Create New Android Step8")
 
 ### How It Works
 

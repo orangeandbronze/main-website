@@ -25,11 +25,8 @@ NOTE: This tutorial assumes that you are familiar with Java programming and IDE�
 Your Android projects should contain at least one class that is derived from one of these components:
 
 - **Activity** – If your Android application has a UI, you must create one class that extends this component. You will learn how to create an Activity in this article.
-
 - **Service** – If your Android application has a long running task, you should do it in the background and not in the UI thread. This class provides the facility to make a task run in the background.
-
 - **BroadcastReceiver** – If your Android application will receive and respond to global events such as the sending and delivery of SMS, your class must be registered as a subclass of this component. You will learn how to use this component to get feedback after sending SMS.
-
 - **ContentProvider** – If your Android application has data that you wants to share with other Android applications, you should create and implement this component.
 
 ## Creating The SMS Application
@@ -70,8 +67,10 @@ Follow the steps:
 4. Complete the New Android Project wizard.
 
     ![Create New Android Step4](/assets/images/2012-04-17-beginning-android-part2/create-new-android-step-4.png "Create New Android Step4")
+
     ![Create New Android Step4.1](/assets/images/2012-04-17-beginning-android-part2/create-new-android-step-4.1.png "Create New Android Step4.1")
-    ![Create New Android Step4.2](/assets/images/2012-04-17-beginning-android-part2/create-new-android-step-4.2.png "Create New Android Step4.1")
+
+    ![Create New Android Step4.2](/assets/images/2012-04-17-beginning-android-part2/create-new-android-step-4.2.png "Create New Android Step4.2")
 
 5. Open `main.xml` (located in `/res/layout`) and replace its contents with the code below:
 

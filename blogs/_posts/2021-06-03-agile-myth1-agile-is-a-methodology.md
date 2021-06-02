@@ -5,13 +5,13 @@ authors:      Calen Legaspi
 tags:         agile
 header-image: /assets/images/2021-06-03-agile-myth1-agile-is-a-methodology/agile-myth1-agile-is-a-methodology.jpg
 ---
-*Calen discusses why he thinks Agile itself is not a process. Rather, Agile is the values and principles that allow software development processes to be successful. This is part of a series where Calen will discuss twelve common myths about Agile Software Development. See the whole series [here](https://www.orangeandbronze.com/blogs/2021/05/agile-myths-and-misconceptions){:target="_blank"}.*
+*Calen discusses why he thinks Agile itself is not a process. Rather, Agile is the values and principles that allow software development processes to be successful. This is part of a series where Calen will discuss twelve common myths about Agile Software Development. See the whole series [here](/blogs/2021/05/agile-myths-and-misconceptions).*
 
 First of all, if you look up the word "methodology" in the dictionary, it says, "study of methods". When people in the technical or research fields say "methodology", they really mean "process".
 
 So what is a process? A process is basically a set of instructions:  You follow Step 1, Step 2, Step 3... You use this activity in situation A, you use another activity in situation B. You use this document template, that design notation, etc.
 
-![Master and replica databases](/assets/images/2021-06-03-agile-myth1-agile-is-a-methodology/002-1.jpeg "Master and replica databases"){:style="float: right; margin: 1rem 0 1rem 1rem"}
+![A process is basically a set of instructions or steps](/assets/images/2021-06-03-agile-myth1-agile-is-a-methodology/002-1.jpeg "A process is basically a set of instructions or steps"){:style="float: right; margin: 1rem 0 1rem 1rem"}
 
 Now process is essential to writing good software. All the "Agile Methodologies" - Scrum, XP, Kanban, etc. - prescribe processes. However, what differentiates Agile processes from other processes like RUP (which is a very good process if evaluated solely on process) is the underlying ***values and principles***.
 
@@ -57,4 +57,4 @@ There's a number of other principles and values that I haven't covered here, tha
 
 This is the first in a series of twelve myths of Agile that I will be discussing, based on [my presentation](https://www.slideshare.net/CalenLegaspi1/agile-myths-and-misconceptions-36398946){:target="_blank"} at SofTech 2014 software engineering conference. Hang on for my next blog post, where I will discuss Agile Myth #2: "Agile is About Project Management".
 
-Originally posted at: [Agile Myths & Misconceptions](http://calenlegaspi.blogspot.com/2014/07/agile-myth-1-agile-is-methodolgy.html){:target="_blank"}
+Originally posted at: [Agile Myth #1: "Agile is a Methodology"](http://calenlegaspi.blogspot.com/2014/07/agile-myth-1-agile-is-methodolgy.html){:target="_blank"}

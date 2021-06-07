@@ -1,6 +1,6 @@
 ---
 layout:       blog
-title:        "Enter:Agile"
+title:        "Enter: Agile"
 authors:      Tommy Lim
 tags:         agile
 header-image: /assets/images/2009-04-08-enter-agile/Enter-Agile-Banner.jpg
@@ -16,7 +16,7 @@ These scenarios are a fairly common occurrence when employing the venerable Wate
 
 But when it comes to software, the Waterfall becomes a major hindrance. Software production takes time and over that time a user’s needs can change. Creating specifications also takes time and specs will have to change when a user discovers that something was left out, changed, or was stated wrong. The Waterfall works for making cars since if a customer doesn’t like the car, they buy a different make. But when we commission software, we do not have the luxury of changing brands at the end. It makes sense to make sure things go right.
 
-## Enter: AGILE
+## Enter: Agile
 
 Software has a characteristic not available to automakers and civil engineers: the cost of changing a small, and sometimes even medium-sized, item does not change appreciably with the stage it is introduced. A layout change just before project sign-off costs not much more than that same layout change done in the early stages.
 
@@ -44,4 +44,4 @@ Instead of all the worries of deadlines and “will it work?” everyone sees a 
 
 So what does it take for you to go Agile? It’s just knowing your business rules, being able to communicate them to the developers, willingness to answer questions and sit with them to select the features that will have priority, and give feedback as to whether the features are working as needed or need to be changed.
 
-Go Agile. It means better-made software, less stress, and more satisfaction. … and no hot electric pink backgrounds..
+Go Agile. It means better-made software, less stress, and more satisfaction. … and no hot electric pink backgrounds.

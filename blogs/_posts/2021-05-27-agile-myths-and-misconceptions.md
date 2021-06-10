@@ -13,7 +13,7 @@ I spoke at SofTech, the Philippine Software Industry Association's first Softwar
 I discussed twelve common myths about Agile Software Development. I'll follow this blog post up with twelve blog posts that discuss each myth:
 
 - [Agile Myth #1:  "Agile is a Methodology"](/blogs/2021/06/agile-myth1-agile-is-a-methodology)
-- [Agile Myth #2:  "Agile is Just About Project Management"](http://calenlegaspi.blogspot.com/2014/07/agile-myth-2-agile-is-about-project.html){:target="_blank"}
+- [Agile Myth #2:  "Agile is Just About Project Management"](/blogs/2021/06/agile-myth2-agile-is-just-about-project-management)
 - [Agile Myth #3:  "Agile is Short Milestones"](http://calenlegaspi.blogspot.com/2014/07/agile-myth-3-agile-is-short-milestones.html){:target="_blank"}
 - [Agile Myth #4:  "Agile Cannot Work with Fixed Budgets"](http://calenlegaspi.blogspot.com/2014/07/agile-myth-4-agile-cannot-work-with.html){:target="_blank"}
 - [Agile Myth #5:  "Agile is Unpredictable"](http://calenlegaspi.blogspot.com/2014/07/agile-myth-5-agile-is-unpredictable.html){:target="_blank"}

@@ -25,7 +25,6 @@ In our library app, we have books and copies of them. One book can have one or m
 | COPY_REF_ID                         |	
 | STATUS                              |
 
-
 In UML, it would look something like this.
 
 ![UML Class Diagram](/assets/images/2014-07-14-mapping-a-map-in-JPA/UMLclassDiagram.png "UML Class Diagram")
@@ -89,6 +88,6 @@ My colleague ([Juno Aliento](https://currents.google.com/108603150488137710491){
 
 Note that this is Hibernate-specific, and may not be available in other JPA providers.
 
-As of release 3.2, Hibernate can perform per-item lazy initialization of collections. The reference documentation mentions it [here](https://docs.jboss.org/hibernate/orm/3.5/reference/en/html/performance.html#performance-fetching){:target="_blank"}. When the association mapping (`OneToMany or ManyToMany`) is set to `lazy="extra"`, the collection implementation for the mapping takes on "smart" collection behavior, i.e. some collection operations such as size(), contains(), get(), etc. do not trigger collection initialization. This is only sensible for very large collections, but it's quite handy nonetheless.
+As of release 3.2, Hibernate can perform per-item lazy initialization of collections. The reference documentation mentions it [here](https://docs.jboss.org/hibernate/orm/3.5/reference/en/html/performance.html#performance-fetching){:target="_blank"}. When the association mapping (`OneToMany` or `ManyToMany`) is set to `lazy="extra"`, the collection implementation for the mapping takes on "smart" collection behavior, i.e. some collection operations such as size(), contains(), get(), etc. do not trigger collection initialization. This is only sensible for very large collections, but it's quite handy nonetheless.
 
 Originally posted at: [Mapping a Map in JPA](https://lorenzo-dee.blogspot.com/2014/04/mapping-map-in-jpa.html){:target="_blank"}

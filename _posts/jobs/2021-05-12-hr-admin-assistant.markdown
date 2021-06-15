@@ -1,11 +1,11 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "HR/Admin Assistant"
 description:  A highly-driven and competent professional who collaborates with the HR|Admin Team in the management of all facets of HR functions and day-to-day general office administration within the organization; reports to the Head, HR, Admin, and Legal.
 date:         2018-04-03 16:42:00 +0800
 categories:   jobs
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <p>A highly-driven and competent professional who collaborates with the HR|Admin Team in the management of all facets of HR functions and day-to-day general office administration within the organization; reports to the Head, HR, Admin, and Legal.</p>
 <h6 class="-dark">HR Function:</h6>

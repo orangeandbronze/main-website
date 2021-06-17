@@ -53,6 +53,6 @@ For those further along, you might want to start exploring approaches to design.
 
 For the other areas of design, you can check out the various design patterns books around such as [Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124){:target="_blank"}, [Patterns of Enterprise Application Architecture](https://www.amazon.com/Enterprise-Application-Architecture-Addison-Wesley-Signature-ebook/dp/B008OHVDFM){:target="_blank"}, [Enterprise Integration Patterns](https://www.amazon.com/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683){:target="_blank"} and [Service Design Patterns](https://www.amazon.com/Service-Design-Patterns-Fundamental-Solutions/dp/032154420X){:target="_blank"}.
 
-The next myth I will tackle is Agile Myth #3: "Agile is Short Milestones".
+The next myth I will tackle is [Agile Myth #3: "Agile is Short Milestones"](/blogs/2021/06/agile-myth3-agile-is-short-milestones).
 
 Originally posted at: [Agile Myth #2: "Agile is Just About Project Management"](http://calenlegaspi.blogspot.com/2014/07/agile-myth-2-agile-is-about-project.html){:target="_blank"}

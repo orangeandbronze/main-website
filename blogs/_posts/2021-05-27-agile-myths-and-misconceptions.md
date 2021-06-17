@@ -14,7 +14,7 @@ I discussed twelve common myths about Agile Software Development. I'll follow th
 
 - [Agile Myth #1:  "Agile is a Methodology"](/blogs/2021/06/agile-myth1-agile-is-a-methodology)
 - [Agile Myth #2:  "Agile is Just About Project Management"](/blogs/2021/06/agile-myth2-agile-is-just-about-project-management)
-- [Agile Myth #3:  "Agile is Short Milestones"](http://calenlegaspi.blogspot.com/2014/07/agile-myth-3-agile-is-short-milestones.html){:target="_blank"}
+- [Agile Myth #3:  "Agile is Short Milestones"](/blogs/2021/06/agile-myth3-agile-is-short-milestones)
 - [Agile Myth #4:  "Agile Cannot Work with Fixed Budgets"](http://calenlegaspi.blogspot.com/2014/07/agile-myth-4-agile-cannot-work-with.html){:target="_blank"}
 - [Agile Myth #5:  "Agile is Unpredictable"](http://calenlegaspi.blogspot.com/2014/07/agile-myth-5-agile-is-unpredictable.html){:target="_blank"}
 - [Agile Myth #6:  "Agile Means No Upfront Design"](http://calenlegaspi.blogspot.com/2014/09/agile-myth-6-agile-means-no-upfront.html){:target="_blank"}

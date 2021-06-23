@@ -2,7 +2,7 @@
 layout:       blog
 title:        "Changing The Way We Use JPA"
 authors:      Lorenzo Dee
-tags:         [domain-driven-design, java, JPA]
+tags:         [domain-driven-design, java, jpa]
 header-image: /assets/images/2021-06-24-changing-the-way-we-use-JPA/ChangingTheWayWeUse-JPA-Banner.png
 ---
 I've been updating some training materials recently, and thinking about better ways of teaching and talking about JPA. One of the things I've been thinking about is how we have typically used JPA, and how that should change given the pains I've experienced (and observed).
@@ -16,6 +16,7 @@ JPA is often seen as a set of annotations (or XML files) that provide O/R (objec
 3. Use ad-hoc joins to join unrelated entities
 
 ## Reference Entities by Identifier
+
 *Only map entity relationships **within** an aggregate.*
 
 Tutorials (and training) would typically go about teaching and covering all possible relationship mappings. After basic mappings, many would start from simple uni-directional `@ManyToOne` mapping. Then proceed to bi-directional `@OneToMany` and `@ManyToOne`. Unfortunately, most often than not, they fail to explicitly point out that it is perfectly fine to not map the relationship. So, beginners would often complete the training thinking that it would be a mistake to not map a related entity. They mistakenly think that a foreign key field must be mapped as a related entity.
@@ -62,7 +63,7 @@ This may not be much if you're dealing with just a handful of entities/tables. B
 
 *When do you map a related entity?*
 
-Map related entities only when they are `within` an [Aggregate](https://martinfowler.com/bliki/DDD_Aggregate.html){:target="_blank"} (in DDD).
+Map related entities only when they are *within* an [Aggregate](https://martinfowler.com/bliki/DDD_Aggregate.html){:target="_blank"} (in DDD).
 
 
 > Aggregate is a pattern in Domain-Driven Design. A DDD aggregate is a cluster of domain objects that can be treated as a single unit. An example may be an order and its line-items, these will be separate objects, but it's useful to treat the order (together with its line items) as a single aggregate.
@@ -110,7 +111,7 @@ But… what if the `Product` (aggregate root entity) has its `@Id` field mapped 
 
 And, what about joins? Can we still join those entities in JPA?
 
-## Don't Let JPA Steal Your `Id`entity
+## Don't Let JPA Steal Your <code style="color: inherit; font-size: inherit">Id</code>entity
 
 Using `@GeneratedValue` may initially make the mapping simple and easy to use. But when you start referencing other entities by ID (and not by mapping a relationship), it becomes a challenge.
 
@@ -172,8 +173,8 @@ public abstract class BaseEntity<ID> implements Persistable<ID> {
         this.persisted = true;
     }
 }
-
 ```
+
 The above also implies that *all* updates to entities must be done by loading the existing entity into the persistence context first, and applying changes to the *managed* entity.
 
 ## Use Ad-hoc Joins to Join Unrelated Entities
@@ -198,14 +199,15 @@ public class OrderItem {
     // ...
 }
 ```
+
 Thankfully 😊, [Hibernate 5.1.0+](https://in.relation.to/2016/02/10/hibernate-orm-510-final-release/){:target="_blank"} (released back in 2016) and [EclipseLink 2.4.0+](https://wiki.eclipse.org/EclipseLink/UserGuide/JPA/Basic_JPA_Development/Querying/JPQL#ON){:target="_blank"} (released back in 2012) have been supporting joins of unrelated entities. These joins are also referred to as *ad-hoc joins*.
 
-<pre>
+```sql
 SELECT o
   FROM Order o
   JOIN o.items oi
   JOIN Product p ON (p.id = oi.productId) -- supported in Hibernate and EclipseLink
-</pre>
+```
 
 Also, this has been raised as an API issue ([Support JOIN/ON for two root entities](https://github.com/eclipse-ee4j/jpa-api/issues/128){:target="_blank"}). I really hope that it will become a standard soon.
 

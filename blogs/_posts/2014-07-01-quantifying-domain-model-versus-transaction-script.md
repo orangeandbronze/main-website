@@ -2,14 +2,14 @@
 layout:       blog
 title:        "Quantifying Domain Model versus Transaction Script"
 authors:      Lorenzo Dee
-tags:         [java]
+tags:         [domain-driven-design, java]
 header-image: /assets/images/2014-07-01-quantifying-domain-model-versus-transaction-script/QuantifyingDomainModelVersusTransactionScript-Banner.png
 ---
 I've been conducting training classes (with [Orange and Bronze](https://www.orangeandbronze.com/)) that cover topics like TDD, design patterns (GoF), patterns of enterprise application architecture (based on PoEAA book by Martin Fowler), and others. And a question keeps coming up about comparing (and quantifying) the benefits of [domain model](https://martinfowler.com/eaaCatalog/domainModel.html){:target="_blank"} pattern compared to [transaction script](https://martinfowler.com/eaaCatalog/transactionScript.html){:target="_blank"}. So, I thought I'd post an explanation here.
 
 Note that the Transaction Script pattern is not bad. Fowler himself says that there are virtues to this pattern:
 
-> The glory of Transaction Script is its simplicity. Organizing logic this way is natural for applications with only a small amount >of logic, and it involves very little overhead either in performance or in understanding.
+> The glory of Transaction Script is its simplicity. Organizing logic this way is natural for applications with only a small amount of logic, and it involves very little overhead either in performance or in understanding.
 > 
 > …
 > It's hard to quantify the cutover level, especially when you're more familiar with one pattern than the other. You can refactor a Transaction Script design to a Domain Model design, but it's harder than it needs to be.
@@ -19,7 +19,7 @@ However much of an object bigot you become, don't rule out Transaction Script. t
 
 Here, I used a simple banking example to illustrate the difference between Transaction Script and Domain Model patterns in organizing domain logic. Then, I'll use metrics like method lines of code, and [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity){:target="_blank"}.
 
-Banking Example
+## Banking Example
 In the banking example, we shall implement a very simple money transfer, where an amount is transferred from one account to another.
 
 The `MoneyTransferService` shall be implemented in two ways: one using *Transaction Script*, and another using *Domain Model*.
@@ -191,7 +191,7 @@ Now here are some of the metrics (via [Eclipse Metrics Plugin](http://metrics2.s
 | Number of Classes            | 4                   | 6             |
 | Method Lines of Code         | 25                  | 9             |
 |                              | Total               | Total         |
-|Total Lines of Code	       | 82                  | 96            |
+|Total Lines of Code	         | 82                  | 96            |
 
 Now here are the metrics screenshots for *transaction script* 
 
@@ -210,4 +210,4 @@ The good thing is, there's no need to make a decision up-front. One can always s
 
 Let me know if anyone wants to see the code. I can upload it to GitHub.
 
-Originally posted at: [Quantifying Domain Model versus Transaction Script](https://lorenzo-dee.blogspot.com/2014/06/quantifying-domain-model-vs-transaction-script.html#comments){:target="_blank"}
+Originally posted at: [Quantifying Domain Model versus Transaction Script](https://lorenzo-dee.blogspot.com/2014/06/quantifying-domain-model-vs-transaction-script.html){:target="_blank"}

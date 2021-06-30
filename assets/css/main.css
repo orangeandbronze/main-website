@@ -8329,7 +8329,7 @@ footer {
 .blog-post__body p, .blog-post__body ul, .blog-post__body ol {
   max-width: 55rem; }
 
-.blog-post__body p, .blog-post__body ul, .blog-post__body ol, .blog-post__body table {
+.blog-post__body p, .blog-post__body > ul, .blog-post__body > ol, .blog-post__body table {
   margin-bottom: 1.2rem; }
 
 .blog-post__body h2, .blog-post__body h3, .blog-post__body h4, .blog-post__body h5, .blog-post__body h6 {

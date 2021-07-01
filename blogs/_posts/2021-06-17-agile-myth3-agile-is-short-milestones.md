@@ -91,6 +91,6 @@ When you're really doing Iterative Development, not just short milestones or Mod
 - **Visible Progress**
     - Delivery is not based on status reports, but on *working, tested, deployable features*, that users can interact with.
 - **Staying On-Budget**
-    - Budgets? Did we discuss budgets? No we didn't, because that's the topic of our next installment:  Agile Myth #4:  "Agile Cannot Work with Fixed Budgets".
+    - Budgets? Did we discuss budgets? No we didn't, because that's the topic of our next installment:  [Agile Myth #4:  "Agile Cannot Work with Fixed Budgets"](/blogs/2021/07/agile-myth4-agile-cannot-work-with-fixed-budgets).
 
 Originally posted at: [Agile Myth #3: "Agile is Short Milestones"](http://calenlegaspi.blogspot.com/2014/07/agile-myth-3-agile-is-short-milestones.html?q=Agile+Myth+){:target="_blank"}

@@ -4,7 +4,6 @@ title:        "Gaining Domain Knowledge of ISO-8583 Messages"
 authors:      Lorenzo Dee
 tags:         [domain-driven-design, java]
 header-image: /assets/images/2014-02-22-gaining-domain-knowledge-of-ISO-8583-messages/GainingDomainKnowledgeOf-ISO-8583Messages-Banner.png
-photo: "https://www.orangeandbronze.com/assets/images/2014-02-22-gaining-domain-knowledge-of-ISO-8583-messages/GainingDomainKnowledgeOf-ISO-8583Messages-Banner.png"
 ---
 Let's talk about how we improved code readability and gained domain knowledge in creating [ISO 8583](https://en.wikipedia.org/wiki/ISO_8583){:target="_blank"} messages in [jPOS](http://jpos.org/){:target="_blank"}.
 

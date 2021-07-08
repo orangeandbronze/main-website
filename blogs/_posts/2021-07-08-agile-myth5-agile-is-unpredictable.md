@@ -19,7 +19,7 @@ Core to the intent of Agile is to give customers ***predictability***. It's sad 
 
 Probably the reason why Agile has a reputation for being unpredictable is because Agile avoids making *upfront* estimates, requirements and design decisions, because core to its principles is **evidence-based decision-making**. Important decisions have to have a firm basis, <u><strong>to reduce or avoid risk and waste</strong></u>, and so decisions are deferred until such basis is obtained. That seems like common-sense, right? But most organizations want critical decisions made upfront, before enough basis for making such critical decisions have been gathered.
 
-## - Evidence-Based Requirements
+## Evidence-Based Requirements
 
 Have you ever heard project teams complain, “Customers don’t know what they want!” Well, why don’t we stop fighting this and just take it for a fact? For any project of significant size, your users and stakeholders will never be able to tell you what they really need or want until they have something in front of them that they can use. There’s little point in getting users and stakeholders to detail everything they think they want upfront, because as soon as they have something in front of them that they can use, they’ll realize that a lot of what they asked for was wrong. If user usage or stakeholder demos only happen at the end of a project, this will just lead to a lot of expensive change requests.
 
@@ -34,7 +34,7 @@ As the Lean Startup people like to say, ["It’s not what people say, it’s wha
 
 Full requirements upfront? That's just creative writing.
 
-## - Evidence-Based Technical Design
+## Evidence-Based Technical Design
 
 How many times have you heard of projects that were completed and deployed, but were too slow to be usable? This story happens too often, sometimes in spectacularly public projects such as the US government's Healthcare.gov website.
 

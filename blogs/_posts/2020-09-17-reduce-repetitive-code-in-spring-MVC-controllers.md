@@ -2,7 +2,7 @@
 layout:       blog
 title:        "Reduce Repetitive Code in Spring MVC Controllers"
 authors:      Lorenzo Dee
-tags:         [java, spring, spring-MVC]
+tags:         [java, spring]
 header-image: /assets/images/2020-09-17-reduce-repetitive-code-in-spring-MVC-controllers/ReduceRepetitiveCodeISpringMVCControllers-banner.png
 ---
 After spending some time doing sustained engineering (a.k.a. maintaining legacy code), I ventured to reduce repetitive code in Spring MVC `@Controllers`. I started with an abstract base controller class. But I soon found out that it was a dead-end because @RequestMapping is not inherited from (or combined with) parent classes and/or interfaces (see [Spring MVC @RequestMapping Inheritance](https://github.com/spring-projects/spring-framework/issues/14722){:target="_blank"}).

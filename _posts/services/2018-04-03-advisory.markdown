@@ -44,7 +44,7 @@ categories:   services
     </div>
     <div class="col-sm-8 col-lg-7">
       <H6>[ ADVISORY SERVICES ]</H6>
-      <H3>Performace Optimization</H3>
+      <H3>Performance Optimization</H3>
       <h5>Application and/or Database</h5>
       <img src="{{ "assets/images/hr.svg" | relative_url }}" alt="" class="hr" />
       <p>

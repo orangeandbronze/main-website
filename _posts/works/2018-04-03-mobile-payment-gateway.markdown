@@ -3,7 +3,7 @@ layout:     works
 title:      Fintech Developers Philippines
 articletitle: Bringing fintech solutions for two major players in the Philippines
 titles:     Bringing fintech solutions for two major players in the Philippines
-description: A Philippine telco and a global credit card company needed a mobile payment gateway to be deployed in developing countries
+description: A Philippine telco and a global credit card company needed a mobile payment gateway to be deployed in developing countries.
 image:      assets/images/work-2.jpg
 photo: "https://www.orangeandbronze.com/assets/images/casestudy-bringing-fintech-solutions-fblinkpost.jpg"
 service:     Custom Software Solutions

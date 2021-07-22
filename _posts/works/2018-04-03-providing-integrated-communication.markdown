@@ -5,7 +5,7 @@ categories: works
 title:      Google Apps Philippines
 titles:     Providing integrated communication and collaboration tools to an IT / BPO company
 articletitle: Providing integrated communication and collaboration tools to an IT / BPO company
-description: One of the largest Filipino-owned BPOs partners with Orange and Bronze, a Google Cloud Partner, to migrate 700+ employees from their legacy system to G Suite
+description: One of the largest Filipino-owned BPOs partners with Orange and Bronze, a Google Cloud Partner, to migrate 700+ employees from their legacy system to G Suite.
 image:      assets/images/work-4.jpg
 photo: "https://www.orangeandbronze.com/assets/images/casestudy-providing-integrated-communication-fblinkpost.jpg"
 service:    G Suite

@@ -5,7 +5,7 @@ categories: works
 title:      G Suite Philippines
 titles:     Reducing CAPEX through a cloud solution for an accounting firm
 articletitle: Reducing CAPEX through a cloud solution for an accounting firm
-description: A pioneer in the Philippine finance outsourcing space taps Orange and Bronze to provide a solution to eliminate costs associated with hardware procurement
+description: A pioneer in the Philippine finance outsourcing space taps Orange and Bronze to provide a solution to eliminate costs associated with hardware procurement.
 image:      assets/images/work-5.jpg
 photo: "https://www.orangeandbronze.com/assets/images/casestudy-reducing-CAPEX-fblinkpost.jpg"
 service:    G Suite

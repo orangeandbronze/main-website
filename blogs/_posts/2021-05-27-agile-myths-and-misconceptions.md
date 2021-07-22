@@ -17,7 +17,7 @@ I discussed twelve common myths about Agile Software Development. I'll follow th
 - [Agile Myth #3:  "Agile is Short Milestones"](/blogs/2021/06/agile-myth3-agile-is-short-milestones)
 - [Agile Myth #4:  "Agile Cannot Work with Fixed Budgets"](/blogs/2021/07/agile-myth4-agile-cannot-work-with-fixed-budgets)
 - [Agile Myth #5:  "Agile is Unpredictable"](/blogs/2021/07/agile-myth5-agile-is-unpredictable)
-- [Agile Myth #6:  "Agile Means No Upfront Design"](http://calenlegaspi.blogspot.com/2014/09/agile-myth-6-agile-means-no-upfront.html){:target="_blank"}
+- [Agile Myth #6:  "Agile Means No Upfront Design"](/blogs/2021/07/agile-myth6-agile-means-no-upfront-design)
 - [Agile Myth #7:  "Agile Means No Documentation"](http://calenlegaspi.blogspot.com/2015/09/agile-myth-7-agile-means-no.html){:target="_blank"}
 - [Agile Myth #8:  "Agile Will Prevent Problems"](http://calenlegaspi.blogspot.com/2016/11/agile-myth-8-agile-will-prevent-problems.html){:target="_blank"}
 - Agile Myth #9:  "Agile Means No Managers"

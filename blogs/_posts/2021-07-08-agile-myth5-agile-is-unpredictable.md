@@ -83,6 +83,6 @@ Fixed-scope, upfront-design projects give an illusion of predictability, with th
 
 On the other hand, Agile requirements, design and estimates have the reputation of being unpredictable, because they cannot be given upfront. Instead, they are only provide once enough evidence for such have been gathered to be reliable. Agile requirements, design and estimates take a little more time end effort, but at least *you can actually count on them*.
 
-For my next installment of this "Agile Myths & Misconceptions" series, I plan to delve a little more on the design aspect of Agile, tackling Agile Myth #6: "Agile Means No Upfront Design".
+For my next installment of this "Agile Myths & Misconceptions" series, I plan to delve a little more on the design aspect of Agile, tackling [Agile Myth #6: "Agile Means No Upfront Design"](/blogs/2021/07/agile-myth6-agile-means-no-upfront-design).
 
 Originally posted at: ["Agile Myth #5: Agile is Unpredictable"](http://calenlegaspi.blogspot.com/2014/07/agile-myth-5-agile-is-unpredictable.html){:target="_blank"}

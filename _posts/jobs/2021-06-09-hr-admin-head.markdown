@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "HR / Admin Head"
@@ -7,7 +7,7 @@ photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  Formulates effective HR strategies consistent with the business and competitive strategies of the organization.
 date:         2021-06-09 12:30:00 +0800
 categories:   jobs
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <h6>Company & Culture</h6>
 <p>Orange & Bronze Software Labs is a thought leader in the Phillippine software development industry, contributing numerous innovations in software development practice. Companies both local and global come to O&B for software development, advisory services, and training. The company is 16 years old, and has clients in 12 countries. <strong>The company is about to enter a stage of rapid growth, with the entry of foreign investors.</strong></p>

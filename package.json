@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://raintrap@bitbucket.org/orangeandbronze/orange-bronze.git"
+    "url": "git+https://calen-legaspi@github.com/orangeandbronze/main-website.git"
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/orangeandbronze/orange-bronze#readme",
+  "homepage": "https://github.com/orangeandbronze/main-website#readme",
   "devDependencies": {
     "browser-sync": "^2.26.3",
     "del": "^3.0.0",

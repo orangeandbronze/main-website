@@ -23,9 +23,7 @@ Below is some more discussion on how [requirements documentation](https://www.bl
 
 ![Documents](/assets/images/2021-08-12-agile-myth7-agile-means-no-documentation/documents.jpg "Documents"){:style="float: right; margin: 1rem 0 1rem 1rem"}
 
-Typical project methodologies strive to avoid change, so they attempt to define all requirements 
-
-upfront. For any large project, however, stable requirements are impossible. For one, business needs often change in the middle of the project - whether they be because of competitive pressure, regulatory changes, or changing customer preferences. The other reason is that project stakeholders don't really know what they need until they see and use a system. The only time they realize that they specified wrong requirements is when they actually give the system a test-drive, and this is usually towards the end of the project.
+Typical project methodologies strive to avoid change, so they attempt to define all requirements upfront. For any large project, however, stable requirements are impossible. For one, business needs often change in the middle of the project - whether they be because of competitive pressure, regulatory changes, or changing customer preferences. The other reason is that project stakeholders don't really know what they need until they see and use a system. The only time they realize that they specified wrong requirements is when they actually give the system a test-drive, and this is usually towards the end of the project.
 
 Further compounding the problem with requirements documentation is that words on paper are not enough to convey the intent of the stakeholders to the development team. The development team goes and builds everything in the requirements, but when they present what they've built to the stakeholders months or years later, everyone realizes that the requirements have been misunderstood, and have built something unusable to the stakeholders, even if the developers complied with the requirements to-the-letter. The blame game then begins, with stakeholders blaming the developers for their poor understanding, and developers blaming stakeholders for poor documentation.
 

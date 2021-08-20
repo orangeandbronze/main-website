@@ -62,7 +62,7 @@ Once you have the source code, open the TodoListPhoneGap project with Eclipse, p
 
     ```java
     function createTaskDB() {
-    db = window.openDatabase(“TaskDB”, “1.0”, “Simple Tasks”, 1000000);
+        db = window.openDatabase(“TaskDB”, “1.0”, “Simple Tasks”, 1000000);
     }
     ```
     The openDatabase function requires four parameters: the name of the dabase, the version of the database, the display name of the database, and the size (in bytes) of the database.
@@ -70,7 +70,7 @@ Once you have the source code, open the TodoListPhoneGap project with Eclipse, p
 
     ```java
     function createTaskDB() {
-    db = window.openDatabase(“TaskDB”, “1.0”, “Simple Tasks”, 1000000);
+        db = window.openDatabase(“TaskDB”, “1.0”, “Simple Tasks”, 1000000);
     }
     ```
 
@@ -78,14 +78,14 @@ Once you have the source code, open the TodoListPhoneGap project with Eclipse, p
 
     ```java
     function createTable(tx) {
-    tx.executeSql(“CREATE TABLE IF NOT EXISTS task (id unique, taskname)”);
+        tx.executeSql(“CREATE TABLE IF NOT EXISTS task (id unique, taskname)”);
     }
     ```
 3. Finally, we need to populate and query the table in db. To to this, we will start another transaction in db, but this time we will pass a DML statement (such as INSERT, UPDATE, SELECT, DELETE) instead of a DDL statement (such as CREATE, DROP, ALTER).
 
     ```java
     db.transaction(function(tx) {
-    tx.executeSql(“INSERT INTO task (taskname) VALUES (?)”,[ task.taskname ]);
+        tx.executeSql(“INSERT INTO task (taskname) VALUES (?)”,[ task.taskname ]);
     }, sqlErrH, cb);
     ```
 

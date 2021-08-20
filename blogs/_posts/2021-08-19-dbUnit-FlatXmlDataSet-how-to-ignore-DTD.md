@@ -21,6 +21,6 @@ protected IDataSet getDataSet() throws Exception {
 }
 ```
 
-The problem with ignoring the DTD is that if the first row of a table has one or more null values, DbUnit might throw a NoSuchColumnException, since without the DTD, DbUnit uses the columns defined in the first row to define the table. The workarounds are either to make sure that their are no nulls in the first row of each table, or to ReplacementDataSet. 
+The problem with ignoring the DTD is that if the first row of a table has one or more null values, DbUnit might throw a `NoSuchColumnException`, since without the DTD, DbUnit uses the columns defined in the first row to define the table. The workarounds are either to make sure that their are no nulls in the first row of each table, or to use `ReplacementDataSet`. 
 
 Originally posted at: ["DbUnit FlatXmlDataSet – How to Ignore DTD"](http://calenlegaspi.blogspot.com/2014/09/dbunit-flatxmldataset-ignore-dtd.html?q=DbUnit+FlatXmlDataSet){:target="_blank"}

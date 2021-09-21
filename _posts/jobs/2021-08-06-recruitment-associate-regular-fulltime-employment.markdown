@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "Recruitment Associate (Regular Full-Time Employment)"
@@ -7,7 +7,7 @@ photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  A highly skilled and competent professional who is responsible for the implementation of various recruitment and selection initiatives that drive growth within the organization; directly reports to the Recruitment and Events Officer.
 date:         2021-06-09 12:30:00 +0800
 categories:   jobs
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <p>A highly skilled and competent professional who is responsible for the implementation of various recruitment and selection initiatives that drive growth within the organization; directly reports to the Recruitment and Events Officer.</p>
 <h6>Roles and Responsibilities</h6>

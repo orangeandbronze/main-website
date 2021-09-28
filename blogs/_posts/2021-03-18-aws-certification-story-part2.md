@@ -1,7 +1,7 @@
 ---
 layout:       blog
 title:        "AWS Certification Story Part2"
-photo:		  "https://www.orangeandbronze.com/assets/images/2021-03-04-aws-certification-story/aws-certification-story-part2.png"
+photo:		  "https://www.orangeandbronze.com/assets/images/2021-03-04-aws-certification-story/FBimage-AWSCertificationStoryPart2.png"
 authors:      Redan Benedict Alcaide
 tags:         cloud-computing java
 header-image: /assets/images/2021-03-04-aws-certification-story/aws-certification-story-part2.png

@@ -1,6 +1,7 @@
 ---
 layout:       blog
 title:        "Agile Myth #2: Agile is Just About Project Management"
+photo:        "https://www.orangeandbronze.com/assets/images/2021-06-09-agile-myth2-agile-is-just-about-project-management/FBimage-AgileMyth2.png"
 authors:      Calen Legaspi
 tags:         agile
 header-image: /assets/images/2021-06-09-agile-myth2-agile-is-just-about-project-management/AgileMyth2-Agile-is-AboutProjectManagement-banner.png

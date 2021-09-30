@@ -12,7 +12,7 @@ The following post is based on the talk I did for one of our weekly **S.K.I.L.L 
 
 Let's say for example that you had an awesome idea for a product. This could be anything, but for the sake of brevity, let's say that it's an e-commerce web app for customized kitten beds.
 
-![Two cat in a cat bed](/assets/images/2021-03-04-aws-certification-story/pexels-pixabay-64284.jpg "Two cats in a cat bed") 
+![Two cat in a cat bed](/assets/images/2021-03-04-aws-certification-story/pexels-pixabay-64284-1.jpg "Two cats in a cat bed") 
 
 Now you spend the next 3 weeks coding on your machine developing the initial MVP (Minimum Viable Product). After spending all-nighter after all-nighter, drinking countless cups of coffee, and writing a gazillion lines of code--you are now done!
 

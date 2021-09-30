@@ -1,6 +1,7 @@
 ---
 layout:       blog
 title:        "Basic Image Editing with GIMP - (Part 1)"
+photo:        "https://www.orangeandbronze.com/assets/2021-02-18-basic-image-editing-with-gimp/FBimage-BasicImageEditingwithGIMPPart-1.png"
 authors:      Mike Pua
 tags:         gimp
 header-image: /assets/images/2021-02-18-basic-image-editing-with-gimp/basic-image-editing-with-gimp-part1.png

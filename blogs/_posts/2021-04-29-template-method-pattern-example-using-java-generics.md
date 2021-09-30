@@ -1,6 +1,7 @@
 ---
 layout:       blog
 title:        "Template Method Pattern Example Using Java Generics"
+photo:        "https://www.orangeandbronze.com//assets/images/2021-04-29-template-method-pattern-example-using-java-generics/TemplateMethodPatternExampleUsingJavaGenerics.jpg"
 authors:      Calen Legaspi
 tags:         [java]
 header-image: /assets/images/2021-04-29-template-method-pattern-example-using-java-generics/TemplateMethodPatternExampleUsingJavaGenerics.jpg

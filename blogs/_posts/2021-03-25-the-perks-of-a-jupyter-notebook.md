@@ -27,7 +27,7 @@ But I must emphasize the following: **Live code** and **Narrative Text**.
 
 These two features easily give you the ability to create resources like interactive workbooks for lectures or workshops, flexible presentations where you can make changes on the fly, and clearer code documentation.
 
-![Jupyter Notebook Strip](/assets/images/2021-03-25-the-perks-of-a-jupyter-notebook/jupyter_notebook_strip.png)
+![Jupyter Notebook Strip](/assets/images/2021-03-25-the-perks-of-a-jupyter-notebook/jupyter_notebook_strip-1.png)
 
 Each notebook is made from an assortment of cells that can run code, present markdown text, or configure metadata for converting the notebook to any other useful format such as slides.  
 

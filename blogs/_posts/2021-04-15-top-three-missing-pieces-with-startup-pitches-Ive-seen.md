@@ -1,6 +1,7 @@
 ---
 layout:       blog
 title:        "Top Three Missing Pieces with Startup Pitches I've Seen"
+photo:		  "https://www.orangeandbronze.com/assets/images/2021-04-15-top-three-missing-pieces-with-startup-pitches-ive-seen/FBimage-TopThreeMissingPieceswithStartupPitches-IveSeen.png"
 authors:      Calen Legaspi
 tags:         [career tips]
 header-image: /assets/images/2021-04-15-top-three-missing-pieces-with-startup-pitches-ive-seen/TopThreeMissingPiecesWithStartupPitchesIveSeen.png

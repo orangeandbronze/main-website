@@ -29,7 +29,7 @@ In this blog post, you will learn about the windows and tools you will commonly 
 
 The **Image Window** holds the image you are editing which allows you to work on multiple Image Windows at a time.
 
-![GIMP in Multi-Window Mode](/assets/images/2021-02-18-basic-image-editing-with-gimp/gimp-multi-window.png "GIMP in Multi-Window Mode")
+![GIMP in Multi-Window Mode](/assets/images/2021-02-18-basic-image-editing-with-gimp/gimp-multi-window1.png "GIMP in Multi-Window Mode")
 
 If you prefer to work with a single window, select _Windows > Single-Window Mode_.
 

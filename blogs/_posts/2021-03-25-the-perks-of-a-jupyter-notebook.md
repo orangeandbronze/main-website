@@ -1,6 +1,7 @@
 ---
 layout:       blog
 title:        "The Perks of a Jupyter Notebook"
+photo:		  "https://www.orangeandbronze.com/assets/images/2021-03-25-the-perks-of-a-jupyter-notebook/FBimage-ThePerksofaJupyterNotebook.png"
 authors:      Jared Rivera
 tags:         jupyter
 header-image: /assets/images/2021-03-25-the-perks-of-a-jupyter-notebook/JupyterBanner.png

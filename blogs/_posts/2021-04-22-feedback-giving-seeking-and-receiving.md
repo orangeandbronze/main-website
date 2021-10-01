@@ -1,6 +1,7 @@
 ---
 layout:       blog
 title:        "Feedback: Giving, Seeking, and Receiving"
+photo:		  "https://www.orangeandbronze.com/assets/images/2021-04-22-feedback-giving-seeking-and-receiving/FBimage-FeedbackGivingSeekingAndReceiving.png"
 authors:      Lorenzo Dee
 tags:         [ career tips]
 header-image: /assets/images/2021-04-22-feedback-giving-seeking-and-receiving/FeedbackGivingSeekingAndReceiving.png

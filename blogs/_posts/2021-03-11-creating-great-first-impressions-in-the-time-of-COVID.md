@@ -1,6 +1,7 @@
 ---
 layout:       blog
 title:        "Creating Great First Impressions in the Time of COVID"
+photo:		  "https://www.orangeandbronze.com/assets/images/2021-03-11-creating-great-first-impressions-in-the-time-of-COVID/FBimage-CreatingGreatFirstImpressionsInTheTimeOfCOVID.png"
 authors:      Ruane Kay Cootauco
 tags:         career-tips
 header-image: /assets/images/2021-03-11-creating-great-first-impressions-in-the-time-of-COVID/CreatingGreatFirstImpressions-in-theTime-of-COVID.png

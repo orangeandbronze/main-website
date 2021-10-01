@@ -17,7 +17,7 @@ The IT Industry has become more competitive and demanding in terms of its skills
 
 ## Introductions set the tone of the conversation.
 
-![Shaking hands](/assets/images/2021-03-11-creating-great-first-impressions-in-the-time-of-COVID/shakehands.png "Shaking hands")
+![Shaking hands](/assets/images/2021-03-11-creating-great-first-impressions-in-the-time-of-COVID/shakehands-1.png "Shaking hands")
 
 Understanding the context is always important in any conversation. First, identify if you are in a formal (*i.e., interviews, e-mail, conference call)* or informal situation *(i.e., parties or meetups)*. Second, avoid *social scripts* or conversation killers. Social scripts are questions that have been asked so many times that you already have automatic answers to it *(e.g., "How are you?")* and these are the enemies of being memorable.
 

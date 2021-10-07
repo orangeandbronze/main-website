@@ -1,6 +1,7 @@
 ---
 layout:       blog
 title:        "Foreign Keys - What Do You Think?"
+photo:		    "https://www.orangeandbronze.com/assets/2021-05-05-foreign-keys-what-do-you-think/FBimage-ForeignKeys-What-DoYouThink.png"
 authors:      Calen Legaspi
 tags:         sql
 header-image: /assets/images/2021-05-05-foreign-keys-what-do-you-think/ForeignKeysWhatDoYouThink.png

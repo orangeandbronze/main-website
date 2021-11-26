@@ -4,11 +4,12 @@ class:        job
 title:        "Mid-Level Java Software Engineer"
 titles:        "Mid-Level Java Software Engineer"
 photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
-description:  A Mid-Level Java Software Engineer assumes the responsibility of a programmer and consultant whose responsibilities involve the implementation of and assisting/advising on the software development process.
+description:  Compensation Package up to Php 140,000 | A Mid-Level Java Software Engineer assumes the responsibility of a programmer and consultant whose responsibilities involve the implementation of and assisting/advising on the software development process.
 date:         2018-04-03 16:42:00 +0800
 categories:   jobs
 ---
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
+<h4>Compensation Package up to Php 140,000</h4>
 <p>
 A Mid-Level Java Software Engineer assumes the responsibility of a programmer and consultant whose responsibilities involve the implementation of and assisting/advising on the software development process. Relevant skills include:
      <ul>

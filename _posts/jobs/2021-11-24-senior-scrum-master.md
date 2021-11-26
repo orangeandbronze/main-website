@@ -4,11 +4,12 @@ class:        job
 title:        "Senior Scrum Master"
 titles:       "Senior Scrum Master"
 photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
-description:  Our Scrum Masters are servant leaders, who facilitate high quality, high performance software engineering within dedicated value-delivery teams. They are experts in Scrum, Lean and general Agile principles. 
+description:  Compensation Package up to Php 170,000 | Our Scrum Masters are servant leaders, who facilitate high quality, high performance software engineering within dedicated value-delivery teams. They are experts in Scrum, Lean and general Agile principles. 
 date:         2021-11-24 12:00:00 +0800
 categories:   jobs
 ---
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
+<h4>Compensation Package up to Php 170,000</h4>
 <p>Our Scrum Masters are servant leaders, who facilitate high quality, high performance software engineering within dedicated value-delivery teams. They are experts in Scrum, Lean and general Agile principles.</p>
 <p>Our Scrum Masters welcome change and uncertainty, using Scrum as a living framework for establishing healthy work practices and psychological safety for their team, and indeed for our customers. They champion the needs of customers and the needs of their team with equal passion.</p>
 <p>Our Scrum Masters are emotionally intelligent, and prefer to use soft skills and soft power to continuously improve team collaboration and development practices, resulting in predictable (convergent) iteration velocity and high performance after a relatively small number of iterations. They work proactively to remove waste from the team process and inputs on a daily basis. They are self-motivated, self-organising and driven by a passionate desire to increase flow, in their teams, customers, and the wider O&B business.</p>

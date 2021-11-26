@@ -2,11 +2,12 @@
 layout:       jobs
 class:        job
 title:        "Associate JavaScript Software Engineer / JavaScript Software Engineer"
-description:  The Associate JavaScript Software Engineer / JavaScript Software Engineer assumes the role of programmer and consultant, which involves implementing, assisting clients in the field of software development.
+description:  Compensation Package up to Php 60,000 | The Associate JavaScript Software Engineer / JavaScript Software Engineer assumes the role of programmer and consultant, which involves implementing, assisting clients in the field of software development.
 date:         2018-04-03 16:42:00 +0800
 categories:   jobs
 ---
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
+<h4>Compensation Package up to Php 60,000</h4>
 <p>The Associate JavaScript Software Engineer / JavaScript Software Engineer assumes the role of programmer and consultant, which involves implementing, assisting clients in the field of software development.</p>
 <h6 class="-dark">Roles and Responsibilities</h6>
 <ul>

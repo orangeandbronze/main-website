@@ -3,11 +3,12 @@ layout:       jobs
 class:        job
 title:        "Business Analyst and Quality Engineer"
 photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
-description:  The candidate will be joining O&B’s Consulting Services in developing custom software, understanding the business problems of the customer and providing solutions with the help of engineers.
+description:  Compensation Package up to Php 100,000 | The candidate will be joining O&B’s Consulting Services in developing custom software, understanding the business problems of the customer and providing solutions with the help of engineers.
 date:         2018-04-03 16:42:00 +0800
 categories:   jobs
 ---
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
+<h4>Compensation Package up to Php 100,000</h4><br>
 ###### Overview
 Before a product can be built, it needs to be defined. This is the valuable role that Business Analyst & Quality Engineer (BA/QE) plays. The BA/QE engages business stakeholders to define and prioritize problems, risks, and opportunities, and then works with engineers to develop appropriate solutions to address such problems, risks and opportunities.  
 The BA/QE is the first step in becoming a software industry ***Product Owner*** - one who shapes the vision and scope of innovative technology products.  

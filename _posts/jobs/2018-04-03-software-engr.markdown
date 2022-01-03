@@ -3,7 +3,7 @@ layout:       jobs
 class:        job
 title:        "Associate Java Software Engineer/ Java Software Engineer"
 titles:       "Associate Java Software Engineer/ Java Software Engineer"
-description:  Compensation Package up to Php 60,000 | This position assumes the role of a consultant, which involves implementing, assisting and/or advising clients in the field of software development.
+description:  Compensation Package up to Php 50,000 | This position assumes the role of a consultant, which involves implementing, assisting and/or advising clients in the field of software development.
 date:         2018-04-03 16:50:00 +0800
 categories:   jobs
 redirect_from:
@@ -12,7 +12,7 @@ redirect_from:
   - /technical/software-engineer-intern
 ---
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
-<h4>Compensation Package up to Php 60,000</h4><br>
+<h4>Compensation Package up to Php 50,000</h4><br>
 <h6 class="-dark">Job Description:</h6>
 <p>
   The Associate Java Software Engineer/Java Software Engineer assumes the role of programmer and consultant, which involves implementing, assisting clients in the field of software development.

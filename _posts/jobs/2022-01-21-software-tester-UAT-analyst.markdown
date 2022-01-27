@@ -9,7 +9,8 @@ date:         2022-01-20 16:47:00 +0800
 categories:   jobs
 ---
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
-<p>The Project-Based Software Tester-User Acceptance Testing (UAT) Analyst will be joining a collaborative team for a banking and financial institution until December 2021. S/he shall be responsible for testing releases and ensuring their adherence to set acceptance criteria. To be effective in this assignment, one must be able to empathize with banking customers and operations staff (approvers, verifiers, helpdesk etc.), as well as understand the bigger picture--how the different features and components relate with each other. The UAT analysts will be collaborating with both programmers and product owners to ensure that software features to be released are well-built. Relevant skills:</p>
+<p>Software Tester-User Acceptance Testing (UAT) Analyst will be joining a collaborative team for a banking and financial institution. S/he shall be responsible for testing releases and ensuring their adherence to set acceptance criteria. To be effective in this assignment, one must be able to empathize with banking customers and operations staff (approvers, verifiers, helpdesk etc.), as well as understand the bigger picture--how the different features and components relate with each other. The UAT analysts will be collaborating with both programmers and product owners to ensure that software features to be released are well-built.</p>
+<h6 class="dark">Relevant skills:</h6>
 <ul>
     <li>System Testing</li>
     <li>Regression Testing</li>

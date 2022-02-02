@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "Agile Project Manager"
@@ -7,7 +7,7 @@ photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  Compensation Package up to Php 150,000 | Our Scrum Masters are servant leaders, who facilitate high quality, high performance software engineering within dedicated value-delivery teams. They are experts in Scrum, Lean and general Agile principles. 
 date:         2021-11-24 12:00:00 +0800
 categories:   jobs
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <h4>Compensation Package up to Php 150,000</h4>
 <p>Our Agile Project Managers are servant leaders, who facilitate high quality, high performance software engineering within dedicated value-delivery teams. They are experts in Scrum, Lean and general Agile principles.</p>

@@ -2,12 +2,12 @@
 layout:       jobs
 class:        job
 title:        "Mid-Level JavaScript Software Engineer"
-description:  Compensation Package up to Php 140,000 | The Mid-Level JavaScript Software Engineer is responsible for developing and implementing user interface components using React.js, Redux, Flux, and Webpack. 
+description:  Compensation Package up to Php 130,000 | The Mid-Level JavaScript Software Engineer is responsible for developing and implementing user interface components using React.js, Redux, Flux, and Webpack. 
 date:         2020-10-12 16:42:00 +0800
 categories:   jobs
 ---
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
-<h4>Compensation Package up to Php 140,000</h4>
+<h4>Compensation Package up to Php 130,000</h4>
 <p>A mid-level JavaScript Software Engineer is responsible for developing and implementing user interfaces, and design systems. S/he has an intermediate level of skill and understanding of NodeJS, and front-end libraries and/or frameworks like React, Angular, and Vue and in using prototyping libraries like Storybook, and state management libraries like Redux.</p>
 <h6 class="-dark">Primary Roles</h6>
 <ul>

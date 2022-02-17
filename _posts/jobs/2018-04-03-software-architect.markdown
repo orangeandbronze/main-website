@@ -4,7 +4,7 @@ class:        job
 title:        "Java Software Architect / Senior Java Software Engineer"
 titles:       "Java Software Architect / Senior Java Software Engineer"
 photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
-description:  Compensation Package up to Php 250,000 | Leads and mentor teams of software engineers, particularly in the technical aspects of their work.
+description:  Compensation Package up to Php 240,000 | Leads and mentor teams of software engineers, particularly in the technical aspects of their work.
 date:         2018-04-03 16:49:00 +0800
 categories:   jobs
 redirect_from:
@@ -12,7 +12,7 @@ redirect_from:
   - /technical/software-architect-or-senior-software-engineer
 ---
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
-<h4>Compensation Package up to Php 250,000</h4><br>
+<h4>Compensation Package up to Php 240,000</h4><br>
 <h6 class="-dark">Job Description:</h6>
 <p>
   The Java Software Architect / Senior Java Software Engineer assumes the role of lead developer and consultant, which involves implementing, assisting and advising clients in the field of software development.

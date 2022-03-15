@@ -1,7 +1,8 @@
 ---
 layout:       jobs
 class:        job
-title:        "Associate JavaScript Software Engineer / JavaScript Software Engineer"
+title:        "Associate JavaScript Software Engineer / JavaScript Software Engineer (Work From Home)"
+titles:       "Associate JavaScript Software Engineer / JavaScript Software Engineer (Work From Home)"
 description:  Compensation Package up to Php 50,000 | The Associate JavaScript Software Engineer / JavaScript Software Engineer assumes the role of programmer and consultant, which involves implementing, assisting clients in the field of software development.
 date:         2018-04-03 16:42:00 +0800
 categories:   jobs

@@ -1,8 +1,8 @@
 ---
 layout:       jobs
 class:        job
-title:        "Sales and Account Specialist"
-titles:       "Sales and Account Specialist"
+title:        "Sales and Account Specialist (Work From Home)"
+titles:       "Sales and Account Specialist (Work From Home)"
 photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  Compensation Package up to Php 25,000 | The Sales and Account Specialist will be responsible for O&B’s Google Workspace business unit and training services’ day-to-day operations. 
 date:         2021-09-10 12:30:00 +0800

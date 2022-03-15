@@ -1,8 +1,8 @@
 ---
 layout:       jobs
 class:        job
-title:        "Mid-Level Java Software Engineer"
-titles:        "Mid-Level Java Software Engineer"
+title:        "Mid-Level Java Software Engineer (Work From Home)"
+titles:        "Mid-Level Java Software Engineer (Work From Home)"
 photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  Compensation Package up to Php 130,000 | A Mid-Level Java Software Engineer assumes the responsibility of a programmer and consultant whose responsibilities involve the implementation of and assisting/advising on the software development process.
 date:         2018-04-03 16:42:00 +0800

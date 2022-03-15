@@ -1,8 +1,8 @@
 ---
 layout:       jobs
 class:        job
-title:        "Software Tester - UAT Analyst"
-titles:       "Apply Now | Software Tester - UAT Analyst"
+title:        "Software Tester - UAT Analyst (Work From Home)"
+titles:       "Apply Now | Software Tester - UAT Analyst (Work From Home)"
 photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  Software Tester-User Acceptance Testing (UAT) Analyst will be joining a collaborative team for a banking and financial institution. S/he shall be responsible for testing releases and ensuring their adherence to set acceptance criteria. 
 date:         2022-01-20 16:47:00 +0800

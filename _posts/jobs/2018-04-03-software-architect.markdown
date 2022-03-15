@@ -1,8 +1,8 @@
 ---
 layout:       jobs
 class:        job
-title:        "Java Software Architect / Senior Java Software Engineer"
-titles:       "Java Software Architect / Senior Java Software Engineer"
+title:        "Java Software Architect / Senior Java Software Engineer (Work From Home)"
+titles:       "Java Software Architect / Senior Java Software Engineer (Work From Home)"
 photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  Compensation Package up to Php 240,000 | Leads and mentor teams of software engineers, particularly in the technical aspects of their work.
 date:         2018-04-03 16:49:00 +0800

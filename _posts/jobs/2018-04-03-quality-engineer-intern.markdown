@@ -1,8 +1,8 @@
 ---
 layout:       jobs
 class:        job
-title:        "Quality Engineer Intern"
-title:        "Quality Engineer Intern"
+title:        "Quality Engineer Intern (Work From Home)"
+titles:        "Quality Engineer Intern (Work From Home)"
 photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  The candidate will be joining O&B’s Consulting Services in developing custom software, understanding the business problems of the customer and providing solutions with the help of engineers.
 date:         2018-04-03 16:42:00 +0800

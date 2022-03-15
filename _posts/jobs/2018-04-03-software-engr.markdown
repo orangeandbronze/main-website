@@ -1,8 +1,8 @@
 ---
 layout:       jobs
 class:        job
-title:        "Associate Java Software Engineer/ Java Software Engineer"
-titles:       "Associate Java Software Engineer/ Java Software Engineer"
+title:        "Associate Java Software Engineer/ Java Software Engineer (Work From Home)"
+titles:       "Associate Java Software Engineer/ Java Software Engineer (Work From Home)"
 description:  Compensation Package up to Php 50,000 | This position assumes the role of a consultant, which involves implementing, assisting and/or advising clients in the field of software development.
 date:         2018-04-03 16:50:00 +0800
 categories:   jobs

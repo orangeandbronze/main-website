@@ -1,7 +1,8 @@
 ---
 layout:       jobs
 class:        job
-title:        "HR Assistant"
+title:        "HR Assistant (Work From Home)"
+titles:       "HR Assistant (Work From Home)"  
 description:  A highly skilled and competent professional who is responsible for the implementation of various recruitment and selection initiatives, and day-to-day general HR functions; directly reports to the HR Business Partner.
 date:         2022-01-17 16:42:00 +0800
 categories:   jobs

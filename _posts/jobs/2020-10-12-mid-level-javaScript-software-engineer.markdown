@@ -1,7 +1,8 @@
 ---
 layout:       jobs
 class:        job
-title:        "Mid-Level JavaScript Software Engineer"
+title:        "Mid-Level JavaScript Software Engineer (Work From Home)"
+titles:       "Mid-Level JavaScript Software Engineer (Work From Home)"
 description:  Compensation Package up to Php 130,000 | The Mid-Level JavaScript Software Engineer is responsible for developing and implementing user interface components using React.js, Redux, Flux, and Webpack. 
 date:         2020-10-12 16:42:00 +0800
 categories:   jobs

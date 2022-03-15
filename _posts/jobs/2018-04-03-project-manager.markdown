@@ -1,8 +1,8 @@
 ---
 layout:       jobs
 class:        job
-title:        "Project Manager (Work from Home)"
-titles:        "Apply now | Project Manager (Work from Home)"
+title:        "Project Manager (Work From Home)"
+titles:        "Apply now | Project Manager (Work From Home)"
 photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  The Project Manager is in charge of planning, overseeing, and leading projects from ideation to completion. S/he is responsible for managing both resources and client expectations to ensure success of the project. 
 date:         2022-01-20 16:42:00 +0800

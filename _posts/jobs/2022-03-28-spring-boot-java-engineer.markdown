@@ -5,7 +5,7 @@ title:        "Spring Boot (Java) Engineer (Work From Home)"
 titles:        "Spring Boot (Java) Engineer (Work From Home)"
 photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  Compensation Package up to Php 90,000 | A Spring Boot (Java) Engineer assumes the responsibility of a programmer and consultant whose responsibilities involve the implementation of and assisting/advising on the software development process.
-date:         2022-03-28 10:00:00 +0800
+date:         2022-03-28 01:00:00 +0800
 categories:   jobs
 ---
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->

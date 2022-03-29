@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "Client Success Manager (Edusuite)"
@@ -6,7 +6,7 @@ photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  The Client Success Manager assumes the role of a business analyst and a project manager, which involves designing features/modules and implementing Edusuite to partner schools both in the K12 and Higher Education. Candidates must be willing to be assigned to Alabang and travel regularly to meet its client schools.
 date:         2018-12-28 16:47:00 +0800
 categories:   jobs
----
+--- -->
 
 [Edusuite](https://www.edusuite.asia) is looking for a Client Success Manager to join its implementation team. Edusuite is a young DOST funded start-up in the Educational technology space creating smart solutions and helping schools modernize their systems. Perks include working with experienced technopreneurs, a great team, free meals, regular extra-curricular and gaming activities, and making a difference for the Philippines.
 

@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "Technical Recruiter (Work From Home)"
@@ -7,7 +7,7 @@ photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  A highly skilled and competent professional who is responsible for the implementation of various recruitment and selection initiatives, and day-to-day general HR functions; directly reports to the HR Business Partner.
 date:         2022-02-10 10:00:00 +0800
 categories:   jobs
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <p>A highly skilled and competent professional who is responsible for the implementation of various recruitment and selection initiatives, and day-to-day general HR functions; directly reports to the HR Business Partner.</p>
 <h6>Recruitment Function</h6>

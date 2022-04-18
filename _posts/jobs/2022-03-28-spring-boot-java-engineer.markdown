@@ -4,12 +4,12 @@ class:        job
 title:        "Spring/JavEE Engineer (Work From Home)"
 titles:        "Spring/JavEE Engineer (Work From Home)"
 photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
-description:  Compensation ₱30,000 - ₱130,000, depending on experience | A Spring/JavaEE Engineer assumes the responsibility of a programmer and consultant whose responsibilities involve the implementation of and assisting/advising on the software development process.
+description:  Compensation ₱30K - ₱130K, depending on experience | A Spring/JavaEE Engineer assumes the responsibility of a programmer and consultant whose responsibilities involve the implementation of and assisting/advising on the software development process.
 date:         2022-03-28 01:00:00 +0800
 categories:   jobs
 ---
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
-<h4>Compensation ₱30,000 - ₱130,000, depending on experience</h4>
+<h4>Compensation ₱30K - ₱130K, depending on experience</h4>
 <p>
 A Spring/JavaEE Engineer assumes the responsibility of a programmer and consultant whose responsibilities involve the implementation of and assisting/advising on the software development process. Relevant skills include:
      <ul>

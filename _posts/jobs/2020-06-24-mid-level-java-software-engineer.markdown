@@ -1,20 +1,19 @@
 ---
 layout:       jobs
 class:        job
-title:        "Mid-Level Java Software Engineer"
-titles:        "Mid-Level Java Software Engineer"
+title:        "Spring/JavaEE Engineer (Work from Home)"
+titles:        "Spring/JavaEE Engineer (Work from Home)"
 photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
-description:  A Mid-Level Java Software Engineer assumes the responsibility of a programmer and consultant whose responsibilities involve the implementation of and assisting/advising on the software development process.
+description:  A Spring/JavaEE Engineer assumes the responsibility of a programmer and consultant whose responsibilities involve the implementation of and assisting/advising on the software development process.
 date:         2018-04-03 16:42:00 +0800
 categories:   jobs
 ---
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <p>
-A Mid-Level Java Software Engineer assumes the responsibility of a programmer and consultant whose responsibilities involve the implementation of and assisting/advising on the software development process. Relevant skills include:
+A Spring/JavaEE Engineer assumes the responsibility of a programmer and consultant whose responsibilities involve the implementation of and assisting/advising on the software development process. Relevant skills include:
      <ul>
         <li>Java</li>
-        <li>Spring</li>
-        <li>Spring Boot</li>
+        <li>Spring or Java EE</li>
         <li>Agile Development</li>
     </ul>
 </p>
@@ -41,7 +40,7 @@ A Mid-Level Java Software Engineer assumes the responsibility of a programmer an
 <h6 class="-dark">Qualifications</h6>
 <ul>
   <li>Strong skills and experience in Java (Java-related Certifications is a plus)</li>
-  <li>With experience/knowledge on Spring and Spring Boot</li>
+  <li>With experience/knowledge on Spring or JavaEE</li>
   <li>With experience in Agile Software Development</li>
   <li>Knowledge of best practices, Object-Oriented Programming, Object-Oriented Design, Design Patterns, and Enterprise Patterns.</li>
 </ul>

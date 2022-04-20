@@ -2,7 +2,7 @@
 layout:       jobs
 class:        job
 title:        "HR | Admin Assistant (Work From Home)"
-titles:       "HR | Adnub Assistant (Work From Home)"  
+titles:       "HR | Admin Assistant (Work From Home)"  
 description:  A highly-driven and competent professional who collaborates with the HR|Admin Team in the management of all facets of HR functions and day-to-day general office administration within the organization; reports to the Head, HR and Administration.
 date:         2022-01-17 16:42:00 +0800
 categories:   jobs

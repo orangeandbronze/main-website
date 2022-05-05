@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "Sales Recruitment Specialist (Work From Home)"
@@ -7,7 +7,7 @@ photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  A highly skilled and competent professional who is responsible for the implementation of various recruitment and selection initiatives, and day-to-day general sales functions; directly reports to the Chief Operations Officer.
 date:         2022-04-13 12:30:00 +0800
 categories:   jobs
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <p>A highly skilled and competent professional who is responsible for the implementation of various recruitment and selection initiatives, and day-to-day general sales functions; directly reports to the Chief Operations Officer.</p>
 <h6>Sales Function</h6>

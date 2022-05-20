@@ -1,8 +1,8 @@
 ---
 layout:       jobs
 class:        job
-title:        "Spring or JavaEE Engineer (Work From Home)"
-titles:        "Spring or JavaEE Engineer (Work From Home)"
+title:        "Spring Boot Engineer (Work From Home)"
+titles:        "Spring Boot Engineer (Work From Home)"
 photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  Compensation ₱30K - ₱130K, depending on experience | A Spring/JavaEE Engineer assumes the responsibility of a programmer and consultant whose responsibilities involve the implementation of and assisting/advising on the software development process.
 date:         2022-03-28 01:00:00 +0800
@@ -11,10 +11,10 @@ categories:   jobs
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <h4>Compensation ₱30K - ₱130K, depending on experience</h4>
 <p>
-A Spring/JavaEE Engineer assumes the responsibility of a programmer and consultant whose responsibilities involve the implementation of and assisting/advising on the software development process. Relevant skills include:
+A Spring Boot Engineer assumes the responsibility of a programmer and consultant whose responsibilities involve the implementation of and assisting/advising on the software development process. Relevant skills include:
      <ul>
         <li>Java</li>
-        <li>Spring or JavaEE</li>
+        <li>Spring (preferred) or JavaEE</li>
         <li>Java Persistence API (JPA)</li>
         <li>Agile Development</li>
     </ul>
@@ -42,9 +42,9 @@ A Spring/JavaEE Engineer assumes the responsibility of a programmer and consulta
 <h6 class="-dark">Qualifications</h6>
 <ul>
   <li>Strong skills and experience in Java (Java-related Certifications is a plus)</li>
-  <li>With experience/knowledge in Spring or JavaEE</li>
+  <li>With experience/knowledge in Spring (preferred)or JavaEE</li>
    <li>With experience/knowledge in JPA</li>
-  <li>With experience in Agile Software Development</li>
+  <li>Preferred experience in Agile Software Development</li>
   <li>Knowledge of best practices, Object-Oriented Programming, Object-Oriented Design, Design Patterns, and Enterprise Patterns.</li>
 </ul>
 

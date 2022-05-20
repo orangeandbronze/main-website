@@ -42,7 +42,7 @@ A Spring Boot Engineer assumes the responsibility of a programmer and consultant
 <h6 class="-dark">Qualifications</h6>
 <ul>
   <li>Strong skills and experience in Java (Java-related Certifications is a plus)</li>
-  <li>With experience/knowledge in Spring (preferred)or JavaEE</li>
+  <li>With experience/knowledge in Spring (preferred) or JavaEE</li>
    <li>With experience/knowledge in JPA</li>
   <li>Preferred experience in Agile Software Development</li>
   <li>Knowledge of best practices, Object-Oriented Programming, Object-Oriented Design, Design Patterns, and Enterprise Patterns.</li>

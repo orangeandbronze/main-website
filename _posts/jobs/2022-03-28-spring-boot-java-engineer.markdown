@@ -63,7 +63,7 @@ categories:   jobs
 <li>Handle DB schema migrations using Liquibase.</li>
 <li>Be comfortable working with basic containerised delivery, using Docker (both local and remote).</li>
 <li>Be extremely comfortable working with a Linux shell (Bash, Zsh).</li>
-<ul>
+</ul>
 <h6 class="-dark">Very highly regarded (though not essential, as we train our people in these skills):</h6>
 <ul>
 <li>AWS</li>

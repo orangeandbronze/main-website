@@ -41,14 +41,15 @@ categories:   jobs
 <li>AWS</li>
 <li>Kubernetes</li>
 <li>Agile Development (Scrum, XP)</li>
-<br/>
 </ul>
+<br/>
 <h6 class="-dark">Some key things we look for are:</h6>
 <ol>
 <li>Test-driven development (TDD), or at least strong unit testing skills.</li>
 <li>Strong working knowledge of OOP.</li>
 <li>Strong working knowledge of databases, data modeling, JPA and SQL.</li>
 </ol>
+<br/>
 <h6 class="-dark">You should:</h6>
 <ul>
 <li>Be conversant with OOP principles and design methods, such as encapsulation, inheritance, polymorphism, and abstraction.</li>
@@ -66,6 +67,7 @@ categories:   jobs
 <li>Be comfortable working with basic containerised delivery, using Docker (both local and remote).</li>
 <li>Be extremely comfortable working with a Linux shell (Bash, Zsh).</li>
 </ul>
+<br/>
 <h6 class="-dark">Very highly regarded (though not essential, as we train our people in these skills):</h6>
 <ul>
 <li>AWS</li>
@@ -75,6 +77,7 @@ categories:   jobs
 <li>Spring WebFlux</li>
 <li>Architectural Design Patterns (GoF, Enterprise Architecture)</li>
 </ul>
+<br/>
 <h6 class="-dark">Benefits:</h6>
 <ul>
 <li>15 days Vacation Leave (VL) per year</li>
@@ -86,6 +89,7 @@ categories:   jobs
 <li>Flu Vaccine Subsidy: P800/year</li>
 <li><b>Access to award-winning O&B University training courses: Java, Spring Boot, Agile, Enterprise Database Best Practices, Spring Cloud & Microservices, Test Automation, and more!</b></li>
 </ul>
+<br/>
 <h6 class="-dark">Apply today!</h6>
 <ul>
 <li>Step 1: Click the Easy Apply button (you will need to upload your current CV)</li>

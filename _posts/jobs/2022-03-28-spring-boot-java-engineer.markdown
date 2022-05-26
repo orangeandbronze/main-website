@@ -9,7 +9,7 @@ date:         2022-03-28 01:00:00 +0800
 categories:   jobs
 ---
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
-<h4>Compensation ₱30K - ₱130K, depending on experience</h4>
+<h4>Compensation ₱50K - ₱90K + Benefits</h4>
 <p>We are hiring for mid-level to seniors in this role. </p>
 <p>O&B is growing!  There has never been a better time to be in software consulting, and never a better time to work at O&B! </p>
 <p>O&B is a merit-based organization: we care more about what you can do than how many years experience you have. </p>

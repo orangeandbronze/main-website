@@ -99,6 +99,7 @@ categories:   jobs
 <li>Step 5: Cultural Fit Interview</li>
 <li>Step 6: Job Offer!</li>
 </ul>
+<br/>
 <p>We take pride in our reputation as the best Java engineers in the Philippines.</p>
 <p>Join the O&B kapamilya, and surround yourself with smart, passionate developers just like you!</p>
 <p>We can’t wait to meet you.</p>

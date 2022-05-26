@@ -29,6 +29,7 @@ categories:   jobs
 <li>Data Modeling and Normalization</li>
 <ul>
 <li>Data Schema Migration, including:
+<ul>
 <li>Liquibase</li>
 <li>Flyway</li>
 </ul>

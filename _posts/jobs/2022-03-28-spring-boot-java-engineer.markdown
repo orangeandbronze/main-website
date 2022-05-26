@@ -40,6 +40,7 @@ categories:   jobs
 <li>AWS</li>
 <li>Kubernetes</li>
 <li>Agile Development (Scrum, XP)</li>
+<br/>
 </ul>
 <h6 class="-dark">Some key things we look for are:</h6>
 <ol>

@@ -4,7 +4,7 @@ class:        job
 title:        "Spring Boot (Java) Engineer, Mid/Senior, Work From Home"
 titles:        "Spring Boot (Java) Engineer, Mid/Senior, Work From Home"
 photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
-description:  Compensation ₱30K - ₱130K, depending on experience | A Spring/JavaEE Engineer assumes the responsibility of a programmer and consultant whose responsibilities involve the implementation of and assisting/advising on the software development process.
+description:  Compensation ₱50K - ₱90K + Benefits | A Spring Boot Engineer assumes the responsibility of a programmer and consultant whose responsibilities involve the implementation of and assisting/advising on the software development process.
 date:         2022-03-28 01:00:00 +0800
 categories:   jobs
 ---

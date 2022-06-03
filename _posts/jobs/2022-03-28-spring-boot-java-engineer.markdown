@@ -84,7 +84,7 @@ categories:   jobs
 <li>15 days Sick Leave (SL) per year</li>
 <li>5 days Emergency Leave (EL) per year</li>
 <li>HMO (1 dependent)</li>
-<li>Cash conversion ofof unused VL  (7.5 days max)</li>
+<li>Cash conversion of unused VL  (7.5 days max)</li>
 <li>Utility Allowance: P1,500/month </li>
 <li>Flu Vaccine Subsidy: P800/year</li>
 <li><b>Access to award-winning O&B University training courses: Java, Spring Boot, Agile, Enterprise Database Best Practices, Spring Cloud & Microservices, Test Automation, and more!</b></li>

@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "Marketing Associate (Work From Home)"
@@ -7,7 +7,7 @@ photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  A creative and well-organized professional who is responsible for implementing marketing initiatives, and day-to-day administrative functions which include but are not limited to forecasting trends, handling social media accounts, and organizing company events; directly reports to the Chief Operations Officer. 
 date:         2022-05-05 08:00:00 +0800
 categories:   jobs
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <p>A creative and well-organized professional who is responsible for implementing marketing initiatives, and day-to-day administrative functions which include but are not limited to forecasting trends, handling social media accounts, and organizing company events; directly reports to the Chief Operations Officer.</p>
 <h6 class="-dark">Event Management</h6>

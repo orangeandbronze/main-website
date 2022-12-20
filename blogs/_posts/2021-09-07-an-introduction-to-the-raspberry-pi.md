@@ -1,7 +1,7 @@
 ---
 layout:       blog
 title:        "An Introduction to the Raspberry Pi"
-photo:		   "https://www.orangeandbronze.com//assets/images/2021-09-07-an-introduction-to-the-raspberry-pi/FBimage-AnIntroductionToTheRaspberryPi.png"
+photo:		   "https://www.orangeandbronze.com/assets/images/2021-09-07-an-introduction-to-the-raspberry-pi/FBimage-AnIntroductionToTheRaspberryPi.png"
 authors:      Christopher Sajol
 tags:         [Raspberry Pi]
 header-image: /assets/images/2021-09-07-an-introduction-to-the-raspberry-pi/Introduction-to-raspberry-pi-banner.png

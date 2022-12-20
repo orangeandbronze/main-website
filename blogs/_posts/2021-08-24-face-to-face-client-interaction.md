@@ -26,3 +26,7 @@ I'm Justin and I work as a Quality Engineer for O&B. I have been given the oppor
 5. **Do a recap**
      
     I have always been a fan of providing a quick rundown at the end of presentations. This ensures that your team and the client are properly aligned on what was discussed. This is the part where you will discover if anyone did not understand certain parts. It may be a bit off-putting that you will have to reiterate some points, but trust me, it’s worth it. You don’t want any misunderstandings from both ends. If the meetings that you have are also recorded, this can already serve as the minutes of the meeting. 
+
+[What does PoC mean in business?](https://www.designrush.com/agency/software-development/trends/proof-of-concept-in-software-development){:target="_blank"}
+
+    

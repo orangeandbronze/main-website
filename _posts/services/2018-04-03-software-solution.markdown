@@ -13,6 +13,7 @@ redirect_from:
   - /java-software-development-article
   - /offshore-product-development
   - /project-rescue
+  - /services/staff-augmentation
 ---
 
 <div id="serviceContent1" class="section-content">

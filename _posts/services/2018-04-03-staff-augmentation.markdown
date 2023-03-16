@@ -1,3 +1,4 @@
+<!-- 
 ---
 layout:       services
 class:        service
@@ -9,7 +10,8 @@ date:         2018-04-03 16:43:00 +0800
 categories:   services
 redirect_from:
   - /staff-augmentation
----
+--- 
+-->
 
 <div id="serviceContent2" class="section-content">
   <div class="section-title">

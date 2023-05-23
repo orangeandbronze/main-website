@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "Spring Boot (Java) Consultant/Senior Consultant (Work From Home)"
@@ -7,7 +7,7 @@ photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  Earn from 100,000.00 - 200,000.00 PHP monthly (based on experience). This role is “more senior than senior engineer”. What we mean by that is we expect you to be able to play a more active role as a consultant to our projects and clients.
 date:         2022-05-30 01:00:00 +0800
 categories:   jobs
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <h4>Earn from 100,000.00 - 200,000.00 PHP monthly (based on experience)</h4>
 <p>O&B is growing! There has never been a better time to be in software consulting, and never a better time to work at O&B!</p>

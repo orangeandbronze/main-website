@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "Spring Boot (Java) Engineer, Mid/Senior, Work From Home"
@@ -7,7 +7,7 @@ photo: "https://www.orangeandbronze.com/assets/images/fb-careers.png"
 description:  Compensation ₱50K - ₱90K + Benefits | A Spring Boot Engineer assumes the responsibility of a programmer and consultant whose responsibilities involve the implementation of and assisting/advising on the software development process.
 date:         2022-03-28 01:00:00 +0800
 categories:   jobs
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <h4>Compensation ₱50K - ₱90K + Benefits</h4>
 <p>We are hiring for mid-level to seniors in this role. </p>

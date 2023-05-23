@@ -1,4 +1,4 @@
----
+<!-- ---
 layout:       jobs
 class:        job
 title:        "Java Software Architect / Senior Java Software Engineer (Work From Home)"
@@ -10,7 +10,7 @@ categories:   jobs
 redirect_from:
   - /software-architect-or-senior-software-engineer
   - /technical/software-architect-or-senior-software-engineer
----
+--- -->
 <!-- Do not leave new lines after each element. Elements after new lines will not be rendered. -->
 <h4>Compensation Package up to Php 240,000</h4><br>
 <h6 class="-dark">Job Description:</h6>
